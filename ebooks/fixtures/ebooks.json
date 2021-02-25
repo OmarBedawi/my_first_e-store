@@ -1,0 +1,819 @@
+[
+  {
+    "pk":1,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5001890155",
+      "title":"Duck for President",
+      "authors":"Doreen Cronin, Betsy Lewin",
+      "year": 2012,
+      "description":"Here is a duck who began in a humble pond. Who worked his way to farmer. To governor. And now, perhaps, to the highest office in the land. Some say, if he walks like a duck and talks like a duck, he is a duck. We say, if he walks like a duck and talks like a duck, he will be the next president of the United States of America.",
+      "price":10.29,
+      "category":2,
+      "rating":7.1,
+      "image_url":"https://image.ebooks.com/previews/000/000842/000842160/000842160-hq-168-80.jpg",
+      "image":"pk1.jpg"
+    }
+  },
+  {
+    "pk":2,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5006877692",
+      "title":"Creepy Carrots!",
+      "authors":"Aaron Reynolds, Peter Brown",
+      "year": 2012,
+      "description":"Jasper Rabbit loves carrots—especially Crackenhopper Field carrots. He eats them on the way to school. He eats them going to Little League. He eats them walking home. Until the day the carrots start following him...or are they? This hilarious picture book shows it’s all fun and games…until you get too greedy.",
+      "price":10.29,
+      "category":2,
+      "rating":5.6,
+      "image_url":"https://image.ebooks.com/previews/000/000801/000801905/000801905-hq-168-80.jpg",
+      "image":"pk2.jpg"
+    }
+  },
+  {
+    "pk":3,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5006660192",
+      "title":"The 7 Habits of Happy Kids",
+      "authors":"Sean Covey, Stacy Curtis",
+      "year": 2011,
+      "description":"For the Seven Oaks friends, there is always something to do. Whether they're singing along with Pokey Porcupine's harmonica or playing soccer with Jumper Rabbit, everyone is having fun and learning all sorts of things. These seven stories show how practicing the 7 Habits makes this possible for the whole Seven Oaks Community. From learning how to take charge of their own lives to discovering how balance is best, the Seven Oaks friends have tons of adventures and find out how each and every kid can be a happy kid!",
+      "price":10.29,
+      "category":2,
+      "rating":5.9,
+      "image_url":"https://image.ebooks.com/previews/000/000675/000675784/000675784-hq-168-80.jpg",
+      "image":"pk3.jpg"
+    }
+  },
+  {
+    "pk":4,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5001857157",
+      "title":"Shiloh",
+      "authors":"Phyllis Reynolds Naylor",
+      "year": 2012,
+      "description":"Marty will do anything to save his new friend Shiloh in this Newbery Medal–winning novel from Phillis Reynolds Naylor. When Marty Preston comes across a young beagle in the hills behind his home, it's love at first sight—and also big trouble. It turns out the dog, which Marty names Shiloh, belongs to Judd Travers, who drinks too much and has a gun—and abuses his dogs. So when Shiloh runs away from Judd to Marty, Marty just has to hide him and protect him from Judd. But Marty's secret becomes too big for him to keep to himself, and it exposes his entire family to Judd's anger. How far will Marty have to go to make Shiloh his?",
+      "price":13.99,
+      "category":2,
+      "rating":8.0,
+      "image_url":"https://image.ebooks.com/previews/000/000859/000859487/000859487-hq-168-80.jpg",
+      "image":"pk4.jpg"
+    }
+  },
+  {
+    "pk":5,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5047357143",
+      "title":"The Cat in the Hat",
+      "authors":"Dr. Seuss",
+      "year": 2012,
+      "description":"A dreary day turns into a wild romp when this beloved story introduces readers to the Cat in the Hat and his troublemaking friends, Thing 1 and Thing 2. A favorite among kids, parents and teachers, this story uses simple words and basic ryhme to encourage and delight beginning readers. Then he said 'That is that'. And then he was gone With a tip of his hat. Originally created by Dr. Seuss himself, Beginner Books are fun, funny, and easy to read. These unjacketed hardcover early readers encourage children to read all on their own, using simple words and illustrations. Smaller than the classic large format Seuss picture books like The Lorax and Oh, The Places You’ll Go!, these portable packages are perfect for practicing readers ages 6-8, and lucky parents too!",
+      "price":12.99,
+      "category":2,
+      "rating":8.4,
+      "image_url":"https://image.ebooks.com/previews/210/210058/210058851/210058851-hq-168-80.jpg",
+      "image":"pk5.jpg"
+    }
+  },
+  {
+    "pk":6,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5001812453",
+      "title":"Dolphins!",
+      "authors":"Sharon Bokoske, Richard Courtney",
+      "year": 2010,
+      "description":"Illustrations in full color. Chock-full of information about the most sensitive, intelligent, and friendly of large aquatic creatures, Dolphins! should fare swimmingly with kids who read about whales and sharks.",
+      "price":11.99,
+      "category":2,
+      "rating":6.5,
+      "image_url":"https://image.ebooks.com/previews/000/000501/000501561/000501561-hq-168-80.jpg",
+      "image":"pk6.jpg"
+    }
+  },
+  {
+    "pk":7,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5197357157",
+      "title":"Eve of the Emperor Penguin",
+      "authors":"Mary Pope Osborne, Sal Murdocca",
+      "year": 2008,
+      "description":"Jack and Annie arrive on the one continent they haven’t visited before: Antarctica! What can they hope to learn about happiness in such a barren place? Only the penguins know for sure…Jack and Annie are about to find out!",
+      "price":10.99,
+      "category":2,
+      "rating":6.0,
+      "image_url":"https://image.ebooks.com/previews/000/000375/000375329/000375329-hq-168-80.jpg",
+      "image":"pk7.jpg"
+    }
+  },
+  {
+    "pk":8,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6892857157",
+      "title":"The Boy Who Grew Dragons",
+      "authors":"Andy Shepherd, Sara Ogilvie",
+      "year": 2018,
+      "description":"When Tomas discovers a strange old tree at the bottom of his grandad's garden, he doesn't think much of it. But he takes the funny fruit from the tree back into the house - and gets the shock and delight of his life when a tiny dragon hatches! The tree is a dragonfruit tree, and Tomas has got his very own dragon, Flicker ...Tomas soon finds out that life with Flicker is great fun, but also very ... unpredictable. Yes, dragons are wonderful, but they also set fire to your toothbruth and leave your pants hanging from the TV aerial. Tomas has to learn how to look after Flicker - and quickly. And then something extraordinary happens - more dragonfruits appear on the tree. Tomas is officially growing dragons ...",
+      "price":12.99,
+      "category":2,
+      "rating":7.4,
+      "image_url":"https://image.ebooks.com/previews/096/096381/096381476/096381476-hq-168-80.jpg",
+      "image":"pk8.jpg"
+    }
+  },
+  {
+    "pk":9,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4048948537",
+      "title":"Pretty Minnie in Paris",
+      "authors":"Danielle Steel, Kristi Valiant",
+      "year": 2014,
+      "description":"Inspired by the adorable adventures of bestselling author Danielle Steel’s own Chihuahua, Pretty Minnie in Paris is the stylish, ooh la la tale of a fashionable Parisian pup out on the town. Lost backstage during a noisy, crowded fashion show, tiny Minnie is separated from her owner, the girl she loves best. Quel désastre! But chaos turns to couture when Minnie unexpectedly finds herself the star of the runway. With a dreamy Paris backdrop and an atelier full of adorable outfits, Pretty Minnie in Paris is sure to be in vogue as the season’s must-have tale for little girls—and Danielle Steel fans of all ages—who love clothing, glamour, glitter, and all things à la mode.",
+      "price":13.99,
+      "category":2,
+      "rating":7.2,
+      "image_url":"https://image.ebooks.com/previews/001/001660/001660850/001660850-hq-168-80.jpg",
+      "image":"pk9.jpg"
+    }
+  },
+  {
+    "pk":10,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3891857157",
+      "title":"James and the Giant Peach",
+      "authors":"Roald Dahl, Quentin Blake",
+      "year": 2007,
+      "description":"James Henry Trotter lives with two ghastly hags. Aunt Sponge is enormously fat with a face that looks boiled and Aunt Spiker is bony and screeching. He's very lonely until one day something peculiar happens...At the end of the garden a peach starts to grow and GROW AND GROW. Inside that peach are seven very unusual insects - all waiting to take James on a magical adventure! But where will they go in their GIANT PEACH and what will happen to the horrible aunts if they stand in their way? There's only one way to find out . .",
+      "price":8.99,
+      "category":2,
+      "rating":8.5,
+      "image_url":"https://image.ebooks.com/previews/000/000780/000780553/000780553-hq-168-80.jpg",
+      "image":"pk10.jpg"
+    }
+  },
+  {
+    "pk":11,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4293857157",
+      "title":"Who Was Wolfgang Amadeus Mozart?",
+      "authors":"Yona Zeldis McDonough",
+      "year": 2003,
+      "description":"Born in Austria in 1756, Wolfgang Amadeus Mozart composed his first piece of music, a minuet, when he was just five years old! Soon after, he was performing for kings and emperors. Although he died at the young age of thirty-five, Mozart left a legacy of more than 600 works. This fascinating biography charts the musician's extraordinary career and personal life while painting a vivid cultural history of eighteenth-century Europe. Black-and-white illustrations on every spread explore such topics as the history of opera and the evolution of musical instruments. There is also a timeline and a bibliography.",
+      "price":13.99,
+      "category":3,
+      "rating":8.7,
+      "image_url":"https://image.ebooks.com/previews/000/000888/000888802/000888802-hq-168-80.jpg",
+      "image":"pk11.jpg"
+    }
+  },
+  {
+    "pk":12,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp2501859763",
+      "title":"Who Was Louis Armstrong?",
+      "authors":"Yona Zeldis McDonough",
+      "year": 2004,
+      "description":"If not for a stint in reform school, young Louis Armstrong might never have become a musician. It was a teacher at the Colored Waifs Home who gave him a cornet, promoted him to band leader, and saw talent in the tough kid from the even tougher New Orleans neighborhood called Storyville. But it was Louis Armstrong's own passion and genius that pushed jazz into new and exciting realms with his amazing, improvisational trumpet playing. His seventy-year life spanned a critical time in American music as well as black history.",
+      "price":13.99,
+      "category":3,
+      "rating":8.0,
+      "image_url":"https://image.ebooks.com/previews/000/000888/000888948/000888948-hq-168-80.jpg",
+      "image":"pk12.jpg"
+    }
+  },
+  {
+    "pk":13,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3698757157",
+      "title":"The Watsons Go to Birmingham - 1963",
+      "authors":"Christopher Paul Curtis",
+      "year": 2001,
+      "description":"When the Watson family—ten-year-old Kenny, Momma, Dad, little sister Joetta, and brother Byron—sets out on a trip south to visit Grandma in Birmingham, Alabama, they don’t realize that they’re heading toward one of the darkest moments in America’s history. The Watsons’ journey reminds us that even in the hardest times, laughter and family can help us get through anything.",
+      "price":12.99,
+      "category":3,
+      "rating":6.1,
+      "image_url":"https://image.ebooks.com/previews/000/000192/000192403/000192403-hq-168-80.jpg",
+      "image":"pk13.jpg"
+    }
+  },
+  {
+    "pk":14,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1491857543",
+      "title":"We Were Liars",
+      "authors":"E. Lockhart",
+      "year": 2014,
+      "description":"A beautiful and distinguished family. A private island. A brilliant, damaged girl; a passionate, political boy. A group of four friends—the Liars—whose friendship turns destructive. A revolution. An accident. A secret. Lies upon lies. True love. The truth. Read it. And if anyone asks you how it ends, just LIE.",
+      "price":14.99,
+      "category":3,
+      "rating":7.6,
+      "image_url":"https://image.ebooks.com/previews/001/001471/001471824/001471824-hq-168-80.jpg",
+      "image":"pk14.jpg"
+    }
+  },
+  {
+    "pk":15,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9003577141",
+      "title":"Number the Stars",
+      "authors":"Lois Lowry",
+      "year": 1989,
+      "description":"As the German troops begin their campaign to 'relocate' all the Jews of Denmark, Annemarie Johansen’s family takes in Annemarie’s best friend, Ellen Rosen, and conceals her as part of the family. Through the eyes of ten-year-old Annemarie, we watch as the Danish Resistance smuggles almost the entire Jewish population of Denmark, nearly seven thousand people, across the sea to Sweden. The heroism of an entire nation reminds us that there was pride and human decency in the world even during a time of terror and war. Winner of the 1990 Newbery Medal.",
+      "price":7.99,
+      "category":3,
+      "rating":7.5,
+      "image_url":"https://image.ebooks.com/previews/001/001325/001325159/001325159-hq-168-80.jpg",
+      "image":"pk15.jpg"
+    }
+  },
+  {
+    "pk":16,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3071848972",
+      "title":"I Am Not Your Perfect Mexican Daughter",
+      "authors":"Erika L. Sánchez",
+      "year":2017,
+      "description":"Perfect Mexican daughters do not go away to college. And they do not move out of their parents’ house after high school graduation. Perfect Mexican daughters never abandon their family. But Julia is not your perfect Mexican daughter. That was Olga’s role. Then a tragic accident on the busiest street in Chicago leaves Olga dead and Julia left behind to reassemble the shattered pieces of her family. And no one seems to acknowledge that Julia is broken, too. Instead, her mother seems to channel her grief into pointing out every possible way Julia has failed. But it’s not long before Julia discovers that Olga might not have been as perfect as everyone thought. With the help of her best friend Lorena, and her first love, first everything boyfriend Connor, Julia is determined to find out. Was Olga really what she seemed? Or was there more to her sister’s story? And either way, how can Julia even attempt to live up to a seemingly impossible ideal?",
+      "price":14.99,
+      "category":1,
+      "rating":8.3,
+      "image_url":"https://image.ebooks.com/previews/095/095692/095692585/095692585-hq-168-80.jpg",
+      "image":"pk16.jpg"
+    }
+  },
+  {
+    "pk":17,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6801857418",
+      "title":"The Case of the Missing Marquess",
+      "authors":"Nancy Springer",
+      "year":2017,
+      "description":"Meet Enola Holmes, teenaged girl turned detective and the younger sister to Sherlock Holmes. When Enola Holmes, sister to the detective Sherlock Holmes, discovers her mother has disappeared, she quickly embarks on a journey to London in search of her. But nothing can prepare her for what awaits. Because when she arrives, she finds herself involved in the kidnapping of a young marquess, fleeing murderous villains, and trying to elude her shrewd older brothers—all while attempting to piece together clues to her mother’s strange disappearance. Amid all the mayhem, will Enola be able to decode the necessary clues and find her mother?",
+      "price":10.99,
+      "category":3,
+      "rating":5.8,
+      "image_url":"https://image.ebooks.com/previews/000/000412/000412062/000412062-hq-168-80.jpg",
+      "image":"pk17.jpg"
+    }
+  },
+  {
+    "pk":18,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1236957148",
+      "title":"Among the Hidden",
+      "authors":"Margaret Peterson Haddix",
+      "year":2002,
+      "description":"In a future where the Population Police enforce the law limiting a family to only two children, Luke, an illegal third child, has lived all his twelve years in isolation and fear on his family's farm in this start to the Shadow Children series from Margaret Peterson Haddix. Luke has never been to school. He's never had a birthday party, or gone to a friend's house for an overnight. In fact, Luke has never had a friend. Luke is one of the shadow children, a third child forbidden by the Population Police. He's lived his entire life in hiding, and now, with a new housing development replacing the woods next to his family's farm, he is no longer even allowed to go outside. Then, one day Luke sees a girl's face in the window of a house where he knows two other children already live. Finally, he's met a shadow child like himself. Jen is willing to risk everything to come out of the shadows—does Luke dare to become involved in her dangerous plan? Can he afford not to?",
+      "price":10.99,
+      "category":3,
+      "rating":7.5,
+      "image_url":"https://image.ebooks.com/previews/000/000152/000152340/000152340-hq-168-80.jpg",
+      "image":"pk18.jpg"
+    }
+  },
+  {
+    "pk":19,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5601427194",
+      "title":"Spy Camp",
+      "authors":"Stuart Gibbs",
+      "year":2013,
+      "description":"In this follow-up to the Edgar-nominated Spy School, top-secret training continues into summer for aspiring spy Ben Ripley—and so does the danger. Ben Ripley is a middle-schooler whose school is not exactly average—he’s spent the last year training to be a top-level spy and dodging all sorts of associated danger. So now that summer’s finally here, Ben would like to have some fun and relax. But that’s not going to happen during required spy survival training at a rustic wilderness camp, where SPYDER, an enemy spy organization, has infiltrated the spies’ ranks. Can Ben root out the enemy before it takes him out—for good?",
+      "price":12.99,
+      "category":3,
+      "rating":7.7,
+      "image_url":"https://image.ebooks.com/previews/000/000932/000932782/000932782-hq-168-80.jpg",
+      "image":"pk19.jpg"
+    }
+  },
+  {
+    "pk":20,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7603897426",
+      "title":"Legacy and the Queen",
+      "authors":"Kobe Bryant, Annie Matthew",
+      "year":2019,
+      "description":"#1 New York Times Bestseller. From the mind of basketball legend and Academy Award–winning storyteller Kobe Bryant comes a new tale of finding your inner magic against all odds. GAME. SET. MAGIC. Game – Tennis means life and death for the residents of the magical kingdom of Nova, and for twelve-year-old Legacy, it’s the only thing getting her through the long days taking care of the other kids at the orphanage. That’s all about to change when she hears about Silla’s tournament. Set – Silla, the ruler of Nova, hosts an annual tournament for the less fortunate of her citizens to come and prove themselves and win entrance to the Academy, where they can train to compete at nationals. The prize is Silla’s favor and enough cash to keep open the orphanage, and Legacy has her heart set on both. Magic – What Legacy has yet to know is that the other players have something besides better skills and more money than she does. In Nova, tennis can unlock magic. Magic that Silla used to save the kingdom long ago and magic that her competitors have been training in for months already. Now, with the world turned against her and the orphanage at stake, Legacy has to learn to use her passion for the game to rise above those around her and shine.",
+      "price":17.99,
+      "category":3,
+      "rating":9.4,
+      "image_url":"https://image.ebooks.com/previews/209/209558/209558559/209558559-hq-168-80.jpg",
+      "image":"pk20.jpg"
+    }
+  },
+  {
+    "pk":21,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7151857428",
+      "title":"Refugee Boy",
+      "authors":"Benjamin Zephaniah",
+      "year":2011,
+      "description":"Alem is on holiday with his father for a few days in London. He has never been out of Ethiopia before and is very excited. They have a great few days togther until one morning when Alem wakes up in the bed and breakfast they are staying at to find the unthinkable. His father has left him. It is only when the owner of the bed and breakfast hands him a letter that Alem is given an explanation. Alem's father admits that because of the political problems in Ethiopia both he and Alem's mother felt Alem would be safer in London - even though it is breaking their hearts to do this. Alem is now on his own, in the hands of the social services and the Refugee Council. He lives from letter to letter, waiting to hear from his father, and in particular about his mother, who has now gone missing... A powerful, gripping new novel from the popular Benjamin Zephaniah",
+      "price":15.99,
+      "category":1,
+      "rating":7.2,
+      "image_url":"https://image.ebooks.com/previews/001/001567/001567555/001567555-hq-168-80.jpg",
+      "image":"pk21.jpg"
+    }
+  },
+  {
+    "pk":22,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7901857428",
+      "title":"Sadia",
+      "authors":"Colleen Nelson",
+      "year":2018,
+      "description":"Sadia wishes life in high school was as straightforward as a game of basketball. Fifteen-year-old Sadia Ahmadi is passionate about one thing: basketball. Her best friend Mariam, on the other hand, wants to get noticed by the popular crowd and has started de-jabbing, removing her hijab, at school every morning. Sadia’s mom had warned her that navigating high school could be tricky. As much as she hates to admit it, her mom was right. When tryouts for an elite basketball team are announced, Sadia jumps at the opportunity. Her talent speaks for itself. Her head scarf, on the other hand, is a problem; especially when a discriminatory rule means she has to choose between removing her hijab and not playing. Mariam, Sadia’s parents, and her teammates all have different opinions about what she should do. But it is Sadia who has to find the courage to stand up for herself and fight for what is right — on and off the court.",
+      "price":15.99,
+      "category":1,
+      "rating":8.3,
+      "image_url":"https://image.ebooks.com/previews/095/095766/095766544/095766544-hq-168-80.jpg",
+      "image":"pk22.jpg"
+    }
+  },
+  {
+    "pk":23,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4109357468",
+      "title":"Peak",
+      "authors":"Roland Smith",
+      "year":2008,
+      "description":"After fourteen-year-old Peak Marcello is arrested for scaling a New York City skyscraper, he's left with two choices: wither away in Juvenile Detention or go live with his long-lost father, who runs a climbing company in Thailand. But Peak quickly learns that his father's renewed interest in him has strings attached. Big strings. As owner of Peak Expeditions, he wants his son to be the youngest person to reach the Everest summit--and his motives are selfish at best. Even so, for a climbing addict like Peak, tackling Everest is the challenge of a lifetime. But it's also one that could cost him his life. Roland Smith has created an action-packed adventure about friendship, sacrifice, family, and the drive to take on Everest, despite the incredible risk. The story of Peak’s dangerous ascent—told in his own words—is suspenseful, immediate, and impossible to put down.",
+      "price":13.99,
+      "category":1,
+      "rating":6.8,
+      "image_url":"https://image.ebooks.com/previews/001/001325/001325865/001325865-hq-168-80.jpg",
+      "image":"pk23.jpg"
+    }
+  },
+  {
+    "pk":24,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3692477631",
+      "title":"Blood on the River",
+      "authors":"Elisa Carbone",
+      "year":2007,
+      "description":"Twelve-year-old Samuel Collier is a lowly commoner on the streets of London. So when he becomes the page of Captain John Smith and boards the Susan Constant, bound for the New World, he can’t believe his good fortune. He’s heard that gold washes ashore with every tide. But beginning with the stormy journey and his first contact with the native people, he realizes that the New World is nothing like he imagined. The lush Virginia shore where they establish the colony of James Town is both beautiful and forbidding, and it’s hard to know who’s a friend or foe. As he learns the language of the Algonquian Indians and observes Captain Smith’s wise diplomacy, Samuel begins to see that he can be whomever he wants to be in this new land.",
+      "price":8.99,
+      "category":1,
+      "rating":5.6,
+      "image_url":"https://image.ebooks.com/previews/000/000411/000411712/000411712-hq-168-80.jpg",
+      "image":"pk24.jpg"
+    }
+  },
+  {
+    "pk":25,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4562674912",
+      "title":"Escape from Aleppo",
+      "authors":"Simon & Schuster, Paula Wiseman Books",
+      "year":2018,
+      "description":"Nadia’s family is forced to flee their home in Aleppo, Syria, when the Arab Spring sparks a civil war in this timely, “harrowing” (Publishers Weekly) coming-of-age novel from award-winning author N.H. Senzai. Silver and gold balloons. A birthday cake covered in pink roses. A new dress. Nadia stands at the center of attention in her parents’ elegant dining room. This is the best day of my life, she thinks. Everyone is about to sing “Happy Birthday,” when her uncle calls from the living room, “Baba, brothers, you need to see this.” Reluctantly, she follows her family into the other room. On TV, a reporter stands near an overturned vegetable cart on a dusty street. Beside it is a mound of smoldering ashes. The reporter explains that a vegetable vendor in the city of Tunis burned himself alive, protesting corrupt government officials who have been harassing his business. Nadia frowns. It is December 17, 2010: Nadia’s twelfth birthday and the beginning of the Arab Spring. Soon anti-government protests erupt across the Middle East and, one by one, countries are thrown into turmoil. As civil war flares in Syria and bombs fall across Nadia’s home city of Aleppo, her family decides to flee to safety. Inspired by current events, this novel sheds light on the complicated situation in Syria that has led to an international refugee crisis, and tells the story of one girl’s journey to safety.",
+      "price":13.99,
+      "category":1,
+      "rating":7.1,
+      "image_url":"https://image.ebooks.com/previews/095/095847/095847208/095847208-hq-168-80.jpg",
+      "image":"pk25.jpg"
+    }
+  },
+  {
+    "pk":26,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1232182755",
+      "title":"The Girl Who Was Supposed to Die",
+      "authors":"April Henry",
+      "year":2013,
+      "description":"She doesn't know who she is. She doesn't know where she is, or why. All she knows when she comes to in a ransacked cabin is that there are two men arguing over whether or not to kill her. And that she must run. In her riveting style, April Henry crafts a nail-biting thriller involving murder, identity theft, and biological warfare. Follow Cady and Ty (her accidental savior turned companion), as they race against the clock to stay alive, in The Girl Who Was Supposed to Die.",
+      "price":12.99,
+      "category":1,
+      "rating":6.3,
+      "image_url":"https://image.ebooks.com/previews/001/001095/001095181/001095181-hq-168-80.jpg",
+      "image":"pk26.jpg"
+    }
+  },
+  {
+    "pk":27,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1138874354",
+      "title":"Fallen",
+      "authors":"Lauren Kate",
+      "year":2010,
+      "description":"The moment Luce looks at Daniel she knows she has never felt like this before. Except she can't shake the feeling that she has . . . and with him - a boy she doesn't remember ever setting eyes on. Will her attempt to find out why enlighten her - or destroy her? Dangerously exciting and darkly romantic. Fallen is a thrilling story about forbidden love.",
+      "price":11.99,
+      "category":1,
+      "rating":7.3,
+      "image_url":"https://image.ebooks.com/previews/000/000613/000613746/000613746-hq-168-80.jpg",
+      "image":"pk27.jpg"
+    }
+  },
+  {
+    "pk":28,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7722674999",
+      "title":"One Of Us Is Lying",
+      "authors":"Karen M. McManus",
+      "year":2017,
+      "description":"Five students go to detention. Only four leave alive. Yale hopeful Bronwyn has never publicly broken a rule. Sports star Cooper only knows what he's doing in the baseball diamond. Bad boy Nate is one misstep away from a life of crime. Prom queen Addy is holding together the cracks in her perfect life. And outsider Simon, creator of the notorious gossip app at Bayview High, won't ever talk about any of them again. He dies 24 hours before he could post their deepest secrets online. Investigators conclude it's no accident. All of them are suspects. Everyone has secrets, right? What really matters is how far you'll go to protect them.",
+      "price":13.99,
+      "category":1,
+      "rating":7.1,
+      "image_url":"https://image.ebooks.com/previews/095/095645/095645828/095645828-hq-168-80.jpg",
+      "image":"pk28.jpg"
+    }
+  },
+  {
+    "pk":29,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4262994755",
+      "title":"United As One",
+      "authors":"Pittacus Lore",
+      "year":2016,
+      "description":"The Mogadorian invasion has come to Earth, and they have all but won the battle for our planet. Their warships loom over our most populous cities-like New York City, Tokyo, Moscow, Beijing, and New Delhi-and no army will risk making a move against them. The Garde are all that stand in their way . . . but they are no longer alone in this fight. Human teens from across the globe, like John Smith's best friend, Sam Goode, have begun to develop Legacies of their own. The Garde have always known there is power in numbers. If they can find these new allies and join forces with them, they just might be able to win this war. The time has come for the Garde to make their final stand. True power lies in the numbers . . .",
+      "price":13.99,
+      "category":1,
+      "rating":4.9,
+      "image_url":"https://image.ebooks.com/previews/002/002583/002583151/002583151-hq-168-80.jpg",
+      "image":"pk29.jpg"
+    }
+  },
+  {
+    "pk":30,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4225598946",
+      "title":"The Vanishing Stair",
+      "authors":"Maureen Johnson",
+      "year":2019,
+      "description":"",
+      "price":14.99,
+      "category":1,
+      "rating":6.1,
+      "image_url":"https://image.ebooks.com/previews/095/095931/095931862/095931862-hq-168-80.jpg",
+      "image":"pk30.jpg"
+    }
+  },
+  {
+    "pk":31,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9984435358",
+      "title":"The Mamba Mentality - How I Play",
+      "authors":"Kobe Bryant, Phil Jackson",
+      "year":2018,
+      "description":"In the wake of his retirement from professional basketball, Kobe “The Black Mamba” Bryant decided to share his vast knowledge and understanding of the game to take readers on an unprecedented journey to the core of the legendary “Mamba mentality.” Citing an obligation and an opportunity to teach young players, hardcore fans, and devoted students of the game how to play it “the right way,” The Mamba Mentality takes us inside the mind of one of the most intelligent, analytical, and creative basketball players ever. In his own words, Bryant reveals his famously detailed approach and the steps he took to prepare mentally and physically to not just succeed at the game, but to excel. Readers will learn how Bryant studied an opponent, how he channeled his passion for the game, how he played through injuries. They’ll also get fascinating granular detail as he breaks down specific plays and match-ups from throughout his career. Bryant’s detailed accounts are paired with stunning photographs by the Hall of Fame photographer Andrew D. Bernstein. Bernstein, long the Lakers and NBA official photographer, captured Bryant’s very first NBA photo in 1996 and his last in 2016—and hundreds of thousands in between, the record of a unique, twenty-year relationship between one athlete and one photographer. The combination of Bryant’s narrative and Bernstein’s photos make The Mamba Mentality an unprecedented look behind the curtain at the career of one of the world’s most celebrated and fascinating athletes.",
+      "price":22.99,
+      "category":4,
+      "rating":9.1,
+      "image_url":"https://image.ebooks.com/previews/096/096197/096197620/096197620-hq-168-80.jpg",
+      "image":"pk31.jpg"
+    }
+  },
+  {
+    "pk":32,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4667811264",
+      "title":"Basketball Junkie",
+      "authors":"Chris Herren, Bill Reynolds",
+      "year":2011,
+      "description":"At basketball-crazy Durfee High School in Fall River, Massachusetts, junior guard Chris Herren carried his family's and the city's dreams on his skinny frame. His grandfather, father, and older brother had created their own sports legends in a declining city; he was the last, best hope for a career beyond the shuttered mills and factories. Herren was heavily recruited by major universities, chosen as a McDonald's All-American, featured in a Sports Illustrated cover story, and at just seventeen years old became the central figure in Fall River Dreams, an acclaimed book about the 1994 Durfee team's quest for the state championship. Leaving Fall River for college, Herren starred on Jerry Tarkanian's Fresno State Bulldogs team of talented misfits, which included future NBA players as well as future convicted felons. His gritty, tattooed, hip-hop persona drew the ire of rival fans and more national attention: Rolling Stone profiled him, 60 Minutes interviewed him, and the Denver Nuggets drafted him. When the Boston Celtics acquired his contract, he lived the dream of every Massachusetts kid—but off the court Herren was secretly crumbling, as his alcohol and drug use escalated and his life spiraled out of control. Twenty years later, Chris Herren was married to his high-school sweetheart, the father of three young children, and a heroin junkie. His basketball career was over, consumed by addictions; he had no job, no skills, and was a sadly familiar figure to those in Fall River who remembered him as a boy, now prowling the streets he once ruled, looking for a fix. One day, for a time he cannot remember, he would die. In his own words, Chris Herren tells how he nearly lost everything and everyone he loved, and how he found a way back to life. Powerful, honest, and dramatic, Basketball Junkie is a remarkable memoir, harrowing in its descent, and heartening in its return.",
+      "price":11.99,
+      "category":4,
+      "rating":6.8,
+      "image_url":"https://image.ebooks.com/previews/000/000654/000654517/000654517-hq-168-80.jpg",
+      "image":"pk32.jpg"
+    }
+  },
+  {
+    "pk":33,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5123392179",
+      "title":"The Immortal Life of Henrietta Lacks",
+      "authors":"Rebecca Skloot",
+      "year":2010,
+      "description":"Her name was Henrietta Lacks, but scientists know her as HeLa. She was a poor Southern tobacco farmer who worked the same land as her slave ancestors, yet her cells—taken without her knowledge—became one of the most important tools in medicine: The first “immortal” human cells grown in culture, which are still alive today, though she has been dead for more than sixty years. HeLa cells were vital for developing the polio vaccine; uncovered secrets of cancer, viruses, and the atom bomb’s effects; helped lead to important advances like in vitro fertilization, cloning, and gene mapping; and have been bought and sold by the billions. Yet Henrietta Lacks remains virtually unknown, buried in an unmarked grave. Henrietta’s family did not learn of her “immortality” until more than twenty years after her death, when scientists investigating HeLa began using her husband and children in research without informed consent. And though the cells had launched a multimillion-dollar industry that sells human biological materials, her family never saw any of the profits. As Rebecca Skloot so brilliantly shows, the story of the Lacks family—past and present—is inextricably connected to the dark history of experimentation on African Americans, the birth of bioethics, and the legal battles over whether we control the stuff we are made of. Over the decade it took to uncover this story, Rebecca became enmeshed in the lives of the Lacks family—especially Henrietta’s daughter Deborah. Deborah was consumed with questions: Had scientists cloned her mother? Had they killed her to harvest her cells? And if her mother was so important to medicine, why couldn’t her children afford health insurance? Intimate in feeling, astonishing in scope, and impossible to put down, The Immortal Life of Henrietta Lacks captures the beauty and drama of scientific discovery, as well as its human consequences.",
+      "price":10.99,
+      "category":4,
+      "rating":6.0,
+      "image_url":"https://image.ebooks.com/previews/000/000433/000433965/000433965-hq-168-80.jpg",
+      "image":"pk33.jpg"
+    }
+  },
+  {
+    "pk":34,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4116877256",
+      "title":"Steve Jobs",
+      "authors":"Walter Isaacson",
+      "year":2011,
+      "description":"Based on more than forty interviews with Steve Jobs conducted over two years - as well as interviews with more than a hundred family members, friends, adversaries, competitors, and colleagues - this is the acclaimed, internationally bestselling biography of the ultimate icon of inventiveness. Walter Isaacson tells the story of the rollercoaster life and searingly intense personality of creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies,music, phones, tablet computing, and digital publishing. Although Jobs cooperated with this book, he asked for no control over what was written, nor even the right to read it before it was published. He put nothing off limits. He encouraged the people he knew to speak honestly. And Jobs speaks candidly, sometimes brutally so, about the people he worked with and competed against. His friends, foes, and colleagues provide an unvarnished view of the passions, perfectionism, obsessions, artistry, devilry, and compulsion for control that shaped his approach to business and the innovative products that resulted.",
+      "price":14.99,
+      "category":4,
+      "rating":8.1,
+      "image_url":"https://image.ebooks.com/previews/000/000787/000787976/000787976-hq-168-80.jpg",
+      "image":"pk34.jpg"
+    }
+  },
+  {
+    "pk":35,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1876348851",
+      "title":"The Happiest Man on Earth - The Beautiful Life of an Auschwitz Survivor",
+      "authors":"Eddie Jaku",
+      "year":2020,
+      "description":"Eddie Jaku always considered himself a German first, a Jew second. He was proud of his country. But all of that changed in November 1938, when he was beaten, arrested and taken to a concentration camp. Over the next seven years, Eddie faced unimaginable horrors every day, first in Buchenwald, then in Auschwitz, then on a Nazi death march. He lost family, friends, his country. Because he survived, Eddie made the vow to smile every day. He pays tribute to those who were lost by telling his story, sharing his wisdom and living his best possible life. He now believes he is the ‘happiest man on earth’. Published as Eddie turns a hundred, The Happiest Man on Earth is a powerful, heartbreaking and ultimately hopeful memoir of how happiness can be found even in the darkest of times.",
+      "price":15.99,
+      "category":4,
+      "rating":6.7,
+      "image_url":"https://image.ebooks.com/previews/210/210139/210139711/210139711-hq-168-80.jpg",
+      "image":"pk35.jpg"
+    }
+  },
+  {
+    "pk":36,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5973312851",
+      "title":"Becoming",
+      "authors":"Michelle Obama",
+      "year":2018,
+      "description":"In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America - the first African-American to serve in that role - she helped create the most welcoming and inclusive White House in history, while also establishing herself as a powerful advocate for women and girls in the U.S. and around the world. She dramatically changed the ways that families pursue healthier and more active lives, and stood with her husband as he led America through some of its most harrowing moments. Along the way, she showed us a few dance moves, crushed Carpool Karaoke, and raised two down-to-earth daughters under an unforgiving media glare. In her memoir, a work of deep reflection and mesmerizing storytelling, Michelle Obama invites readers into her world, chronicling the experiences that have shaped her - from her childhood on the South Side of Chicago to her years as an executive balancing the demands of motherhood and work, to her time spent at the world's most famous address. With unerring honesty and lively wit, she describes her triumphs and her disappointments, both public and private, telling her full story as she has lived it - in her own words and on her own terms.",
+      "price":17.99,
+      "category":4,
+      "rating":8.1,
+      "image_url":"https://image.ebooks.com/previews/095/095960/095960354/095960354-hq-168-80.jpg",
+      "image":"pk36.jpg"
+    }
+  },
+  {
+    "pk":37,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6981428723",
+      "title":"Michael Jordan - A Life Above the Rim",
+      "authors":"Robert Lipsyte",
+      "year":2010,
+      "description":"Michael Jordan was a late bloomer.Cut from the Varsity basketball team in high school when he first tried out, Michael nonetheless became the best basketball player that ever lived—Rare Air Jordan.The true story of how Michael Jordan achieved this amazing level of success as a basketball player—and as the high king of commercial endorsements—underscores one of the new roles of athletes in our society today.Here's a fascinating look at both the evolution of basketball and Michael Jordan's stunning climb to the peak of his sport, and his season in minor league baseball.",
+      "price":19.99,
+      "category":4,
+      "rating":9.0,
+      "image_url":"https://image.ebooks.com/previews/000/000566/000566482/000566482-hq-168-80.jpg",
+      "image":"pk37.jpg"
+    }
+  },
+  {
+    "pk":38,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1558352137",
+      "title":"Sex with Kings - 500 Years of Adultery, Power, Rivalry, and Revenge",
+      "authors":"Eleanor Herman",
+      "year":2009,
+      "description":"Throughout the centuries, royal mistresses have been worshiped, feared, envied, and reviled. They set the fashions, encouraged the arts, and, in some cases, ruled nations. Eleanor Herman's Sex with Kings takes us into the throne rooms and bedrooms of Europe's most powerful monarchs. Alive with flamboyant characters, outrageous humor, and stirring poignancy, this glittering tale of passion and politics chronicles five hundred years of scintillating women and the kings who loved them. Curiously, the main function of a royal mistress was not to provide the king with sex but with companionship. Forced to marry repulsive foreign princesses, kings sought solace with women of their own choice. And what women they were! From Madame de Pompadour, the famous mistress of Louis XV, who kept her position for nineteen years despite her frigidity, to modern-day Camilla Parker-Bowles, who usurped none other than the glamorous Diana, Princess of Wales. The successful royal mistress made herself irreplaceable. She was ready to converse gaily with him when she was tired, make love until all hours when she was ill, and cater to his every whim. Wearing a mask of beaming delight over any and all discomforts, she was never to be exhausted, complaining, or grief-stricken. True, financial rewards for services rendered were of royal proportions -- some royal mistresses earned up to $200 million in titles, pensions, jewels, and palaces. Some kings allowed their mistresses to exercise unlimited political power. But for all its grandeur, a royal court was a scorpion's nest of insatiable greed, unquenchable lust, and vicious ambition. Hundreds of beautiful women vied to unseat the royal mistress. Many would suffer the slings and arrows of negative public opinion, some met with tragic ends and were pensioned off to make room for younger women. But the royal mistress often had the last laugh, as she lived well and richly off the fruits of her 'sins'. From the dawn of time, power has been a mighty aphrodisiac. With diaries, personal letters, and diplomatic dispatches, Eleanor Herman's trailblazing research reveals the dynamics of sex and power, rivalry and revenge, at the most brilliant courts of Europe. Wickedly witty and endlessly entertaining, Sex with Kings is a chapter of women's history that has remained unwritten -- until now.",
+      "price":14.99,
+      "category":4,
+      "rating":6.1,
+      "image_url":"https://image.ebooks.com/previews/000/000191/000191590/000191590-hq-168-80.jpg",
+      "image":"pk38.jpg"
+    }
+  },
+  {
+    "pk":39,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9617798126",
+      "title":"Finding Freedom - Harry and Meghan and the Making of a Modern Royal Family",
+      "authors":"Omid Scobie, Carolyn Durand",
+      "year":2020,
+      "description":"When news of the budding romance between a beloved English prince and an American actress broke, it captured the world’s attention and sparked an international media frenzy. But while the Duke and Duchess of Sussex have continued to make headlines—from their engagement, wedding, and birth of their son Archie to their unprecedented decision to step back from their royal lives—few know the true story of Harry and Meghan. For the very first time, Finding Freedom goes beyond the headlines to reveal unknown details of Harry and Meghan’s life together, dispelling the many rumors and misconceptions that plague the couple on both sides of the pond. As members of the select group of reporters that cover the British Royal Family and their engagements, Omid Scobie and Carolyn Durand have witnessed the young couple’s lives as few outsiders can. With unique access and written with the participation of those closest to the couple, Finding Freedom is an honest, up-close, and disarming portrait of a confident, influential, and forward-thinking couple who are unafraid to break with tradition, determined to create a new path away from the spotlight, and dedicated to building a humanitarian legacy that will make a profound difference in the world.",
+      "price":18.99,
+      "category":4,
+      "rating":8.4,
+      "image_url":"https://image.ebooks.com/previews/209/209961/209961723/209961723-hq-168-80.jpg",
+      "image":"pk39.jpg"
+    }
+  },
+  {
+    "pk":40,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"The Two Popes",
+      "authors":"Anthony McCarten",
+      "year":2019,
+      "description":"On 28 February 2013, a 600-year-old tradition was shattered: the conservative Pope Benedict XVI made a startling announcement. He would resign. Reeling from the news, the College of Cardinals rushed to Rome to congregate in the Sistine Chapel to pick his successor. Their unlikely choice? Francis, the first non-European pope in 1,200 years, a one time tango club bouncer, a passionate football fan, a man with the common touch. From the prize-winning screenwriter of The Theory of Everything and Darkest Hour, The Pope is a fascinating, revealing and often funny tale of two very different men whose destinies converge with each other - they both live in the Vatican - and the wider world. How did these two men become two of the most powerful people on Earth? What's it like to be the Pope? What does the future hold for the Catholic Church and its 1 billion followers? The Pope is a dual biography that masterfully combines these two popes' lives into one gripping narrative. From Benedict and Francis' experiences of war in their homelands - when they were still Joseph and Jorge - and the sexual abuse scandal that continues to rock the Church to its foundations, to the intrigue and the occasional comedy of life in the Vatican, The Pope glitters with the darker and the lighter details of life inside one of the world's most opaque but significant institutions.",
+      "price":14.99,
+      "category":4,
+      "rating":7.1,
+      "image_url":"https://image.ebooks.com/previews/096/096311/096311799/096311799-hq-168-80.jpg",
+      "image":"pk40.jpg"
+    }
+  },
+  {
+    "pk":41,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3274198243",
+      "title":"Learning Scientific Programming with Python (2nd ed.)",
+      "authors":"Christian Hill",
+      "year":2020,
+      "description":"Learn to master basic programming tasks from scratch with real-life, scientifically relevant examples and solutions drawn from both science and engineering. Students and researchers at all levels are increasingly turning to the powerful Python programming language as an alternative to commercial packages and this fast-paced introduction moves from the basics to advanced concepts in one complete volume, enabling readers to gain proficiency quickly. Beginning with general programming concepts such as loops and functions within the core Python 3 language, and moving on to the NumPy, SciPy and Matplotlib libraries for numerical programming and data visualization, this textbook also discusses the use of Jupyter Notebooks to build rich-media, shareable documents for scientific analysis. The second edition features a new chapter on data analysis with the pandas library and comprehensive updates, and new exercises and examples. A final chapter introduces more advanced topics such as floating-point precision and algorithm stability, and extensive online resources support further study. This textbook represents a targeted package for students requiring a solid foundation in Python programming.",
+      "price":44.99,
+      "category":5,
+      "rating":7.7,
+      "image_url":"https://image.ebooks.com/previews/210/210105/210105079/210105079-hq-168-80.jpg",
+      "image":"pk41.jpg"
+    }
+  },
+  {
+    "pk":42,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8314471976",
+      "title":"Django 3 By Example (3rd ed.)",
+      "authors":"Antonio Mele",
+      "year":2020,
+      "description":"Learn Django 3 by building real-world web applications from scratch in Python, using coding best practices. Integrate other technologies into your application with clear, step-by-step explanations and comprehensive example code. Implement advanced functionalities like a full-text search engine, a user activity stream, or a recommendation engine. Add real-time features with Django Channels and WebSockets",
+      "price":30.99,
+      "category":5,
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/209/209989/209989529/209989529-hq-168-80.jpg",
+      "image":"pk42.jpg"
+    }
+  },
+  {
+    "pk":43,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp2366981429",
+      "title":"HTML, CSS and JavaScript All in One, Sams Teach Yourself (2nd ed.)",
+      "authors":"Julie C. Meloni",
+      "year":2010,
+      "description":"In just a short time, you can learn how to use HTML5, Cascading Style Sheets (CSS3), and JavaScript together to design, create, and maintain world-class websites. Using a straightforward, step-by-step approach, each lesson in this book builds on the previous ones, enabling you to learn the essentials from the ground up. Clear instructions and practical, hands-on examples show you how to use HTML to create the framework of your website, design your site's layout and typography with CSS, and then add interactivity with JavaScript and jQuery. Step-by-step instructions carefully walk you through the most common web development tasks. Practical, hands-on examples show you how to apply what you learn. Quizzes and exercises help you test your knowledge and stretch your skills",
+      "price":29.99,
+      "category":5,
+      "rating":7.7,
+      "image_url":"https://image.ebooks.com/previews/001/001809/001809720/001809720-hq-168-80.jpg",
+      "image":"pk43.jpg"
+    }
+  },
+  {
+    "pk":44,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4861573654",
+      "title":"Hackers",
+      "authors":"Steven Levy",
+      "year":2010,
+      "description":"This 25th anniversary edition of Steven Levy's classic book traces the exploits of the computer revolution's original hackers -- those brilliant and eccentric nerds from the late 1950s through the early '80s who took risks, bent the rules, and pushed the world in a radical new direction. With updated material from noteworthy hackers such as Bill Gates, Mark Zuckerberg, Richard Stallman, and Steve Wozniak, Hackers is a fascinating story that begins in early computer research labs and leads to the first home computers. Levy profiles the imaginative brainiacs who found clever and unorthodox solutions to computer engineering problems. They had a shared sense of values, known as 'the hacker ethic', that still thrives today. Hackers captures a seminal period in recent history when underground activities blazed a trail for today's digital world, from MIT students finagling access to clunky computer-card machines to the DIY culture that spawned the Altair and the Apple II.",
+      "price":17.99,
+      "category":5,
+      "rating":6.3,
+      "image_url":"https://image.ebooks.com/previews/000/000563/000563956/000563956-hq-168-80.jpg",
+      "image":"pk44.jpg"
+    }
+  },
+  {
+    "pk":45,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":5,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk45.jpg"
+    }
+  },
+  {
+    "pk":46,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":5,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk46.jpg"
+    }
+  },
+  {
+    "pk":47,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":5,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk47.jpg"
+    }
+  },
+  {
+    "pk":48,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":5,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk48.jpg"
+    }
+  },
+  {
+    "pk":49,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":5,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk49.jpg"
+    }
+  },
+  {
+    "pk":50,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":5,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk50.jpg"
+    }
+  },
+  {
+    "pk":51,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891198187",
+      "title":"",
+      "authors":"",
+      "year":2010,
+      "description":"",
+      "price":14.99,
+      "category":6,
+      "rating":7.1,
+      "image_url":"",
+      "image":"pk51.jpg"
+    }
+  }
+  
+]
