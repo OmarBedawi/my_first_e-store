@@ -708,14 +708,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
+      "title":"Googled - The End of the World As We Know It",
+      "authors":"Ken Auletta",
+      "year":2009,
+      "description":"There are companies that create waves and those that ride or are drowned by them. As only he can, bestselling author Ken Auletta takes readers for a ride on the Google wave, telling the story of how it formed and crashed into traditional media businesses?from newspapers to books, to television, to movies, to telephones, to advertising, to Microsoft. With unprecedented access to Google?s founders and executives, as well as to those in media who are struggling to keep their heads above water, Auletta reveals how the industry is being disrupted and redefined. Using Google as a stand-in for the digital revolution, Auletta takes readers inside Google?s closed-door meetings and paints portraits of Google?s notoriously private founders, Larry Page and Sergey Brin, as well as those who work with?and against?them. In his narrative, Auletta provides the fullest account ever told of Google?s rise, shares the ?secret sauce? of Google?s success, and shows why the worlds of ?new? and ?old? media often communicate as if residents of different planets. Google engineers start from an assumption that the old ways of doing things can be improved and made more efficient, an approach that has yielded remarkable results? Google will generate about $20 billion in advertising revenues this year, or more than the combined prime-time ad revenues of CBS, NBC, ABC, and FOX. And with its ownership of YouTube and its mobile phone and other initiatives, Google CEO Eric Schmidt tells Auletta his company is poised to become the world?s first $100 billion media company. Yet there are many obstacles that threaten Google?s future, and opposition from media companies and government regulators may be the least of these. Google faces internal threats, from its burgeoning size to losing focus to hubris. In coming years, Google?s faith in mathematical formulas and in slide rule logic will be tested, just as it has been on Wall Street. Distilling the knowledge accrued from a career of covering the media, Auletta will offer insights into what we know, and don?t know, about what the future holds for the imperiled industry.",
       "price":14.99,
       "category":5,
-      "rating":7.1,
-      "image_url":"",
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/000/000463/000463459/000463459-hq-168-80.jpg",
       "image":"pk45.jpg"
     }
   },
@@ -723,15 +723,15 @@
     "pk":46,
     "model":"ebooks.ebook",
     "fields":{
-      "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
-      "price":14.99,
+      "sku":"pp3511847266",
+      "title":"JavaScript: The Definitive Guide (7th ed.)",
+      "authors":"David Flanagan",
+      "year":2020,
+      "description":"For web developers and other programmers interested in using JavaScript, this bestselling book provides the most comprehensive JavaScript material on the market. The seventh edition represents a significant update, with new information for ECMAScript 2020, and new chapters on language-specific features. JavaScript: The Definitive Guide is ideal for experienced programmers who want to learn the programming language of the web, and for current JavaScript programmers who want to master it.",
+      "price":50.99,
       "category":5,
-      "rating":7.1,
-      "image_url":"",
+      "rating":7.6,
+      "image_url":"https://image.ebooks.com/previews/210/210022/210022717/210022717-hq-168-80.jpg",
       "image":"pk46.jpg"
     }
   },
@@ -739,15 +739,15 @@
     "pk":47,
     "model":"ebooks.ebook",
     "fields":{
-      "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
-      "price":14.99,
+      "sku":"pp6572816237",
+      "title":"Asterisk: The Definitive Guide (3rd ed.)",
+      "authors":"Leif Madsen, Jim Van Meggelen, Russell Bryant",
+      "year":2011,
+      "description":"Design a complete VoIP or analog PBX with Asterisk, even if you have no previous Asterisk experience and only basic telecommunications knowledge. This bestselling guide makes it easy, with a detailed roadmap to installing, configuring, and integrating this open source software into your existing phone system. Ideal for Linux administrators, developers, and power users, this book shows you how to write a basic dialplan step by step, and quickly brings you up to speed on the latest Asterisk features in version 1.8. Integrate Asterisk with analog, VoIP, and digital telephony systems. Build a simple interactive dialplan, and dive into advanced concepts. Use Asterisk’s voicemail options—including a standalone voicemail server. Build a menuing system and add applications that act on caller input. Incorporate a relational database with MySQL and Postgre SQL. Connect to external services such as LDAP, calendars, XMPP, and Skype. Use Automatic Call Distribution to build a call queuing system. Learn how to use Asterisk’s security, call routing, and faxing features",
+      "price":35.99,
       "category":5,
-      "rating":7.1,
-      "image_url":"",
+      "rating":6.8,
+      "image_url":"https://image.ebooks.com/previews/000/000686/000686425/000686425-hq-168-80.jpg",
       "image":"pk47.jpg"
     }
   },
@@ -755,15 +755,15 @@
     "pk":48,
     "model":"ebooks.ebook",
     "fields":{
-      "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
-      "price":14.99,
+      "sku":"pp5213247563",
+      "title":"Designing Interfaces (3rd ed.)",
+      "authors":"Jenifer Tidwell, Charles Brewer, Aynne Valencia",
+      "year":2019,
+      "description":"Designing good application interfaces isn’t easy now that companies need to create compelling, seamless user experiences across an exploding number of channels, screens, and contexts. In this updated third edition, you’ll learn how to navigate through the maze of design options. By capturing UI best practices as design patterns, this best-selling book provides solutions to common design problems. You’ll learn patterns for mobile apps, web applications, and desktop software. Each pattern contains full-color examples and practical design advice you can apply immediately. Experienced designers can use this guide as an idea sourcebook, and novices will find a road map to the world of interface and interaction design. Understand your users before you start designing. Build your software’s structure so it makes sense to users. Design components to help users complete tasks on any device. Learn how to promote wayfinding in your software. Place elements to guide users to information and functions. Learn how visual design can make or break product usability. Display complex data with artful visualizations",
+      "price":41.99,
       "category":5,
-      "rating":7.1,
-      "image_url":"",
+      "rating":8.2,
+      "image_url":"https://image.ebooks.com/previews/209/209912/209912467/209912467-hq-168-80.jpg",
       "image":"pk48.jpg"
     }
   },
@@ -771,15 +771,15 @@
     "pk":49,
     "model":"ebooks.ebook",
     "fields":{
-      "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
-      "price":14.99,
+      "sku":"pp9872646241",
+      "title":"Designing with the Mind in Mind (3rd ed.)",
+      "authors":"Jeff Johnson",
+      "year":2020,
+      "description":"User interface (UI) design rules and guidelines, developed by early HCI gurus and recognized throughout the field, were based on cognitive psychology (study of mental processes such as problem solving, memory, and language), and early practitioners were well informed of its tenets. But today practitioners with backgrounds in cognitive psychology are a minority, as user interface designers and developers enter the field from a wide array of disciplines. HCI practitioners today have enough experience in UI design that they have been exposed to UI design rules, but it is essential that they understand the psychological basis behind the rules in order to effectively apply them. In Designing with the Mind in Mind, best-selling author Jeff Johnson provides designers with just enough background in perceptual and cognitive psychology that UI design guidelines make intuitive sense rather than being just a list of rules to follow. Provides an essential source for user interface design rules and how, when, and why to apply them. Arms designers with the science behind each design rule, allowing them to make informed decisions in projects, and to explain those decisions to others. Equips readers with the knowledge to make educated tradeoffs between competing rules, project deadlines, and budget pressures. Completely updated and revised, including additional coverage in such areas as persuasion, cognitive economics and decision making, emotions, trust, habit formation, and speech UIs",
+      "price":47.99,
       "category":5,
-      "rating":7.1,
-      "image_url":"",
+      "rating":7.9,
+      "image_url":"https://image.ebooks.com/previews/210/210101/210101952/210101952-hq-168-80.jpg",
       "image":"pk49.jpg"
     }
   },
@@ -787,15 +787,15 @@
     "pk":50,
     "model":"ebooks.ebook",
     "fields":{
-      "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
-      "price":14.99,
+      "sku":"pp7782349965",
+      "title":"Beginning Git and GitHub",
+      "authors":"Mariot Tsitoara",
+      "year":2019,
+      "description":"Learn the fundamentals of version control through step-by-step tutorials that will teach you the ins-and-outs of Git. This book is your complete guide to how Git and GitHub work in a professional team environment. Divided into three parts – Version Control, Project Management and Teamwork – this book reveals what waits for you in the real world and how to resolve the problems you may run into. Once past the basics of Git, you'll see how to manage a software project, and finally how to utilize Git and GithHub to work effectively as a team. You'll examine how to plan, follow and execute a project with GitHub, and then apply those concepts to real-world situations. Workaround the pitfalls that most programmers fall into when driving a project with Git by using proven tactics to avoid them. You will also be taught the easiest and quickest ways to resolve merge conflicts. A lot of modern books on Git don’t go into depth about non-technical topics. Beginning Git and GitHub will help you cover all the bases right at the start of your career.",
+      "price":30.99,
       "category":5,
-      "rating":7.1,
-      "image_url":"",
+      "rating":7.4,
+      "image_url":"https://image.ebooks.com/previews/209/209900/209900814/209900814-hq-168-80.jpg",
       "image":"pk50.jpg"
     }
   },
@@ -803,17 +803,1296 @@
     "pk":51,
     "model":"ebooks.ebook",
     "fields":{
-      "sku":"pp6891198187",
-      "title":"",
-      "authors":"",
-      "year":2010,
-      "description":"",
-      "price":14.99,
+      "sku":"pp5734914566",
+      "title":"Sing, Unburied, Sing",
+      "authors":"Jesmyn Ward",
+      "year":2017,
+      "description":"Jojo is thirteen years old and trying to understand what it means to be a man. He doesn’t lack in fathers to study, chief among them his Black grandfather, Pop. But there are other men who complicate his understanding: his absent White father, Michael, who is being released from prison; his absent White grandfather, Big Joseph, who won’t acknowledge his existence; and the memories of his dead uncle, Given, who died as a teenager. His mother, Leonie, is an inconsistent presence in his and his toddler sister’s lives. She is an imperfect mother in constant conflict with herself and those around her. She is Black and her children’s father is White. She wants to be a better mother but can’t put her children above her own needs, especially her drug use. Simultaneously tormented and comforted by visions of her dead brother, which only come to her when she’s high, Leonie is embattled in ways that reflect the brutal reality of her circumstances. When the children’s father is released from prison, Leonie packs her kids and a friend into her car and drives north to the heart of Mississippi and Parchman Farm, the State Penitentiary. At Parchman, there is another thirteen-year-old boy, the ghost of a dead inmate who carries all of the ugly history of the South with him in his wandering. He too has something to teach Jojo about fathers and sons, about legacies, about violence, about love.",
+      "price":12.99,
       "category":6,
-      "rating":7.1,
-      "image_url":"",
+      "rating":7.8,
+      "image_url":"https://image.ebooks.com/previews/209/209688/209688664/209688664-hq-168-80.jpg",
       "image":"pk51.jpg"
     }
+  },
+  {
+    "pk":52,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7436689231",
+      "title":"Saint Monkey: A Novel",
+      "authors":"Jacinda Townsend",
+      "year":2014,
+      "description":"Fourteen-year-old Audrey Martin, with her Poindexter glasses and her head humming the 3/4 meter of gospel music, knows she’ll never get out of Kentucky—but when her fingers touch the piano keys, the whole church trembles. Her best friend, Caroline, daydreams about Hollywood stardom, but both girls feel destined to languish in a slow-moving stopover town in Montgomery County. That is, until chance intervenes and a booking agent offers Audrey a ticket to join the booming jazz scene in Harlem—an offer she can’t resist, not even for Caroline. And in New York City the music never stops. Audrey flirts with love and takes the stage at the Apollo, with its fast-dancing crowds and blinding lights. But fortunes can turn fast in the city—young talent means tough competition, and for Audrey failure is always one step away. Meanwhile, Caroline sinks into the quiet anguish of a Black woman in a backwards country, where her ambitions and desires only slip further out of reach. Jacinda Townsend’s remarkable first novel is a coming-of-age story made at once gripping and poignant by the wild energy of the Jazz Era and the stark realities of segregation. Marrying musical prose with lyric vernacular, Saint Monkey delivers a stirring portrait of American storytelling and marks the appearance of an auspicious new voice in literary fiction.",
+      "price":21.99,
+      "category":6,
+      "rating":8.1,
+      "image_url":"https://image.ebooks.com/previews/210/210071/210071990/210071990-hq-168-80.jpg",
+      "image":"pk52.jpg"
+    }
+  },
+  {
+    "pk":53,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp2612773548",
+      "title":"Uncle Tom's Children",
+      "authors":"Richard Wright",
+      "year":2009,
+      "description":"Originally published in 1938, Uncle Tom's Children, a collection of novellas, was the first book from Richard Wright, who would go on to win international renown for his powerful and visceral depiction of the Black experience. The author of numerous works of fiction and nonfiction, most notably the acclaimed novel Native Son and his stunning autobiography, Black Boy, Wright stands today as one of the greatest American writers of the twentieth century. Set in the American Deep South, each of the powerful and devastating stories in Uncle Tom's Children concerns an aspect of the lives of Black people in the post-slavery era, exploring their resistance to white racism and oppression.",
+      "price":10.99,
+      "category":6,
+      "rating":6.2,
+      "image_url":"https://image.ebooks.com/previews/000/000441/000441528/000441528-hq-168-80.jpg",
+      "image":"pk53.jpg"
+    }
+  },
+  {
+    "pk":54,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6265589771",
+      "title":"The Big Bad Wolf",
+      "authors":"James Patterson",
+      "year":2011,
+      "description":"Alex Cross's first case since joining the FBI has his new colleagues perplexed. Across the country, men and women are kidnapped in broad daylight and then disappear completely. These people are not being taken for ransom, Alex realizes. They are being bought and sold. And it seems The Wolf is the master criminal behind this terrible trade and who is bringing a new reign of terror to organized crime. Even as he admires the FBI's vast resources, Alex is impatient with the Bureau's clumsiness and caution when it is time to move. A lone wolf himself, he has to go out alone to track his new prey and try to rescue some of the victims while they are still alive. As the case boils over, Alex is in hot water at home, too. His ex-fiancée, Christine Johnson, comes back into his life - and not for the reasons Alex might have hoped.",
+      "price":9.99,
+      "category":6,
+      "rating":7.5,
+      "image_url":"https://image.ebooks.com/previews/000/000755/000755211/000755211-hq-168-80.jpg",
+      "image":"pk54.jpg"
+    }
+  },
+  {
+    "pk":55,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6984423155",
+      "title":"Roses are Red",
+      "authors":"James Patterson",
+      "year":2011,
+      "description":"A series of meticulously planned bank robberies ends in murder, and detective Alex Cross must pit his wits against the bizarre and sadistic mastermind behind the crimes. Although torn between dedication to his job and commitment to his family, Cross cannot ignore the case, despite the risks he knows will come with hunting down a killer - and the heartbreaking cost. James Patterson's bestseller takes us from deep inside the crazy world of a psychopath's masquerade right to the heart of fiction's most brilliant detective, Alex Cross, in an explosive tale where mind games lead to violence and the slightest mistake will be punished with death.",
+      "price":12.99,
+      "category":6,
+      "rating":7.1,
+      "image_url":"https://image.ebooks.com/previews/000/000759/000759361/000759361-hq-168-80.jpg",
+      "image":"pk55.jpg"
+    }
+  },
+  {
+    "pk":56,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5337124889",
+      "title":"My Last Duchess",
+      "authors":"Eloisa James",
+      "year":2020,
+      "description":"Every Duke needs a Duchess...Hugo Wilde, the Duke of Lindow, has a drafty castle, eight naughty children—and no wife. Ophelia, Lady Astley, has a fine house, one well-behaved daughter—and no husband. Hugo takes one look at Ophelia and loses his heart, but she doesn’t want more children or a castle. She takes one look at him and heads for her carriage. Desperate to find a duchess, Hugo identifies an appropriate lady to woo. Yet when he meets Ophelia again, the duke realizes that he will marry her, or no one. Now he faces the greatest challenge of his life. He must convince Ophelia that their blazing sensuality, his exquisite castle, and his eight charming children add up to a match made in heaven. When a duke finds his duchess, can he win her heart?",
+      "price":16.99,
+      "category":6,
+      "rating":7.6,
+      "image_url":"https://image.ebooks.com/previews/209/209927/209927518/209927518-hq-168-80.jpg",
+      "image":"pk56.jpg"
+    }
+  },
+  {
+    "pk":57,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3265781493",
+      "title":"The Seven Deaths of Evelyn Hardcastle",
+      "authors":"Stuart Turton",
+      "year":2018,
+      "description":"It is meant to be a celebration but it ends in tragedy. As fireworks explode overhead, Evelyn Hardcastle, the young and beautiful daughter of the house, is killed. But Evelyn will not die just once. Until Aiden – one of the guests summoned to Blackheath for the party – can solve her murder, the day will repeat itself, over and over again. Every time ending with the fateful pistol shot. The only way to break this cycle is to identify the killer. But each time the day begins again, Aiden wakes in the body of a different guest. And someone is determined to prevent him ever escaping Blackheath...",
+      "price":8.99,
+      "category":6,
+      "rating":8.0,
+      "image_url":"https://image.ebooks.com/previews/095/095929/095929703/095929703-hq-168-80.jpg",
+      "image":"pk57.jpg"
+    }
+  },
+  {
+    "pk":58,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6674435989",
+      "title":"Mexican Gothic",
+      "authors":"Silvia Moreno-Garcia",
+      "year":2020,
+      "description":"After receiving a frantic letter from her newly-wed cousin begging for someone to save her from a mysterious doom, Noemí Taboada heads to High Place, a distant house in the Mexican countryside. She’s not sure what she will find—her cousin’s husband, a handsome Englishman, is a stranger, and Noemí knows little about the region. Noemí is also an unlikely rescuer: She’s a glamorous debutante, and her chic gowns and perfect red lipstick are more suited for cocktail parties than amateur sleuthing. But she’s also tough and smart, with an indomitable will, and she is not afraid: Not of her cousin’s new husband, who is both menacing and alluring; not of his father, the ancient patriarch who seems to be fascinated by Noemí; and not even of the house itself, which begins to invade Noemi’s dreams with visions of blood and doom. Her only ally in this inhospitable abode is the family’s youngest son. Shy and gentle, he seems to want to help Noemí, but might also be hiding dark knowledge of his family’s past. For there are many secrets behind the walls of High Place. The family’s once colossal wealth and faded mining empire kept them from prying eyes, but as Noemí digs deeper she unearths stories of violence and madness. And Noemí, mesmerized by the terrifying yet seductive world of High Place, may soon find it impossible to ever leave this enigmatic house behind.",
+      "price":13.99,
+      "category":6,
+      "rating":6.9,
+      "image_url":"https://image.ebooks.com/previews/209/209799/209799230/209799230-hq-168-80.jpg",
+      "image":"pk58.jpg"
+    }
+  },
+  {
+    "pk":59,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6897526913",
+      "title":"The Shining",
+      "authors":"Stephen King",
+      "year":2007,
+      "description":"Danny is only five years old, but in the words of old Mr Hallorann he is a 'shiner', aglow with psychic voltage. When his father becomes caretaker of the Overlook Hotel, Danny's visions grow out of control. As winter closes in and blizzards cut them off, the hotel seems to develop a life of its own. It is meant to be empty. So who is the lady in Room 217 and who are the masked guests going up and down in the elevator? And why do the hedges shaped like animals seem so alive? Somewhere, somehow, there is an evil force in the hotel - and that, too, is beginning to shine . . .",
+      "price":9.99,
+      "category":6,
+      "rating":7.8,
+      "image_url":"https://image.ebooks.com/previews/000/000761/000761630/000761630-hq-168-80.jpg",
+      "image":"pk59.jpg"
+    }
+  },
+  {
+    "pk":60,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7812493356",
+      "title":"Carrie",
+      "authors":"Stephen King",
+      "year":2008,
+      "description":"Carrie White may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock. Candles fall. This is her power and her problem. Then, an act of kindness, as spontaneous as the vicious taunts of her classmates, offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift into a weapon of horror and destruction that no one will ever forget.",
+      "price":9.99,
+      "category":6,
+      "rating":7.4,
+      "image_url":"https://image.ebooks.com/previews/000/000345/000345626/000345626-hq-168-80.jpg",
+      "image":"pk60.jpg"
+    }
+  },
+  {
+    "pk":61,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp2369841175",
+      "title":"The Rise and Fall of Ancient Egypt",
+      "authors":"Toby Wilkinson",
+      "year":2013,
+      "description":"This is a story studded with extraordinary achievements and historic moments, from the building of the pyramids and the conquest of Nubia, through Akhenaten's religious revolution, the power and beauty of Nefertiti, the glory of Tutankhamun's burial chamber, and the ruthlessness of Ramesses, to Alexander the Great's invasion, and Cleopatra's fatal entanglement with Rome. As the world's first nation-state, the history of Ancient Egypt is above all the story of the attempt to unite a disparate realm and defend it against hostile forces from within and without. Combining grand narrative sweep with detailed knowledge of hieroglyphs and the iconography of power, Toby Wilkinson reveals Ancient Egypt in all its complexity.",
+      "price":12.99,
+      "category":7,
+      "rating":9.1,
+      "image_url":"https://image.ebooks.com/previews/001/001568/001568317/001568317-hq-168-80.jpg",
+      "image":"pk61.jpg"
+    }
+  },
+  {
+    "pk":62,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5587649812",
+      "title":"Silencing the Past (20th anniversary edition)",
+      "authors":"Michel-Rolph Trouillot",
+      "year":2015,
+      "description":"Placing the West's failure to acknowledge the Haitian Revolution—the most successful slave revolt in history—alongside denials of the Holocaust and the debate over the Alamo, Michel-Rolph Trouillot offers a stunning meditation on how power operates in the making and recording of history. This modern classic resides at the intersection of history, anthropology, Caribbean, African-American, and post-colonial studies, and has become a staple in college classrooms around the country. In a new foreword, Hazel Carby explains the book's enduring importance to these fields of study and introduces a new generation of readers to Trouillot's brilliant analysis of power and history's silences.",
+      "price":10.99,
+      "category":7,
+      "rating":7.2,
+      "image_url":"https://image.ebooks.com/previews/001/001776/001776750/001776750-hq-168-80.jpg",
+      "image":"pk62.jpg"
+    }
+  },
+  {
+    "pk":63,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4138573924",
+      "title":"African History through Sources: Volume 1, Colonial Contexts and Everyday Experiences, c.1850–1946",
+      "authors":"Nancy J. Jacobs",
+      "year":2014,
+      "description":"African History through Sources recounts the history of colonial Africa through more than 100 primary sources produced by a variety of actors: ordinary men and women, the educated elite, and colonial officials. Including official documents, as well as interviews, memoirs, lyrics, and photographs, the book balances coverage of the state and economy with attention to daily life, family life, and cultural change. Entries are drawn from all around sub-Saharan Africa, and many have been translated into English for the first time. Introductions to each source and chapter provide context and identify themes. African History through Sources allows readers to analyze change, understand perspectives, and imagine everyday life during an extraordinary time.",
+      "price":20.99,
+      "category":7,
+      "rating":8.9,
+      "image_url":"https://image.ebooks.com/previews/001/001658/001658677/001658677-hq-168-80.jpg",
+      "image":"pk63.jpg"
+    }
+  },
+  {
+    "pk":64,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1587423699",
+      "title":"The Chinese in America",
+      "authors":"Iris Chang",
+      "year":2004,
+      "description":"In an epic story that spans 150 years and continues to the present day, Iris Chang tells of a people’s search for a better life—the determination of the Chinese to forge an identity and a destiny in a strange land and, often against great obstacles, to find success. She chronicles the many accomplishments in America of Chinese immigrants and their descendents: building the infrastructure of their adopted country, fighting racist and exclusionary laws, walking the racial tightrope between black and white, contributing to major scientific and technological advances, expanding the literary canon, and influencing the way we think about racial and ethnic groups. Interweaving political, social, economic, and cultural history, as well as the stories of individuals, Chang offers a bracing view not only of what it means to be Chinese American, but also of what it is to be American.",
+      "price":18.99,
+      "category":7,
+      "rating":7.3,
+      "image_url":"https://image.ebooks.com/previews/000/000447/000447602/000447602-hq-168-80.jpg",
+      "image":"pk64.jpg"
+    }
+  },
+  {
+    "pk":65,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9872534751",
+      "title":"American Shaolin",
+      "authors":"Matthew Polly",
+      "year":2007,
+      "description":"Bill Bryson meets Bruce Lee in this raucously funny story of one scrawny American’s quest to become a kung fu master at China’s legendary Shaolin Temple. Growing up a ninety-pound weakling tormented by bullies in the schoolyards of Kansas, young Matthew Polly dreamed of one day journeying to the Shaolin Temple in China to become the toughest fighter in the world, like Caine in his favorite 1970s TV series, Kung Fu. While in college, Matthew decided the time had come to pursue this quixotic dream before it was too late. Much to the dismay of his parents, he dropped out of Princeton to spend two years training with the legendary sect of monks who invented kung fu and Zen Buddhism. Expecting to find an isolated citadel populated by supernatural ascetics that he’d seen in countless badly dubbed chop-socky flicks, Matthew instead discovered a tacky tourist trap run by Communist party hacks. But the dedicated monks still trained in the rigorous age-old fighting forms—some even practicing the “iron kung fu” discipline, in which intensive training can make various body parts virtually indestructible (even the crotch). As Matthew grew in his knowledge of China and kung fu skill, he would come to represent the Temple in challenge matches and international competitions, and ultimately the monks would accept their new American initiate as close to one of their own as any Westerner had ever become. Laced with humor and illuminated by cultural insight, American Shaolin is an unforgettable coming-of-age tale of one young man’s journey into the ancient art of kung fu—and a funny and poignant portrait of a rapidly changing China.",
+      "price":16.99,
+      "category":7,
+      "rating":6.2,
+      "image_url":"https://image.ebooks.com/previews/000/000284/000284897/000284897-hq-168-80.jpg",
+      "image":"pk65.jpg"
+    }
+  },
+  {
+    "pk":66,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7982136358",
+      "title":"Inglorious Empire - What the British Did to India",
+      "authors":"Shashi Tharoor",
+      "year":2018,
+      "description":"In the eighteenth century, India's share of the world economy was as large as Europe's. By 1947, after two centuries of British rule, it had decreased six-fold. The Empire blew rebels from cannon, massacred unarmed protesters, entrenched institutionalised racism, and caused millions to die from starvation. British imperialism justified itself as enlightened despotism for the benefit of the governed, but Shashi Tharoor takes demolishes this position, demonstrating how every supposed imperial 'gift' - from the railways to the rule of law - was designed in Britain's interests alone. He goes on to show how Britain's Industrial Revolution was founded on India's deindustrialisation, and the destruction of its textile industry. In this bold and incisive reassessment of colonialism, Tharoor exposes to devastating effect the inglorious reality of Britain's stained Indian legacy.",
+      "price":14.99,
+      "category":7,
+      "rating":8.5,
+      "image_url":"https://image.ebooks.com/previews/095/095838/095838487/095838487-hq-168-80.jpg",
+      "image":"pk66.jpg"
+    }
+  },
+  {
+    "pk":67,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4521738962",
+      "title":"The Power of Deserts - Climate Change, the Middle East, and the Promise of a Post-Oil Era",
+      "authors":"Dan Rabinowitz",
+      "year":2020,
+      "description":"Hotter and dryer than most parts of the world, the Middle East could soon see climate change exacerbate food and water shortages, aggravate social inequalities, and drive displacement and political destabilization. And as renewable energy eclipses fossil fuels, oil rich countries in the Middle East will see their wealth diminish. Amidst these imminent risks is a call to action for regional leaders. Could countries such as Saudi Arabia, Kuwait, and the United Arab Emirates harness the region's immense potential for solar energy and emerge as vanguards of global climate action? The Power of Deserts surveys regional climate models and identifies the potential impact on socioeconomic disparities, population movement, and political instability. Offering more than warning and fear, however, the book highlights a potentially brighter future—a recent shift across the Middle East toward renewable energy. With his deep knowledge of the region and knack for presenting scientific data with clarity, Dan Rabinowitz makes a sober yet surprisingly optimistic investigation of opportunity arising from a looming crisis.",
+      "price":12.99,
+      "category":7,
+      "rating":7.8,
+      "image_url":"https://image.ebooks.com/previews/210/210106/210106784/210106784-hq-168-80.jpg",
+      "image":"pk67.jpg"
+    }
+  },
+  {
+    "pk":68,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9134569251",
+      "title":"The ISIS Apocalypse - The History, Strategy, and Doomsday Vision of the Islamic State",
+      "authors":"William McCants",
+      "year":2015,
+      "description":"The Islamic State is one of the most lethal and successful jihadist groups in modern history, surpassing even al-Qaeda. Thousands of its followers have marched across Syria and Iraq, subjugating millions, enslaving women, beheading captives, and daring anyone to stop them. Thousands more have spread terror beyond the Middle East under the Islamic State's black flag. How did the Islamic State attract so many followers and conquer so much land? By being more ruthless, more apocalyptic, and more devoted to state-building than its competitors. The shrewd leaders of the Islamic State combined two of the most powerful yet contradictory ideas in Islam-the return of the Islamic Empire and the end of the world-into a mission and a message that shapes its strategy and inspires its army of zealous fighters. They have defied conventional thinking about how to wage wars and win recruits. Even if the Islamic State is defeated, jihadist terrorism will never be the same. Based almost entirely on primary sources in Arabic-including ancient religious texts and secret al-Qaeda and Islamic State letters that few have seen - William McCants' The ISIS Apocalypse explores how religious fervor, strategic calculation, and doomsday prophecy shaped the Islamic State's past and foreshadow its dark future.",
+      "price":11.99,
+      "category":7,
+      "rating":6.7,
+      "image_url":"https://image.ebooks.com/previews/001/001996/001996323/001996323-hq-168-80.jpg",
+      "image":"pk68.jpg"
+    }
+  },
+  {
+    "pk":69,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3792157344",
+      "title":"Japan since 1980",
+      "authors":"Thomas F. Cargill, Takayuki Sakamoto",
+      "year":2008,
+      "description":"An analysis of the performance of Japan's economic and political institutions from late 1970s to 2007. The authors explain how Japan's flawed response to new economic, political, and technological forces ushered in a lost decade and a half of economic development from 1990. Impressive economic performance in the 1980s masked an 'accident waiting to happen' - the collapse in equity and real estate prices in 1990–1. Japan's iron triangle of politicians, bureaucrats, and client industries, combined with a flawed financial liberalization process and policy errors by the Bank of Japan and the Ministry of Finance, brought Japan to an abyss of deflation, recession, and insolvency by the late 1990s. The turning point was the election of Koizumi as prime minister in 2001. The book explores Koizumi's economic reform, new developments in socioeconomic conditions, the politics and economy after Koizumi, and the economic and political challenges facing Japan in the new century.",
+      "price":24.99,
+      "category":7,
+      "rating":8.8,
+      "image_url":"https://image.ebooks.com/previews/000/000358/000358811/000358811-hq-168-80.jpg",
+      "image":"pk69.jpg"
+    }
+  },
+  {
+    "pk":70,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp2369841175",
+      "title":"The Myths and Legends of Ancient Greece and Rome",
+      "authors":"E M Berens, Joe Larkins",
+      "year":2011,
+      "description":"This excellent eBook gives the reader a knowledge of a huge number of myths and legends of the classicial civilisation era. Including sections on Greek and Roman Gods, Minor Deities, Heroes and the practices of the time, it also includes a large number of illustrations. This version has been specially formatted for today's e-readers, and is a fantastic addition to any eBook collection. Whether you are a student of ancient history, or just want to know more about Zeus, Saturn, Icarus and the like, then this is a must-have read.",
+      "price":11.99,
+      "category":7,
+      "rating":6.7,
+      "image_url":"https://image.ebooks.com/previews/000/000682/000682085/000682085-hq-168-80.jpg",
+      "image":"pk70.jpg"
+    }
+  },
+  {
+    "pk":71,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3948732518",
+      "title":"Neuropuncture - A Clinical Handbook of Neuroscience Acupuncture, Second Edition",
+      "authors":"Michael Corradino, Giovanni Maciocia",
+      "year":2013,
+      "description":"Neuropuncture is the clinical manual of a groundbreaking acupuncture system that incorporates neuroscience into its clinical applications for pain management, orthopaedic conditions and internal medicine. It shows acupuncturists how to apply research into the neurophysiological mechanisms of acupuncture and electrical acupuncture to the traditional TCM model of healthcare. The book explains how acupuncture works using Western medical science and illustrates how to apply this knowledge to clinical cases with electrical acupuncture, creating evidence-based acupuncture protocols. These protocols are clinically proven and result in reproducible clinical outcomes.",
+      "price":32.99,
+      "category":8,
+      "rating":6.7,
+      "image_url":"https://image.ebooks.com/previews/095/095696/095696049/095696049-hq-168-80.jpg",
+      "image":"pk71.jpg"
+    }
+  },
+  {
+    "pk":72,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9981325468",
+      "title":"Cardiothoracic Surgery",
+      "authors":"Fritz J Baumgartner",
+      "year":2004,
+      "description":"This handbook is a manual intended for residents at any stage of their experience, including cardiothoracic fellowship. It is meant as a guideline to understand the pathophysiologic rationale of action in the operating room and intensive care unit. Emphasis is placed on physiology, anatomy, pathology, medical management, and surgical technique.",
+      "price":40.99,
+      "category":8,
+      "rating":9.2,
+      "image_url":"https://image.ebooks.com/previews/000/000226/000226234/000226234-hq-168-80.jpg",
+      "image":"pk72.jpg"
+    }
+  },
+  {
+    "pk":73,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4257341986",
+      "title":"Diagnostic Thoracic Imaging",
+      "authors":"Wallace T. Miller",
+      "year":2005,
+      "description":"Diagnostic Thoracic Imaging provides a heavily illustrated resource for Radiologists and residents pursuing the most up to date information in current chest radiology. Diagnostic Thoracic Imaging illustrates how to apply a highly practical pattern-recognition approach to the rapid detection and diagnosis of chest pathology. This approach trains the reader in the practical systematic evaluation of thoracic disease while providing an indispensable reference for on-the-job problem solving.",
+      "price":144.99,
+      "category":8,
+      "rating":8.6,
+      "image_url":"https://image.ebooks.com/previews/000/000300/000300459/000300459-hq-168-80.jpg",
+      "image":"pk73.jpg"
+    }
+  },
+  {
+    "pk":74,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4862138575",
+      "title":"Deeply Holistic - A Guide to Intuitive Self-Care--Know Your Body, Live Consciously, and Nurture Your Spirit",
+      "authors":"Pip Waller",
+      "year":2018,
+      "description":"This user-friendly guide gives straightforward and practical advice to anyone who wants a holistic approach to taking care of themselves naturally. Following the traditional framework of an anatomy book that explains each body system chapter-by-chapter, Pip Waller—an experienced practitioner and teacher—provides fundamental information and tips about exercise, diet, supplements, understanding and caring for your emotional and mental health, naturopathic principles from various traditions, and simple yet effective ways of working with spiritual energy. Based on the premise that an underlying vital force—which needs to be in balance for health to be fully present—animates all life, this book is designed to support and promote our inherent tendency toward wholeness and equilibrium. Each chapter includes fun recipes to enhance health and well-being.",
+      "price":20.99,
+      "category":8,
+      "rating":8.3,
+      "image_url":"https://image.ebooks.com/previews/095/095695/095695292/095695292-hq-168-80.jpg",
+      "image":"pk74.jpg"
+    }
+  },
+  {
+    "pk":75,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6925416368",
+      "title":"Treatment of Cancer (7th ed.)",
+      "authors":"Pat Price, Karol Sikora",
+      "year":2020,
+      "description":"Treatment of Cancer is a multi-author work and comprehensive guide on modern cancer treatment that aims to give clinician and student alike the framework for an integrated approach to patient care, including radiotherapy, chemotherapy, and surgery. Much information is presented in tables and charts for easy assimilation, and clear algorithms for patient pathways are included to make decisions straightforward while allowing for sound clinical judgement.",
+      "price":159.99,
+      "category":8,
+      "rating":9.4,
+      "image_url":"https://image.ebooks.com/previews/210/210121/210121384/210121384-hq-168-80.jpg",
+      "image":"pk75.jpg"
+    }
+  },
+  {
+    "pk":76,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8462379511",
+      "title":"A Woman's Guide to Cannabis - Using Marijuana to Feel Better, Look Better, Sleep Better–and Get High Like a Lady",
+      "authors":"Nikki Furrer",
+      "year":2018,
+      "description":"A woman’s handbook to demystifying the world of weed, whether it’s being used for pain relief, a moment of calm, or a fit of giggles. Women of all ages are using cannabis to feel and look better. For rookies and experienced marijuana users alike, this lively, information-filled book is just the supportive guide you need to find the right dose to relieve anxiety, depression, and inflammation, and mitigate the onset of dementia and other signs of aging. Plus boost moods, ease aches, even lose weight, and get restful sleep. And a dose just for fun? Well, that works, too! Here’s how to navigate the typical dispensary, with its overwhelming options of concentrates, edibles, vape pens, and tinctures. Understand the amazing health-giving compounds found in cannabis—THC, CBD, terpenes, and more—and how to use topicals to reduce pain and give your skin a healthy glow. There’s even advice on how not to get high but still reap all the amazing health benefits. Plus over twenty recipes, from edibles like Classic Pot Brownies and Netflix and Chill Caramels to self-care products like Radiant Glow Serum and Happy Body Bar.",
+      "price":16.99,
+      "category":8,
+      "rating":7.5,
+      "image_url":"https://image.ebooks.com/previews/095/095958/095958447/095958447-hq-168-80.jpg",
+      "image":"pk76.jpg"
+    }
+  },
+  {
+    "pk":77,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3698257418",
+      "title":"Poisoning and Drug Overdose, Sixth Edition",
+      "authors":"Kent R. Olson",
+      "year":2011,
+      "description":"Poisoning & Drug Overdose, Sixth Edition delivers critical information on effective diagnosis and treatment of drug-related emergencies and chemical exposures. Divided into four sections, easily identified by dictionary-style tabs. Poisoning & Drug Overdose, Sixth Edition is enhanced by numerous tables, charts, and a comprehensive index featuring generic, chemical, and brand names, making it an essential resource for anyone responding to drug-related emergencies and chemical exposures.",
+      "price":74.99,
+      "category":8,
+      "rating":8.7,
+      "image_url":"https://image.ebooks.com/previews/000/000834/000834257/000834257-hq-168-80.jpg",
+      "image":"pk77.jpg"
+    }
+  },
+  {
+    "pk":78,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1329785641",
+      "title":"Manual of Definitive Surgical Trauma Care, Fifth Edition (5th ed.)",
+      "authors":"Kenneth David Boffard",
+      "year":2019,
+      "description":"Developed for the International Association for Trauma Surgery and Intensive Care (IATSIC), the Manual of Definitive Surgical Trauma Care 5e is ideal for training all surgeons who encounter major surgical trauma on an infrequent basis. This new edition includes both an e-version, and also a microSD card containing over 20 operative videos. The increasing role of non-operative management (NOM) has been recognised, and the Military Module is substantially updated to reflect recent conflict experience. An expanded section highlights trauma management under austere conditions.Written by faculty who teach the DSTC Course, this definitive and well established book focuses on life-saving surgical techniques to use in challenging and unfamiliar incidents of trauma.",
+      "price":157.99,
+      "category":8,
+      "rating":9.0,
+      "image_url":"https://image.ebooks.com/previews/209/209688/209688690/209688690-hq-168-80.jpg",
+      "image":"pk78.jpg"
+    }
+  },
+  {
+    "pk":79,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6453129788",
+      "title":"Mummies, magic and medicine in ancient Egypt",
+      "authors":"Campbell Price, Roger Forshaw, Andrew Chamberlain, Paul Nicholson",
+      "year":2016,
+      "description":"This volume presents the latest research on three of the most important aspects of ancient Egyptian civilisation: mummies, magic and medicine. Drawing on recent archaeological fieldwork, new research on human remains, reassessments of ancient texts and modern experimental archaeology, it seeks to answer some of Egyptology's biggest questions.",
+      "price":39.99,
+      "category":8,
+      "rating":9.6,
+      "image_url":"https://image.ebooks.com/previews/209/209760/209760951/209760951-hq-168-80.jpg",
+      "image":"pk79.jpg"
+    }
+  },
+  {
+    "pk":80,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6397521488",
+      "title":"Health and Health Care Delivery in Canada E-Book (3rd ed.)",
+      "authors":"Valerie D. Thompson",
+      "year":2019,
+      "description":"Prepare for a career in Canadian health care with the only text of its kind! Written in a manageable, student-friendly style, Health and Health Care Delivery in Canada, 3rd Edition makes it easy to understand the nation’s approach to health, wellness, and illness. Set entirely within a Canadian context, this text includes coverage of individual and population health, the role of federal agencies and provincial governments, health care funding, and current issues and future trends in health care. This new edition includes updated coverage on mental health care, Indigenous Peoples, palliative and end-of-life care (including MAID), the legalization of marihuana, and the COVID-19 pandemic (on Evolve). With enhanced online resources and updated review questions, it’s ideal for all Canadian students considering a career in health care!",
+      "price":39.99,
+      "category":8,
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/209/209739/209739005/209739005-hq-168-80.jpg",
+      "image":"pk80.jpg"
+    }
+  },
+  {
+    "pk":81,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1682537614",
+      "title":"What Is This Thing Called Jazz? - African American Musicians as Artists, Critics, and Activists",
+      "authors":"Eric Porter",
+      "year":2002,
+      "description":"Despite the plethora of writing about jazz, little attention has been paid to what musicians themselves wrote and said about their practice. An implicit division of labor has emerged where, for the most part, black artists invent and play music while white writers provide the commentary. Eric Porter overturns this tendency in his creative intellectual history of African American musicians. He foregrounds the often-ignored ideas of these artists, analyzing them in the context of meanings circulating around jazz, as well as in relationship to broader currents in African American thought. Porter examines several crucial moments in the history of jazz: the formative years of the 1920s and 1930s; the emergence of bebop; the political and experimental projects of the 1950s, 1960s and 1970s; and the debates surrounding Jazz at Lincoln Center under the direction of Wynton Marsalis. Louis Armstrong, Anthony Braxton, Marion Brown, Duke Ellington, W.C. Handy, Yusef Lateef, Abbey Lincoln, Charles Mingus, Archie Shepp, Wadada Leo Smith, Mary Lou Williams, and Reggie Workman also feature prominently in this book. The wealth of information Porter uncovers shows how these musicians have expressed themselves in print; actively shaped the institutional structures through which the music is created, distributed, and consumed, and how they aligned themselves with other artists and activists, and how they were influenced by forces of class and gender. What Is This Thing Called Jazz? challenges interpretive orthodoxies by showing how much black jazz musicians have struggled against both the racism of the dominant culture and the prescriptive definitions of racial authenticity propagated by the music's supporters, both white and black.",
+      "price":30.99,
+      "category":9,
+      "rating":8.4,
+      "image_url":"https://image.ebooks.com/previews/000/000223/000223040/000223040-hq-168-80.jpg",
+      "image":"pk81.jpg"
+    }
+  },  
+  {
+    "pk":82,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6972148532",
+      "title":"Blues Legacies and Black Feminism",
+      "authors":"Gertrude Ma Rainey, Bessie Smith, and Billie Holiday",
+      "year":2011,
+      "description":"From one of this country's most important intellectuals comes a brilliant analysis of the blues tradition that examines the careers of three crucial black women blues singers through a feminist lens. Angela Davis provides the historical, social, and political contexts with which to reinterpret the performances and lyrics of Gertrude 'Ma' Rainey, Bessie Smith, and Billie Holiday as powerful articulations of an alternative consciousness profoundly at odds with mainstream American culture. The works of Rainey, Smith, and Holiday have been largely misunderstood by critics. Overlooked, Davis shows, has been the way their candor and bravado laid the groundwork for an aesthetic that allowed for the celebration of social, moral, and sexual values outside the constraints imposed by middle-class respectability. Through meticulous transcriptions of all the extant lyrics of Rainey and Smith−published here in their entirety for the first time−Davis demonstrates how the roots of the blues extend beyond a musical tradition to serve as a conciousness-raising vehicle for American social memory. A stunning, indispensable contribution to American history, as boldly insightful as the women Davis praises, Blues Legacies and Black Feminism is a triumph.",
+      "price":15.99,
+      "category":9,
+      "rating":8.4,
+      "image_url":"https://image.ebooks.com/previews/000/000466/000466063/000466063-hq-168-80.jpg",
+      "image":"pk82.jpg"
+    }
+  },  
+  {
+    "pk":83,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6915384577",
+      "title":"Finding Democracy in Music",
+      "authors":"Robert Adlington, Esteban Buch",
+      "year":2020,
+      "description":"For a century and more, the idea of democracy has fuelled musicians’　imaginations. Seeking to go beyond music’s proven capacity to contribute to specific political causes, musicians have explored how aspects of their practice embody democratic principles. This may involve adopting particular approaches to compositional material, performance practice, relationships to audiences, or modes of dissemination and distribution. Finding Democracy in Music is the first study to offer a wide-ranging investigation of ways in which democracy may thus be found in music. A guiding theme of the volume is that this takes place in a plurality of ways, depending upon the perspective taken to music’s manifold relationships, and the idea of democracy being entertained. Contributing authors explore various genres including orchestral composition, jazz, the post-war avant-garde, online performance, and contemporary popular music, as well as employing a wide array of theoretical, archival, and ethnographic methodologies. Particular attention is given to the contested nature of democracy as a category, and the gaps that frequently arise between utopian aspiration and reality. In so doing, the volume interrogates a key way in which music helps to articulate and shape our social lives and our politics.",
+      "price":40.99,
+      "category":9,
+      "rating":7.6,
+      "image_url":"https://image.ebooks.com/previews/210/210120/210120998/210120998-hq-168-80.jpg",
+      "image":"pk83.jpg"
+    }
+  },  
+  {
+    "pk":84,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9825364175",
+      "title":"The Cambridge Companion to the String Quartet",
+      "authors":"Robin Stowell",
+      "year":2003,
+      "description":"This Companion offers a concise and authoritative survey of the string quartet by eleven chamber music specialists. Its fifteen carefully structured chapters provide coverage of a stimulating range of perspectives previously unavailable in one volume. It focuses on four main areas: the social and musical background to the quartet's development; the most celebrated ensembles; string quartet playing, including aspects of contemporary and historical performing practice; and the mainstream repertory, including significant 'mixed ensemble' compositions involving string quartet. Various musical and pictorial illustrations and informative appendixes, including a chronology of the most significant works, complete this indispensable guide. Written for all string quartet enthusiasts, this Companion will enrich readers' understanding of the history of the genre, the context and significance of quartets as cultural phenomena, and the musical, technical and interpretative problems of chamber music performance. It will also enhance their experience of listening to quartets in performance and on recordings.",
+      "price":30.99,
+      "category":9,
+      "rating":6.6,
+      "image_url":"https://image.ebooks.com/previews/000/000220/000220931/000220931-hq-168-80.jpg",
+      "image":"pk84.jpg"
+    }
+  },  
+  {
+    "pk":85,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6215879243",
+      "title":"Chopin in Paris - The Life and Times of the Romantic Composer",
+      "authors":"Tad Szulc",
+      "year":1999,
+      "description":"Chopin in Paris introduces the most important musical and literary figures of Fryderyk Chopin's day in a glittering story of the Romantic era. During Chopin's eighteen years in Paris, lasting nearly half his short life, he shone at the center of the immensely talented artists who were defining their time -- Hugo, Balzac, Stendhal, Delacroix, Liszt, Berlioz, and, of course, George Sand, a rebel feminist writer who became Chopin's lover and protector. Tad Szulc, the author of Fidel and Pope John Paul II, approaches his subject with imagination and insight, drawing extensively on diaries, memoirs, correspondence, and the composer's own journal, portions of which appear here for the first time in English. He uses contemporary sources to chronicle Chopin's meteoric rise in his native Poland, an ascent that had brought him to play before the reigning Russian grand duke at the age of eight. He left his homeland when he was eighteen, just before Warsaw's patriotic uprising was crushed by the tsar's armies. Carrying the memories of Poland and its folk music that would later surface in his polonaises and mazurkas, Chopin traveled to Vienna. There he established his reputation in the most demanding city of Europe. But Chopin soon left for Paris, where his extraordinary creative powers would come to fruition amid the revolutions roiling much of Europe. He quickly gained fame and a circle of powerful friends and acquaintances ranging from Rothschild, the banker, to Karl Marx. Distinguished by his fastidious dress and the wracking cough that would cut short his life, Chopin spent his days composing and giving piano lessons to a select group of students. His evenings were spent at the keyboard, playing for his friends. It was at one of these Chopin gatherings that he met George Sand, nine years his senior. Through their long and often stormy relationship, Chopin enjoyed his richest creative period. As she wrote dozens of novels, he composed furiously -- both were compulsive creators. After their affair unraveled, Chopin became the protégé of Jane Stirling, a wealthy Scotswoman, who paraded him in his final year across England and Scotland to play for the aristocracy and even Queen Victoria. In 1849, at the age of thirty-nine, Chopin succumbed to the tuberculosis that had plagued him from childhood. Chopin in Paris is an illuminating biography of a tragic figure who was one of the most important composers of all time. Szulc brings to life the complex, contradictory genius whose works will live forever. It is compelling reading about an exciting epoch of European history, culture, and music -- and about one of the great love dramas of the nineteenth century.",
+      "price":20.99,
+      "category":9,
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/000/000136/000136273/000136273-hq-168-80.jpg",
+      "image":"pk85.jpg"
+    }
+  },  
+  {
+    "pk":86,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1978424357",
+      "title":"The Flute Book (3rd ed.) - A Complete Guide for Students and Performers",
+      "authors":"Nancy Toff",
+      "year":2012,
+      "description":"Teachers and flutists at all levels have praised Nancy Toff'sThe Flute Book, a unique one-stop guide to the flute and its music. Organized into four main parts--The Instrument, Performance, The Music, and Repertoire Catalog--the book begins with a description of the instrument and its making, offers information on choosing and caring for a flute, sketches a history of the flute, and discusses differences between members of the flute family. In the Performance section, readers learn about breathing, tone, vibrato, articulation, technique, style, performing, and recording. In the extensive analysis of flute literature that follows, Toff places individual pieces in historical context. The book ends with a comprehensive catalog of solo and chamber repertoire, and includes appendices with fingering charts as well as lists of current flute manufacturers, repair shops, sources for flute music and books, and flute clubs and related organizations worldwide. In this Third Edition, Toff has updated the book to reflect technology's advancements--like new digital recording technology and recordings' more prevalent online availability--over the last decade. She has also accounted for new scholarship on baroque literature; recent developments such as the contrabass flute, quarter-tone flute, and various manufacturing refinements and experiments; consumers' purchase prices for flutes; and a thoroughly updated repertoire catalog and appendices.",
+      "price":30.99,
+      "category":9,
+      "rating":7.9,
+      "image_url":"https://image.ebooks.com/previews/002/002542/002542282/002542282-hq-168-80.jpg",
+      "image":"pk86.jpg"
+    }
+  },  
+  {
+    "pk":87,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5317614358",
+      "title":"Drummer's Bible (2nd ed.) - How to Play Every Drum Style from Afro-Cuban to Zydeco",
+      "authors":"Mick Berry, Jason Gianni",
+      "year":2012,
+      "description":"Updated to include 50 additional grooves, this encyclopedic book and two-CD set contains more than 450 musical examples in standard notation, showing grooves and practical variations. Overviews of the history and development of almost all popular music styles are covered alongside innumerable helpful performance tips. The two accompanying CDs feature performances of nearly 200 of the grooves, including every primary style example, all performed both with and without a click track. Styles covered include blues, rock, jazz, reggae, country, klezmer, ska, samba, punk, surf, heavy metal, latin rock, and funk; virtually every style a performing drummer will ever need to play is in there. This revised second edition also includes an updated bibliography and discography, as well as more historical information about the individual styles.",
+      "price":17.99,
+      "category":9,
+      "rating":7.3,
+      "image_url":"https://image.ebooks.com/previews/001/001162/001162748/001162748-hq-168-80.jpg",
+      "image":"pk87.jpg"
+    }
+  },  
+  {
+    "pk":88,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3174936528",
+      "title":"Me",
+      "authors":"Ricky Martin",
+      "year":2010,
+      "description":"International superstar, Ricky Martin, who has sold more than 60 million albums worldwide, opens up for the first time about memories of his early childhood, experiences in the famed boy band Menudo, struggles with his identity during the Livin' la Vida Loca phenomenon, reflections on coming to terms with his sexuality, relationships that allowed him to embrace love, and life-changing decisions like devoting himself to helping children around the world and becoming a father. Me is an intimate memoir about the very liberating and spiritual journey of one of the most iconic pop-stars of our time.",
+      "price":14.99,
+      "category":9,
+      "rating":6.4,
+      "image_url":"https://image.ebooks.com/previews/000/000597/000597820/000597820-hq-168-80.jpg",
+      "image":"pk88.jpg"
+    }
+  },  
+  {
+    "pk":89,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1742853962",
+      "title":"All You Need to Know About the Music Business",
+      "authors":"Donald S Passman",
+      "year":2014,
+      "description":"No one understands the music business and the changes it has undergone in recent years better than LA lawyer Donald Passman. For 20 years his book has offered detailed advice to artists and executives, novices and experts alike on how to thrive in these volatile times. This completely revised edition sets out recent developments in record deals, copyright, new technologies and film music. It also offers unique advice on how to navigate your way through the ins and outs of songwriting, music publishing, merchandising and performing. Whether you're a newcomer or an established professional, All You Need to Know about the Music Business is an essential companion. It will also be loved by readers of The Music Business and How Music Works by David Byrne. 'The definitive text on the business of music written by the man the most talented artists in the world look to for advice' Ron Rubin, co-head of Columbia Records",
+      "price":15.99,
+      "category":9,
+      "rating":8.3,
+      "image_url":"https://image.ebooks.com/previews/001/001332/001332566/001332566-hq-168-80.jpg",
+      "image":"pk89.jpg"
+    }
+  },  
+  {
+    "pk":90,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9153748625",
+      "title":"Sound Synthesis and Sampling (3rd ed.)",
+      "authors":"Martin Russ",
+      "year":2012,
+      "description":"Sound Synthesis and Sampling' provides a comprehensive introduction to the underlying principles and practical techniques applied to both commercial and research sound synthesizers. This new edition has been updated throughout to reflect current needs and practices- revised and placed in a modern context, providing a guide to the theory of sound and sampling in the context of software and hardware that enables sound making. For the revised edition emphasis is on expanding explanations of software and computers, new sections include techniques for making sound physically, sections within analog and digital electronics. Martin Russ is well known and the book praised for its highly readable and non-mathematical approach making the subject accessible to readers starting out on computer music courses or those working in a studio.",
+      "price":128.99,
+      "category":9,
+      "rating":7.9,
+      "image_url":"https://image.ebooks.com/previews/000/000380/000380982/000380982-hq-168-80.jpg",
+      "image":"pk90.jpg"
+    }
+  },  
+  {
+    "pk":91,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6125438975",
+      "title":"As Long as Grass Grows",
+      "authors":"Dina Gilio-Whitaker",
+      "year":2019,
+      "description":"Through the unique lens of “Indigenized environmental justice,” Indigenous researcher and activist Dina Gilio-Whitaker explores the fraught history of treaty violations, struggles for food and water security, and protection of sacred sites, while highlighting the important leadership of Indigenous women in this centuries-long struggle. As Long As Grass Grows gives readers an accessible history of Indigenous resistance to government and corporate incursions on their lands and offers new approaches to environmental justice activism and policy. Throughout 2016, the Standing Rock protest put a national spotlight on Indigenous activists, but it also underscored how little Americans know about the longtime historical tensions between Native peoples and the mainstream environmental movement. Ultimately, she argues, modern environmentalists must look to the history of Indigenous resistance for wisdom and inspiration in our common fight for a just and sustainable future.",
+      "price":23.99,
+      "category":10,
+      "rating":7.3,
+      "image_url":"https://image.ebooks.com/previews/096/096304/096304622/096304622-hq-168-80.jpg",
+      "image":"pk91.jpg"
+    }
+  },
+  {
+    "pk":92,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8256391743",
+      "title":"Cadillac Desert",
+      "authors":"Marc Reisner, Lawrie Mott",
+      "year":1993,
+      "description":"The story of the American West is the story of a relentless quest for a precious resource: water. It is a tale of rivers diverted and dammed, of political corruption and intrigue, of billion-dollar battles over water rights, of ecological and economic disaster. In his landmark book, Cadillac Desert, Marc Reisner writes of the earliest settlers, lured by the promise of paradise, and of the ruthless tactics employed by Los Angeles politicians and business interests to ensure the city's growth. He documents the bitter rivalry between two government giants, the Bureau of Reclamation and the U.S. Army Corps of Engineers, in the competition to transform the West. Based on more than a decade of research, Cadillac Desert is a stunning expose and a dramatic, intriguing history of the creation of an Eden--an Eden that may only be a mirage.",
+      "price":13.99,
+      "category":10,
+      "rating":7.1,
+      "image_url":"https://image.ebooks.com/previews/000/000411/000411726/000411726-hq-168-80.jpg",
+      "image":"pk92.jpg"
+    }
+  },
+  {
+    "pk":93,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9513274963",
+      "title":"The Wild Life of the Fox",
+      "authors":"John Lewis-Stempel",
+      "year":2020,
+      "description":"The fox is our apex predator, our most beautiful and clever killer. We have witnessed its wild touch, watched it slink by bins at night and been chilled by its high-pitched scream. And yet we long to stroke the tumbling cubs outside their tunnel homes and watch the vixen stalk the cornfield. There is something about foxes. They captivate us like no other species. Exploring a long and sometimes complicated relationship, The Wild Life of the Fox captures our love – and sometimes loathing – of this magnificent creature in vivid detail and lyrical prose.",
+      "price":9.99,
+      "category":10,
+      "rating":7.6,
+      "image_url":"https://image.ebooks.com/previews/209/209917/209917104/209917104-hq-168-80.jpg",
+      "image":"pk93.jpg"
+    }
+  },
+  {
+    "pk":94,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6891537428",
+      "title":"Seven Worlds One Planet",
+      "authors":"Jonny Keeling, Scott Alexander, David Attenborough",
+      "year":2019,
+      "description":"Welcome home. A place 200 million years in the making. Long ago, our planet had only one gigantic land mass. Then something monumental happened. That supercontinent ruptured and seven different worlds were born. Each of those worlds - or continents - evolved, and continues to evolve, its own way of life. From the jungle of the Congo or the majestic Himalayas to the densely populated wilds of Europe or the comparatively isolated Australasia, Seven Worlds, One Planet explores the natural wonders that give each of our continents its distinct character. Following the animals that have made these iconic environments their home, it discovers spectacular wildlife stories that reveal what makes each of these seven worlds unique. With a foreword by Sir David Attenborough and over 250 breathtaking images, including stills from the BBC Natural History Unit’s spectacular footage, Seven Worlds, One Planet is a stunning exploration of the planet, and the worlds within it, that we call home.",
+      "price":18.99,
+      "category":10,
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/209/209586/209586834/209586834-hq-168-80.jpg",
+      "image":"pk94.jpg"
+    }
+  },
+  {
+    "pk":95,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9362584175",
+      "title":"H is for Hawk",
+      "authors":"Helen Macdonald",
+      "year":2014,
+      "description":"As a child, Helen Macdonald was determined to become a falconer, learning the arcane terminology and reading all the classic books. Years later, when her father died and she was struck deeply by grief, she became obsessed with the idea of training her own goshawk. She bought Mabel for £800 on a Scottish quayside and took her home to Cambridge, ready to embark on the long, strange business of trying to train this wildest of animals. H is for Hawk is an unflinchingly honest account of Macdonald's struggle with grief during the difficult process of the hawk's taming and her own untaming. This is a book about memory, nature and nation, and how it might be possible to reconcile death with life and love.",
+      "price":10.99,
+      "category":10,
+      "rating":8.2,
+      "image_url":"https://image.ebooks.com/previews/001/001675/001675276/001675276-hq-168-80.jpg",
+      "image":"pk95.jpg"
+    }
+  },
+  {
+    "pk":96,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8956473125",
+      "title":"Grassfires (2nd ed.) - Fuel, Weather and Fire Behaviour",
+      "authors":"Phil Cheney, Andrew Sullivan",
+      "year":2008,
+      "description":"Grassfires: Fuel, Weather and Fire Behaviour presents information from CSIRO on the behaviour and spread of fires in grasslands. This second edition follows over 10 years of research aimed at improving the understanding of the fundamental processes involved in the behaviour of grassfires.The book covers all aspects of fire behaviour and spread in the major types of grasses in Australia. It examines the factors that affect fire behaviour in continuous grassy fuels; fire in spinifex fuels; the effect of weather and topography on fire spread; wildfire suppression strategies; and how to reconstruct grassfire spread after the fact. The three meters designed by CSIRO for the prediction of fire danger and rate of spread of grassfires are explained and their use and limitations discussed.This new edition expands the discussion of historical fires including Aboriginal burning practices, the chemistry of combustion, and the structure of turbulent diffusion flames. It also examines fire safety, including the difficulty of predicting wind strength and direction and the impact of threshold wind speed on safe fire suppression. Myths and fallacies about fire behaviour are explained in relation to their impact on personal safety and survival.Grassfires will be a valuable reference for rural fire brigade members, landholders, fire authorities, researchers and those studying landscape and ecological processes.",
+      "price":32.99,
+      "category":10,
+      "rating":7.7,
+      "image_url":"https://image.ebooks.com/previews/000/000408/000408961/000408961-hq-168-80.jpg",
+      "image":"pk96.jpg"
+    }
+  },
+  {
+    "pk":97,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6451398729",
+      "title":"Rising Tide - The Great Mississippi Flood of 1927 and How It Changed America",
+      "authors":"John M. Barry",
+      "year":2007,
+      "description":"An American epic of science, politics, race, honor, high society, and the Mississippi River, Rising Tide tells the riveting and nearly forgotten story of the greatest natural disaster this country has ever known -- the Mississippi flood of 1927. The river inundated the homes of nearly one million people, helped elect Huey Long governor and made Herbert Hoover president, drove hundreds of thousands of blacks north, and transformed American society and politics forever.",
+      "price":16.99,
+      "category":10,
+      "rating":6.8,
+      "image_url":"https://image.ebooks.com/previews/000/000311/000311087/000311087-hq-168-80.jpg",
+      "image":"pk97.jpg"
+    }
+  },
+  {
+    "pk":98,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4915673287",
+      "title":"The Salt Path",
+      "authors":"Raynor Winn",
+      "year":2010,
+      "description":"Just days after Raynor learns that Moth, her husband of 32 years, is terminally ill, their home is taken away and they lose their livelihood. With nothing left and little time, they make the brave and impulsive decision to walk the 630 miles of the sea-swept South West Coast Path, from Somerset to Dorset, via Devon and Cornwall. Carrying only the essentials for survival on their backs, they live wild in the ancient, weathered landscape of cliffs, sea and sky. Yet through every step, every encounter and every test along the way, their walk becomes a remarkable journey. The Salt Path is an honest and life-affirming true story of coming to terms with grief and the healing power of the natural world. Ultimately, it is a portrayal of home, and how it can be lost, rebuilt and rediscovered in the most unexpected ways.",
+      "price":18.99,
+      "category":10,
+      "rating":7.8,
+      "image_url":"https://image.ebooks.com/previews/095/095941/095941918/095941918-hq-168-80.jpg",
+      "image":"pk98.jpg"
+    }
+  },
+  {
+    "pk":99,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3751824967",
+      "title":"Deep",
+      "authors":"James Nestor",
+      "year":2014,
+      "description":"Deep is a voyage from the ocean’s surface to its darkest trenches, the most mysterious places on Earth. Fascinated by the sport of freediving—in which competitors descend great depths on a single breath—James Nestor embeds with a gang of oceangoing extreme athletes and renegade researchers. He finds whales that communicate with other whales hundreds of miles away, sharks that swim in unerringly straight lines through pitch-black waters, and other strange phenomena. Most illuminating of all, he learns that these abilities are reflected in our own remarkable, and often hidden, potential—including echolocation, directional sense, and the profound bodily changes humans undergo when underwater. Along the way, Nestor unlocks his own freediving skills as he communes with the pioneers who are expanding our definition of what is possible in the natural world, and in ourselves.",
+      "price":13.99,
+      "category":10,
+      "rating":7.4,
+      "image_url":"https://image.ebooks.com/previews/001/001329/001329335/001329335-hq-168-80.jpg",
+      "image":"pk99.jpg"
+    }
+  },
+  {
+    "pk":100,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6459123875",
+      "title":"The Stranger in the Woods - The Extraordinary Story of the Last True Hermit",
+      "authors":"Michael Finkel",
+      "year":2017,
+      "description":"In 1986, a shy and intelligent twenty-year-old named Christopher Knight left his home in Massachusetts, drove to Maine, and disappeared into the forest. He would not have a conversation with another human being until nearly three decades later, when he was arrested for stealing food. Living in a tent even through brutal winters, he had survived by his wits and courage, developing ingenious ways to store edibles and water, and to avoid freezing to death. He broke into nearby cottages for food, clothing, reading material, and other provisions, taking only what he needed but terrifying a community never able to solve the mysterious burglaries. Based on extensive interviews with Knight himself, this is a vividly detailed account of his secluded life—why did he leave? what did he learn?—as well as the challenges he has faced since returning to the world. It is a gripping story of survival that asks fundamental questions about solitude, community, and what makes a good life, and a deeply moving portrait of a man who was determined to live his own way, and succeeded.",
+      "price":13.99,
+      "category":10,
+      "rating":7.9,
+      "image_url":"https://image.ebooks.com/previews/002/002608/002608970/002608970-hq-168-80.jpg",
+      "image":"pk100.jpg"
+    }
+  },
+  {
+    "pk":101,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6385129746",
+      "title":"The Hidden Life of Trees: What They Feel, How They Communicate",
+      "authors":"Peter Wohlleben",
+      "year":2017,
+      "description":"Are trees social beings? How do trees live? Do they feel pain or have awareness of their surroundings? In The Hidden Life of Trees Peter Wohlleben makes the case that the forest is a social network. He draws on groundbreaking scientific discoveries to describe how trees are like human families: tree parents live together with their children, communicate with them, support them as they grow, share nutrients with those who are sick or struggling, and even warn each other of impending dangers. Wohlleben also shares his deep love of woods and forests, explaining the amazing processes of life, death and regeneration he has observed in his woodland. A walk in the woods will never be the same again.",
+      "price":8.99,
+      "category":10,
+      "rating":8.5,
+      "image_url":"",
+      "image":"pk101.jpg"
+    }
+  },
+  {
+    "pk":102,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6289513476",
+      "title":"Catify to Satisfy",
+      "authors":"Jackson Galaxy, Kate Benjamin",
+      "year":2015,
+      "description":"In this book, Jackson Galaxy, star of Animal Planet’s hit show My Cat from Hell, and Kate Benjamin, cat design wizard, show cat guardians everywhere how to use home design tricks to address everyday cat care issues. Does your feline friend like to pee everywhere but in his or her litter box? Does your kitty have a thing for your furniture that has left your beloved couch in tatters? Catify to Satisfy will show you how simple DIY design projects and hacks can help bring harmony back into your home. Featuring the amazing projects cat guardians from around the world have shared with Jackson and Kate—design strategies for solving even the most daunting kitty challenges—this book is the ultimate guide to creating a happy home for cat guardian and cat alike.",
+      "price":10.99,
+      "category":11,
+      "rating":8.4,
+      "image_url":"https://image.ebooks.com/previews/001/001980/001980369/001980369-hq-168-80.jpg",
+      "image":"pk102.jpg"
+    }
+  },
+  {
+    "pk":103,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9513264875",
+      "title":"How to Raise the Perfect Dog - Through Puppyhood and Beyond",
+      "authors":"Cesar Millan, Melissa Jo Peltier",
+      "year":2009,
+      "description":"For the millions of people every year who consider bringing a puppy into their lives–as well as those who have already brought a dog home–Cesar Millan, the preeminent dog behavior expert, says, 'Yes, you can raise the perfect dog!' It all starts with the proper foundation in the early years. Here, Cesar tells you everything you need to know to create the best environment for a well-balanced dog in order to avoid behavior issues in the future, and shows you how to correct the most common behavior issues for young dogs. Based on Cesar’s own detailed experiences raising individual puppies from some of the most popular breeds, How to Raise the Perfect Dog is like having Cesar right beside you, as your own personal expert, coaching you and your dog from the first day of your life together. Packed with new information aimed specifically at the particular needs of puppies and adolescents, and written in Cesar's friendly, accessible style, How to Raise the Perfect Dog answers all the most commonly asked questions and guides you towards a loving, satisfying life-long relationship with your best friend.",
+      "price":12.99,
+      "category":11,
+      "rating":9.1,
+      "image_url":"https://image.ebooks.com/previews/000/000442/000442327/000442327-hq-168-80.jpg",
+      "image":"pk103.jpg"
+    }
+  },
+  {
+    "pk":104,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3612789546",
+      "title":"Rabbits - Health, Husbandry and Diseases",
+      "authors":"Virginia C. G. Richardson",
+      "year":2008,
+      "description":"Rabbits are the third most popular pet in the world and the trend to keep them indoors will make the 'house rabbit' the pet of the next century. Rabbit owners expect and deserve the same standard of veterinary care for their rabbits as they receive for their cats and dogs. Devoted entirely to the pet rabbit, this book is a practical and concise guide to health, husbandry and diseases. The book begins with an overview of rabbit husbandry. Nutritional requirements and clinical examination are covered in chapters 2 and 3. Subsequent chapters then take a body system approach to describing diseases, their diagnosis and treatment. There are separate chapters on behaviour, anaesthesia and surgery, and zoonotic aspects. This practical, quick-reference guide will appeal to veterinarians, veterinary students, veterinary nurses and breeders alike.",
+      "price":55.99,
+      "category":11,
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/000/000351/000351391/000351391-hq-168-80.jpg",
+      "image":"pk104.jpg"
+    }
+  },
+  {
+    "pk":105,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7514826933",
+      "title":"The Perfect Aquarium - The Complete Guide to Setting Up and Maintaining an Aquarium",
+      "authors":"Jeremy Gay",
+      "year":2017,
+      "description":"Everything the first time fish-keeper needs to know to set up a tank. Clear, easy-to-follow instructions help you create and develop your aquarium - whether it's coldwater, tropical or marine. Charts and tables show how to deal with ailments and diseases, and there's a guide to the most common fish. There are profiles of over 100 tropical, marine and coldwater fish, as well as plants and invertebrates.",
+      "price":6.99,
+      "category":11,
+      "rating":8.3,
+      "image_url":"https://image.ebooks.com/previews/095/095759/095759974/095759974-hq-168-80.jpg",
+      "image":"pk105.jpg"
+    }
+  },
+  {
+    "pk":106,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9514623874",
+      "title":"How Dogs Think - Understanding the Canine Mind",
+      "authors":"Stanley Coren",
+      "year":2005,
+      "description":"Bestselling author, psychologist, and world-renowned expert on dog behavior and training Dr. Stanley Coren presents the most informative, in-depth, fascinating book yet on dogs. Acclaimed for its solid scientific research and entertaining, eminently readable style, How Dogs Think gives you the insight that you need to understand the silly, quirky, and apparently irrational behaviors that dogs demonstrate, as well as those stunning flashes of brilliance and creativity that they also can display. It lets you see through a dog’s eyes, hear through his ears, and even sense the world through his nose, as Coren presents a fascinat­ing picture of the way dogs interpret their world and their human companions, and of how they solve problems, learn, and take in new information. How Dogs Think also answers questions about our canine companions that have puzzled many: Can dogs count? Do they have an appreciation of art or music? Can a dog learn how to do something just by watching another dog or even a person do it? Do dogs dream? What is the nature of dog personality? Which behaviors are prewired into your dog, and which can you actually change? And, can dogs actually sense future earthquakes or detect cancer? With sound behavioral science and numerous funny, informative anecdotes, experiments, and firsthand observations, How Dogs Think shatters many common myths and misconcep­tions about our four-legged friends and reveals a wealth of surprises about their mental abilities and potential. It will make you love and appreciate all dogs—including your own—in wonder­ful new ways.",
+      "price":14.99,
+      "category":11,
+      "rating":7.5,
+      "image_url":"https://image.ebooks.com/previews/000/000231/000231479/000231479-hq-168-80.jpg",
+      "image":"pk106.jpg"
+    }
+  },
+  {
+    "pk":107,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1463829756",
+      "title":"The Genius of Birds",
+      "authors":"Jennifer Ackerman",
+      "year":2016,
+      "description":"Birds are astonishingly intelligent creatures. According to revolutionary new research, some birds rival primates and even humans in their remarkable forms of intelligence. In The Genius of Birds, acclaimed author Jennifer Ackerman explores their newly discovered brilliance and how it came about. As she travels around the world to the most cutting-edge frontiers of research, Ackerman not only tells the story of the recently uncovered genius of birds but also delves deeply into the latest findings about the bird brain itself that are shifting our view of what it means to be intelligent. At once personal yet scientific, richly informative and beautifully written, The Genius of Birds celebrates the triumphs of these surprising and fiercely intelligent creatures.",
+      "price":14.99,
+      "category":11,
+      "rating":6.8,
+      "image_url":"https://image.ebooks.com/previews/002/002544/002544074/002544074-hq-168-80.jpg",
+      "image":"pk107.jpg"
+    }
+  },
+  {
+    "pk":108,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4961357825",
+      "title":"The Parrot Who Owns Me - The Story of a Relationship",
+      "authors":"Joanna Burger",
+      "year":2001,
+      "description":"“Birds are my passion,” says Joanna Burger, “but parrots are my weakness.” Fifteen years ago, when se adopted a neglected, orphaned thirty-six year old parrot named Tiko, she entered on of the most complex relationships of her life. Sullen and hostile when he entered Dr. Burger’s home, Tiko gradually warmed as she carefully persuaded him of her good intentions. Eventually he courted her, building nests inside household furniture during mating season and trying to coax her into them. He nursed her vigilantly through a bout with Lyme disease, regularly preening each strand of hair on the pillow as she slept. For a while he even fought her husband for her attentions, but eventually theirs became a relationship of deep mutual trust. The Parrot Who Owns Me is also the story of the science of birds, and of parrots in particular (America’s third most commonly owned pet, after cats and dogs). Woven into the narrative are insights and fascinating revelations from Joanna Burger’s work — not only about parrots, but about what it means to be human. By turns delightful, hilarious, touching, and enlightening, The Parrot Who Owns Me introduces us to an unforgettable bird and his human companion, whose friendships tells us much about ourselves.",
+      "price":13.99,
+      "category":11,
+      "rating":7.2,
+      "image_url":"https://image.ebooks.com/previews/000/000192/000192978/000192978-hq-168-80.jpg",
+      "image":"pk108.jpg"
+    }
+  },
+  {
+    "pk":109,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5861375249",
+      "title":"An Eagle Named Freedom - My True Story of a Remarkable Friendship",
+      "authors":"Jeff Guidry",
+      "year":2010,
+      "description":"From the moment Jeff Guidry saw the emaciated baby eagle with broken wings, his life was changed. For weeks he and the staff at Sarvey Wildlife Care Center tended to the grievously injured bird. Miraculously, she recovered, and Jeff, a center volunteer, became her devoted caretaker. Though Freedom would never fly, she had Jeff as her wings. And after Jeff was diagnosed with stage 3 non-Hodgkin's lymphoma in 2000, Freedom returned his gift. Between sessions of debilitating chemotherapy, Jeff went back to Sarvey and began taking Freedom for walks that soothed his spirit and gave him the strength to fight. A tender tale of hope, love, trust, and life, this moving true story is an affirmation of the spiritual connection that humans and animals share.",
+      "price":13.99,
+      "category":11,
+      "rating":7.7,
+      "image_url":"https://image.ebooks.com/previews/000/000517/000517210/000517210-hq-168-80.jpg",
+      "image":"pk109.jpg"
+    }
+  },
+  {
+    "pk":110,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8835796142",
+      "title":"Holistic Aromatherapy for Animals - A Comprehensive Guide to the Use of Essential Oils & Hydrosols with Animals",
+      "authors":"Kristen Leigh Bell",
+      "year":2012,
+      "description":"It is only in recent years that aromatherapy, or essential oil therapy, has gained substantial acceptance; this is primarily due to French veterinarians who have begun using essential oils and hydrosols in their practices. Laypeople, of course, have been enjoying great success treating animals with the very same substances for many years; for it is not just the medical professionals who can safely and effectively administer these aromatic oils. Anyone enabled with quality essential oils or hydrosols and adequate knowledge can use a plant's most concentrated and energetic byproducts to improve the health of their animals, and treat and prevent various illnesses and common ailments. Aromatherapy is actually a science that has a much larger archive of supported scientific data than most other holistic care methods. However, most of these studies were originally published in French or German. Aromatherapy was the first natural, holistic therapy the author began using, and she relies on it as my primary form of healthcare to treat and balance all sorts of minor ailments and discomforts in the lives of her family and their pets. She has rarely needed to use any other sort of remedy to achieve the desired result. These powerful substances are the most fascinating, sensual and complex of all natural therapies -- a combination that proves to be so enthralling it eventually develops into a grand passion for many.",
+      "price":14.99,
+      "category":11,
+      "rating":7.6,
+      "image_url":"https://image.ebooks.com/previews/095/095935/095935404/095935404-hq-168-80.jpg",
+      "image":"pk110.jpg"
+    }
+  },
+  {
+    "pk":111,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5893276411",
+      "title":"First Aid for Cats - Recognising Common Ailments and Accidents",
+      "authors":"Justin Wimpole",
+      "year":2007,
+      "description":"This book contains clear, informative illustrations, requires no previous knowledge or special equipment and covers a wide range of situations where first aid may be needed. First Aid for Cats is a vital resource that will be invaluable in case of an emergency. Justin Wimpole is an experienced veterinarian and author of the best seller First Aid for Dogs.",
+      "price":8.99,
+      "category":11,
+      "rating":8.6,
+      "image_url":"https://image.ebooks.com/previews/000/000474/000474530/000474530-hq-168-80.jpg",
+      "image":"pk111.jpg"
+    }
+  },
+  {
+    "pk":112,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6248971352",
+      "title":"Neighbors",
+      "authors":"Danielle Steel",
+      "year":2021,
+      "description":"Meredith White was one of Hollywood’s most recognizable faces. But a personal tragedy cut her acting career short and alienated her from her family. For the last fifteen years, Meredith has been living alone in San Francisco with two trusted caretakers. Then, on a muggy late summer day, a massive earthquake strikes Northern California, plunging the Bay Area into chaos. Without a moment’s hesitation, Meredith invites her stunned and shaken neighbors into her mostly undamaged home as the recovery begins. These people did not even realize that movie star Meredith White was living on their street. Now, they are sharing her mansion, as well as their most closely kept secrets. Without the walls and privacy of their own homes, one by one, new relationships are forged. For every neighbor there is a story, from the doctor whose wife and children fear him, to the beautiful young woman dating a dishonorable man, to the aspiring writer caring for a famous blind musician. In the heart of the crisis, Meredith finds herself venturing back into the world. And thanks to the suspicions and the dogged detective work of a disaster relief volunteer, a former military officer named Charles, a shocking truth about her own world is exposed. Suddenly Meredith sees her isolation, her estranged family, and even her acting career in a whole new light. Filled with powerful human dramas, Neighbors is a penetrating look at how our world can be upended in a moment. In a novel of unforgettable characters and stunning twists, acts of love and courage become the most powerful forces of all.",
+      "price":16.99,
+      "category":12,
+      "rating":6.1,
+      "image_url":"https://image.ebooks.com/previews/209/209977/209977747/209977747-hq-168-80.jpg",
+      "image":"pk112.jpg"
+    }
+  },
+  {
+    "pk":113,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp1547932865",
+      "title":"Seducing the Princess",
+      "authors":"Diane Alberts",
+      "year":2014,
+      "description":"He'll give her exactly what she needs...Protecting a princess is not what former marine Gordon Waybrook signed up for when he joined the Shillings Agency. But instead of the spoiled, regal little creature he expects, Isabelle VanGuard is a fiery, sexy-as-hell woman who’s been denied what she needs for too long. And he’s just the man to break through her frozen public facade and give it to her. When she’s with Gordon, all Isabelle can think about is pleasure. Their blistering chemistry is immediate and intense, but volatile. In fact, the only thing they agree on is that their one night together is just that—one night. Even after it becomes more. But tempers and temptation can’t disguise reality. Isabelle is a princess, and a hot, hard, tattooed bodyguard isn’t the Prince Charming her country expects...even if he’s exactly what she needs.",
+      "price":7.99,
+      "category":12,
+      "rating":6.3,
+      "image_url":"https://image.ebooks.com/previews/001/001867/001867008/001867008-hq-168-80.jpg",
+      "image":"pk113.jpg"
+    }
+  },
+  {
+    "pk":114,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3578941263",
+      "title":"Ghosts",
+      "authors":"Dolly Alderton",
+      "year":2020,
+      "description":"Nina Dean has arrived at her early thirties as a successful food writer with loving friends and family, plus a new home and neighbourhood. When she meets Max, a beguiling romantic hero who tells her on date one that he's going to marry her, it feels like all is going to plan. A new relationship couldn't have come at a better time - her thirties have not been the liberating, uncomplicated experience she was sold. Everywhere she turns, she is reminded of time passing and opportunities dwindling. Friendships are fading, ex-boyfriends are moving on and, worse, everyone's moving to the suburbs. There's no solace to be found in her family, with a mum who's caught in a baffling mid-life makeover and a beloved dad who is vanishing in slow-motion into dementia. Dolly Alderton's debut novel is funny and tender, filled with whip-smart observations about relationships, family, memory, and how we live now.",
+      "price":12.99,
+      "category":12,
+      "rating":6.6,
+      "image_url":"https://image.ebooks.com/previews/209/209739/209739023/209739023-hq-168-80.jpg",
+      "image":"pk114.jpg"
+    }
+  },
+  {
+    "pk":115,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6194532789",
+      "title":"Don't Even Think About It",
+      "authors":"Lauren Henderson",
+      "year":2004,
+      "description":"Best chums Sally, Jude, and Michael are living the single life in cool flats a mere stone's throw apart in London. But the girls find the sitcom life they love taking an unexpected twist when Michael's new girlfriend, Katie, moves in with him. Michael's a notorious womanizer -- he broke it off with Sally years ago -- and the girls have gotten used to his endless parade of brunettes. Sally acts like she's over Michael; Jude prides herself on knowing better; and they're both sure Katie's not going to last. Four's a crowd. Katie's not particularly thrilled that Michael's ex and her best friend live right across the street, but she makes the best of it. After all, things with Michael are going brilliantly, and he seems determined to commit to their future. But when another brunette from Michael's past arrives from Paris and Katie begins to fear that she's just another notch on Michael's bedpost, the girls realize that they're all just playing parts in Michael's drama. So what will his reaction be when they try to break free? Don't even think about it!",
+      "price":16.99,
+      "category":12,
+      "rating":6.9,
+      "image_url":"https://image.ebooks.com/previews/000/000216/000216592/000216592-hq-168-80.jpg",
+      "image":"pk115.jpg"
+    }
+  },
+  {
+    "pk":116,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8612347398",
+      "title":"When He Was Wicked",
+      "authors":"Julia Quinn",
+      "year":2017,
+      "description":"In every life there is a turning point . . .A moment so tremendous, so sharp and breathtaking, that one knows one's life will never be the same. For Michael Stirling, London's most infamous rake, that moment came the first time he laid eyes on Francesca Bridgerton. After a lifetime of chasing women, of smiling slyly as they chased him, of allowing himself to be caught but never permitting his heart to become engaged, he took one look at Francesca Bridgerton and fell so fast and hard into love it was a wonder he managed to remain standing. Unfortunately for Michael, however, Francesca's surname was to remain Bridgerton for only a mere thirty-six hours longer—the occasion of their meeting was, lamentably, a supper celebrating her imminent wedding to his cousin. But that was then . . . Now Michael is the earl and Francesca is free, but still she thinks of him as nothing other than her dear friend and confidant. Michael dares not speak to her of his love . . . until one dangerous night, when she steps innocently into his arms and passion proves stronger than even the most wicked of secrets . . .",
+      "price":10.99,
+      "category":12,
+      "rating":6.0,
+      "image_url":"https://image.ebooks.com/previews/001/001986/001986347/001986347-hq-168-80.jpg",
+      "image":"pk116.jpg"
+    }
+  },
+  {
+    "pk":117,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7514892366",
+      "title":"Frederica",
+      "authors":"Georgette Heyer",
+      "year":2011,
+      "description":"Vernon Alverstoke sees no reason to put himself out for anyone. But when a distant connection asks for help, he is quickly plunged into one drama after another by the disorderly Merriville family. Surprisingly, he finds himself far from bored - especially when he encounters their strong-minded daughter, Frederica. However, she seems far more concerned with her family's welfare than his romantic advances...",
+      "price":9.99,
+      "category":12,
+      "rating":7.4,
+      "image_url":"https://image.ebooks.com/previews/000/000657/000657348/000657348-hq-168-80.jpg",
+      "image":"pk117.jpg"
+    }
+  },
+  {
+    "pk":118,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp5916237458",
+      "title":"The Most Eligible Lord in London",
+      "authors":"Ella Quinn",
+      "year":2020,
+      "description":"Handsome, rakish, incorrigibly flirtatious—Fredrick, Lord Littleton, is notorious. Lady Adeline Wivenly is resolved to keep him at arm’s length during her first Season—until she overhears another woman’s plot to trick him into marriage. Even a rogue is undeserving of such deception, and Adeline feels obliged to warn him—only to find herself perilously attracted . . .In the past, Littleton’s charm nearly got him leg-shackled to the wrong woman. Now he’s positive he’s found the right one, for Adeline is everything he wants and needs in a wife. Her sense of justice is so strong she agrees to help him despite her mistrust. But can the ton’s most elusive lord convince the lady he is finally serious about marriage—as long as she will be his bride?",
+      "price":8.99,
+      "category":12,
+      "rating":5.8,
+      "image_url":"https://image.ebooks.com/previews/209/209726/209726105/209726105-hq-168-80.jpg",
+      "image":"pk118.jpg"
+    }
+  },
+  {
+    "pk":119,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6198742357",
+      "title":"Burning Desire",
+      "authors":"Donna Grant",
+      "year":2014,
+      "description":"The Dark Kings have fought for centuries to preserve their dragon magic. But can one warrior resist the greatest temptation of all. . .? In his quest to destroy the Dark Fae—his nemesis—the Dragon King known as Kiril goes to Ireland as a spy. When a gorgeous, mysterious woman tries to seduce him, Kiril instantly sees through her glamour to the Dark Fae beneath. Shara isn't just any Dark; she's from one of the most powerful bloodlines—and despite the dangers, Kiril can't stay away from her. He's enthralled by her smile, enslaved by the undeniable passion… Shara has one chance to make things right with her family—and to prove her worth. It seemed like such an easy mission…until she actually meets Kiril. His charm, his sexual magnetism is too much for her to ignore. Shara knows that falling into Kiril's arms can bring her nothing but trouble. Yet she discovers an inner strength she didn't know she had…and an attraction that knows no bounds. But is her desire for Kiril worth the risk of eternal doom for them both?...in Burning Desire by Donna Grant",
+      "price":10.99,
+      "category":12,
+      "rating":7.2,
+      "image_url":"https://image.ebooks.com/previews/001/001609/001609604/001609604-hq-168-80.jpg",
+      "image":"pk119.jpg"
+    }
+  },
+  {
+    "pk":120,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8267431928",
+      "title":"The Awakening - The Dragon Heart Legacy, Book 1",
+      "authors":"Nora Roberts",
+      "year":2020,
+      "description":"In the realm of Talamh, a teenage warrior named Keegan emerges from a lake holding a sword—representing both power and the terrifying responsibility to protect the Fey. In another realm known as Philadelphia, a young woman has just discovered she possesses a treasure of her own… When Breen Kelly was a girl, her father would tell her stories of magical places. Now she’s an anxious twentysomething mired in student debt and working a job she hates. But one day she stumbles upon a shocking discovery: her mother has been hiding an investment account in her name. It has been funded by her long-lost father—and it’s worth nearly four million dollars. This newfound fortune would be life-changing for anyone. But little does Breen know that when she uses some of the money to journey to Ireland, it will unlock mysteries she couldn’t have imagined. Here, she will begin to understand why she kept seeing that silver-haired, elusive man, why she imagined his voice in her head saying Come home, Breen Siobhan. It’s time you came home. Why she dreamed of dragons. And where her true destiny lies—through a portal in Galway that takes her to a land of faeries and mermaids, to a man named Keegan, and to the courage in her own heart that will guide her through a powerful, dangerous destiny…",
+      "price":12.99,
+      "category":12,
+      "rating":6.4,
+      "image_url":"https://image.ebooks.com/previews/209/209911/209911302/209911302-hq-168-80.jpg",
+      "image":"pk120.jpg"
+    }
+  },
+  {
+    "pk":121,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp3794865216",
+      "title":"Rose in Bloom",
+      "authors":"Louisa May Alcott",
+      "year":2008,
+      "description":"As authors may be supposed to know better than anyone else what they intended to do when writing a book, I beg leave to say that there is no moral to this story. Rose is not designed for a model girl, and the Sequel was simply written in fulfillment of a promise, hoping to afford some amusement, and perhaps here and there a helpful hint, to other roses getting ready to bloom.",
+      "price":7.99,
+      "category":12,
+      "rating":6.0,
+      "image_url":"https://image.ebooks.com/previews/000/000363/000363505/000363505-hq-168-80.jpg",
+      "image":"pk121.jpg"
+    }
+  },
+  {
+    "pk":122,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8167549328",
+      "title":"A Time for Mercy",
+      "authors":"John Grisham",
+      "year":2020,
+      "description":"Clanton, Mississippi. 1990. Jake Brigance finds himself embroiled in a deeply divisive trial when the court appoints him attorney for Drew Gamble, a timid sixteen-year-old boy accused of murdering a local deputy. Many in Clanton want a swift trial and the death penalty, but Brigance digs in and discovers that there is more to the story than meets the eye. Jake’s fierce commitment to saving Drew from the gas chamber puts his career, his financial security, and the safety of his family on the line. In what may be the most personal and accomplished legal thriller of John Grisham’s storied career, we deepen our acquaintance with the iconic Southern town of Clanton and the vivid cast of characters that so many readers know and cherish. The result is a richly rewarding novel that is both timely and timeless, full of wit, drama, and—most of all—heart.",
+      "price":16.99,
+      "category":13,
+      "rating":8.5,
+      "image_url":"https://image.ebooks.com/previews/210/210006/210006788/210006788-hq-168-80.jpg",
+      "image":"pk122.jpg"
+    }
+  },
+  {
+    "pk":123,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6241389751",
+      "title":"Troubled Blood",
+      "authors":"Robert Galbraith",
+      "year":2020,
+      "description":"Private Detective Cormoran Strike is visiting his family in Cornwall when he is approached by a woman asking for help finding her mother, Margot Bamborough - who went missing in mysterious circumstances in 1974. Strike has never tackled a cold case before, let alone one forty years old. But despite the slim chance of success, he is intrigued and takes it on; adding to the long list of cases that he and his partner in the agency, Robin Ellacott, are currently working on. And Robin herself is also juggling a messy divorce and unwanted male attention, as well as battling her own feelings about Strike. As Strike and Robin investigate Margot's disappearance, they come up against a fiendishly complex case with leads that include tarot cards, a psychopathic serial killer and witnesses who cannot all be trusted. And they learn that even cases decades old can prove to be deadly . . .",
+      "price":10.99,
+      "category":13,
+      "rating":7.2,
+      "image_url":"https://image.ebooks.com/previews/209/209959/209959347/209959347-hq-168-80.jpg",
+      "image":"pk123.jpg"
+    }
+  },
+  {
+    "pk":124,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9631478525",
+      "title":"The Sentinel",
+      "authors":"Lee Child, Andrew Child",
+      "year":2020,
+      "description":"Jack Reacher gets off the bus in a sleepy no-name town outside Nashville, Tennessee. He plans to grab a cup of coffee and move right along. Not going to happen. The town has been shut down by a cyber attack. At the centre of it all, whether he likes it or not, is Rusty Rutherford. He's an average IT guy, but he knows more than he thinks. As the bad guys move in on Rusty, Reacher moves in on them . . .And now Rusty knows he's protected, he's never going to leave the big man's side.",
+      "price":16.99,
+      "category":13,
+      "rating":8.2,
+      "image_url":"https://image.ebooks.com/previews/209/209928/209928485/209928485-hq-168-80.jpg",
+      "image":"pk124.jpg"
+    }
+  },
+  {
+    "pk":125,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp6531289746",
+      "title":"Where the Crawdads Sing",
+      "authors":"Delia Owens",
+      "year":2018,
+      "description":"For years, rumors of the 'Marsh Girl' have haunted Barkley Cove, a quiet town on the North Carolina coast. So in late 1969, when handsome Chase Andrews is found dead, the locals immediately suspect Kya Clark, the so-called Marsh Girl. But Kya is not what they say. Sensitive and intelligent, she has survived for years alone in the marsh that she calls home, finding friends in the gulls and lessons in the sand. Then the time comes when she yearns to be touched and loved. When two young men from town become intrigued by her wild beauty, Kya opens herself to a new life - until the unthinkable happens.",
+      "price":8.99,
+      "category":13,
+      "rating":6.1,
+      "image_url":"https://image.ebooks.com/previews/209/209518/209518712/209518712-hq-168-80.jpg",
+      "image":"pk125.jpg"
+    }
+  },
+  {
+    "pk":126,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4691378255",
+      "title":"The Silent Patient",
+      "authors":"Alex Michaelides",
+      "year":2019,
+      "description":"Alicia Berenson lived a seemingly perfect life until one day six years ago. When she shot her husband in the head five times. Since then she hasn't spoken a single word. It's time to find out why.",
+      "price":8.99,
+      "category":13,
+      "rating":7.0,
+      "image_url":"https://image.ebooks.com/previews/096/096316/096316079/096316079-hq-168-80.jpg",
+      "image":"pk126.jpg"
+    }
+  },
+  {
+    "pk":127,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp7852346194",
+      "title":"The Snow Killer",
+      "authors":"Ross Greenwood",
+      "year":2019,
+      "description":"A family is gunned down in the snow but one of the children survives. Three years on, that child takes revenge and the Snow Killer is born. But then, nothing - no further crimes are committed, and the case goes cold. Fifty years later, has the urge to kill been reawakened? As murder follows murder, the detective team tasked with solving the crimes struggle with the lack of leads. It’s a race against time and the weather – each time it snows another person dies. As an exhausted and grizzled DI Barton and his team scrabble to put the pieces of the puzzle together, the killer is hiding in plain sight. Meanwhile, the murders continue…",
+      "price":7.99,
+      "category":13,
+      "rating":6.6,
+      "image_url":"https://image.ebooks.com/previews/209/209786/209786115/209786115-hq-168-80.jpg",
+      "image":"pk127.jpg"
+    }
+  },
+  {
+    "pk":128,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9364521874",
+      "title":"The Guest List",
+      "authors":"Lucy Foley",
+      "year":2020,
+      "description":"Old friends. Past grudges. Happy families. Hidden jealousies. Thirteen guests. One body. The wedding cake has barely been cut when one of the guests is found dead. And as a storm unleashes its fury on the island, everyone is trapped.",
+      "price":11.99,
+      "category":13,
+      "rating":6.9,
+      "image_url":"https://image.ebooks.com/previews/209/209743/209743058/209743058-hq-168-80.jpg",
+      "image":"pk128.jpg"
+    }
+  },
+  {
+    "pk":129,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp8146325197",
+      "title":"The Evening and the Morning",
+      "authors":"Ken Follett",
+      "year":2020,
+      "description":"It is 997 CE, the end of the Dark Ages, and England faces attacks from the Welsh in the west and the Vikings in the east. Life is hard, and those with power wield it harshly, bending justice according to their will – often in conflict with the king. With his grip on the country fragile and with no clear rule of law, chaos and bloodshed reign.",
+      "price":21.99,
+      "category":13,
+      "rating":8.8,
+      "image_url":"https://image.ebooks.com/previews/210/210103/210103757/210103757-hq-168-80.jpg",
+      "image":"pk129.jpg"
+    }
+  },
+  {
+    "pk":130,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp9512367488",
+      "title":"The Soul Killer",
+      "authors":"Ross Greenwood",
+      "year":2020,
+      "description":"A murder made to look like suicide. Another that appears an accident. DI Barton investigates the tragedies that have shattered a family’s lives, but without obvious leads the case goes nowhere. Then, when the remains of a body are found, everything points to one suspect. Barton and his team move quickly, and once the killer is behind bars, they can all breathe a sigh of relief. But death still lurks in the shadows, and no one's soul is safe. Not even those of the detectives… How do you stop a killer that believes life is a rehearsal for eternity, and their future is worth more than your own…?",
+      "price":7.99,
+      "category":13,
+      "rating":8.3,
+      "image_url":"https://image.ebooks.com/previews/209/209953/209953176/209953176-hq-168-80.jpg",
+      "image":"pk130.jpg"
+    }
+  },
+  {
+    "pk":131,
+    "model":"ebooks.ebook",
+    "fields":{
+      "sku":"pp4891253764",
+      "title":"The Coast-to-Coast Murders - A killer is on the road…",
+      "authors":"James Patterson",
+      "year":2020,
+      "description":"From coastal California to upstate New York, a killer is plotting a devastating path of destruction...Michael and Megan Fitzgerald are siblings who share a troubling past. Both adopted, and now grown - Michael is a long-haul truck driver, Megan a college student majoring in psychology - they trust each other before anyone else. They've had to. When a young woman is found murdered in Michael's LA apartment, he is the chief suspect and quickly arrested. But then there's another killing that is strikingly similar. And another. And not just in LA - as the spree spreads across the country, the FBI become involved in a manhunt for a cold-blooded serial killer. False leads and shocking circumstances that defy logic will leave the LAPD and FBI desperately searching for a way to prevent a string of murders that seem unstoppable.",
+      "price":14.99,
+      "category":13,
+      "rating":9.1,
+      "image_url":"https://image.ebooks.com/previews/209/209917/209917103/209917103-hq-168-80.jpg",
+      "image":"pk131.jpg"
+    }
   }
-  
 ]
