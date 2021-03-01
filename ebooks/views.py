@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Ebook
+from .models import Ebook, Category
 
 # Create your views here.
 
@@ -11,8 +11,16 @@ def all_ebooks(request):
 
     ebooks = Ebook.objects.all()
     query = None
+    categories = None
 
     if request.GET:
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            ebooks = ebooks.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
+
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -26,6 +34,7 @@ def all_ebooks(request):
     context = {
         'ebooks': ebooks,  # pylint: disable=no-member
         'search_term': query,
+        'current_categories': categories,
     }
 
     return render(request, 'ebooks/ebooks.html', context)

@@ -17,17 +17,17 @@
                 By Subjects
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="subjects-link">
-                <a href="" class="dropdown-item">Biography & Autobiography</a>
-                <a href="" class="dropdown-item">Computers</a>
-                <a href="" class="dropdown-item">Crime Fiction</a>
-                <a href="" class="dropdown-item">History</a>
-                <a href="" class="dropdown-item">Medicine</a>
-                <a href="" class="dropdown-item">Music</a>
-                <a href="" class="dropdown-item">Nature</a>
-                <a href="" class="dropdown-item">Pets</a>
-                <a href="" class="dropdown-item">Romance</a>
-                <a href="" class="dropdown-item">Thrillers</a>
-                <a href="" class="dropdown-item">All Subjects</a>
+                <a href="{% url 'ebooks' %}?category=biography" class="dropdown-item">Biography & Autobiography</a>
+                <a href="{% url 'ebooks' %}?category=computers" class="dropdown-item">Computers</a>
+                <a href="{% url 'ebooks' %}?category=crime_fiction" class="dropdown-item">Crime Fiction</a>
+                <a href="{% url 'ebooks' %}?category=history" class="dropdown-item">History</a>
+                <a href="{% url 'ebooks' %}?category=medicine" class="dropdown-item">Medicine</a>
+                <a href="{% url 'ebooks' %}?category=music" class="dropdown-item">Music</a>
+                <a href="{% url 'ebooks' %}?category=nature" class="dropdown-item">Nature</a>
+                <a href="{% url 'ebooks' %}?category=pets" class="dropdown-item">Pets</a>
+                <a href="{% url 'ebooks' %}?category=romance" class="dropdown-item">Romance</a>
+                <a href="{% url 'ebooks' %}?category=thrillers" class="dropdown-item">Thrillers</a>
+                <a href="{% url 'ebooks' %}?category=biography,computers,crime_fiction,history,medicine,music,nature,pets,romance,thrillers" class="dropdown-item">All Subjects</a>
             </div>
         </li>
 
@@ -36,10 +36,10 @@
                 Kids
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kids-link">
-                <a href="" class="dropdown-item">6-8 years</a>
-                <a href="" class="dropdown-item">9-12 years</a>
-                <a href="" class="dropdown-item">13-15 years</a>
-                <a href="" class="dropdown-item">All E-Books for Kids</a>
+                <a href="{% url 'ebooks' %}?category=6-8_years" class="dropdown-item">6-8 years</a>
+                <a href="{% url 'ebooks' %}?category=9-12_years" class="dropdown-item">9-12 years</a>
+                <a href="{% url 'ebooks' %}?category=13-15_years" class="dropdown-item">13-15 years</a>
+                <a href="{% url 'ebooks' %}?category=6-8_years,9-12_years,13-15_years" class="dropdown-item">All E-Books for Kids</a>
             </div>
         </li>
 
