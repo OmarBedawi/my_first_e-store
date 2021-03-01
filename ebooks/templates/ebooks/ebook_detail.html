@@ -13,11 +13,11 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 offset-lg-2">
                 <div class="image-container my-5">
                     {% if ebook.image %}
                         <a href="{{ ebook.image.url }}" target="_blank">
-                            <img class="card-img-top img-fluid" src="{{ ebook.image.url }}" alt="{{ ebook.title }}">
+                            <img class="card-img-top img-fluid book_detail_img" src="{{ ebook.image.url }}" alt="{{ ebook.title }}">
                         </a>
                         {% else %}
                         <a href="">
