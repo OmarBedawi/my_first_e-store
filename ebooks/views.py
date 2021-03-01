@@ -22,7 +22,8 @@ def all_ebooks(request):
             if sortkey == 'title':
                 sortkey = 'lower_title'
                 ebooks = ebooks.annotate(lower_title=Lower('title'))
-
+            if sortkey == 'category':
+                sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
