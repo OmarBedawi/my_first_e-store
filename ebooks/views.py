@@ -12,14 +12,27 @@ def all_ebooks(request):
     ebooks = Ebook.objects.all()
     query = None
     categories = None
+    sort = None
+    direction = None
 
     if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            if sortkey == 'title':
+                sortkey = 'lower_title'
+                ebooks = ebooks.annotate(lower_title=Lower('title'))
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            ebooks = ebooks.order_by(sortkey)
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             ebooks = ebooks.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-
-
 
         if 'q' in request.GET:
             query = request.GET['q']
@@ -30,11 +43,13 @@ def all_ebooks(request):
             queries = Q(title__icontains=query) | Q(description__icontains=query)
             ebooks = ebooks.filter(queries)
 
+    current_sorting = f'{sort}_{direction}'
 
     context = {
         'ebooks': ebooks,  # pylint: disable=no-member
         'search_term': query,
         'current_categories': categories,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'ebooks/ebooks.html', context)

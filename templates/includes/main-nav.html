@@ -5,9 +5,9 @@
                 All&nbsp; E-books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-ebooks-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'ebooks' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'ebooks' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'ebooks' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'ebooks' %}" class="dropdown-item">All E-books</a>
             </div>
         </li>
