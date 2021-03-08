@@ -4,6 +4,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Ebook, Category
+from .forms import EbookForm
 
 # Create your views here.
 
@@ -68,3 +69,14 @@ def ebook_detail(request, ebook_id):
     }
 
     return render(request, 'ebooks/ebook_detail.html', context)
+
+
+def add_ebook(request):
+    """ Add a ebook to the store """
+    form = EbookForm()
+    template = 'ebooks/add_ebook.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
