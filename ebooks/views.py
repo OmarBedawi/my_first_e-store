@@ -73,7 +73,17 @@ def ebook_detail(request, ebook_id):
 
 def add_ebook(request):
     """ Add a ebook to the store """
-    form = EbookForm()
+    if request.method == 'POST':
+        form = EbookForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added e-book!')
+            return redirect(reverse('add_ebook'))
+        else:
+            messages.error(request, 'Failed to add e-book. Please ensure the form is valid.')
+    else:
+        form = EbookForm()
+
     template = 'ebooks/add_ebook.html'
     context = {
         'form': form,
