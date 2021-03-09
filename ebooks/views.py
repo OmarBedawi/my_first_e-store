@@ -72,7 +72,7 @@ def ebook_detail(request, ebook_id):
 
 
 def add_ebook(request):
-    """ Add a ebook to the store """
+    """ Add an e-book to the store """
     if request.method == 'POST':
         form = EbookForm(request.POST, request.FILES)
         if form.is_valid():
@@ -87,6 +87,30 @@ def add_ebook(request):
     template = 'ebooks/add_ebook.html'
     context = {
         'form': form,
+    }
+
+    return render(request, template, context)
+
+
+def edit_ebook(request, ebook_id):
+    """ Edit an e-book in the store """
+    ebook = get_object_or_404(Ebook, pk=ebook_id)
+    if request.method == 'POST':
+        form = EbookForm(request.POST, request.FILES, instance=ebook)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated E-book!')
+            return redirect(reverse('ebook_detail', args=[ebook.id]))
+        else:
+            messages.error(request, 'Failed to update E-book!. Please ensure the form is valid.')
+    else:
+        form = EbookForm(instance=ebook)
+        messages.info(request, f'You are editing {ebook.title}')
+
+    template = 'ebooks/edit_ebook.html'
+    context = {
+        'form': form,
+        'ebook': ebook,
     }
 
     return render(request, template, context)
