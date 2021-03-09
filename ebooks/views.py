@@ -76,9 +76,9 @@ def add_ebook(request):
     if request.method == 'POST':
         form = EbookForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
-            messages.success(request, 'Successfully added e-book!')
-            return redirect(reverse('add_ebook'))
+            ebook = form.save()
+            messages.success(request, 'Successfully added E-Book!')
+            return redirect(reverse('ebook_detail', args=[ebook.id]))
         else:
             messages.error(request, 'Failed to add e-book. Please ensure the form is valid.')
     else:
@@ -114,3 +114,11 @@ def edit_ebook(request, ebook_id):
     }
 
     return render(request, template, context)
+
+
+def delete_ebook(request, ebook_id):
+    """ Delete an e-book from the store """
+    ebook = get_object_or_404(Ebook, pk=ebook_id)
+    ebook.delete()
+    messages.success(request, 'E-Book deleted!')
+    return redirect(reverse('ebooks'))

@@ -70,7 +70,7 @@ def checkout(request):
 
                 except Ebook.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
+                        "One of the E-Books in your bag wasn't found in our database. "
                         "Please call us for assistance!")
                     )
                     order.delete()
