@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -71,8 +72,13 @@ def ebook_detail(request, ebook_id):
     return render(request, 'ebooks/ebook_detail.html', context)
 
 
+@login_required
 def add_ebook(request):
     """ Add an e-book to the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
     if request.method == 'POST':
         form = EbookForm(request.POST, request.FILES)
         if form.is_valid():
@@ -92,8 +98,13 @@ def add_ebook(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_ebook(request, ebook_id):
     """ Edit an e-book in the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
     ebook = get_object_or_404(Ebook, pk=ebook_id)
     if request.method == 'POST':
         form = EbookForm(request.POST, request.FILES, instance=ebook)
@@ -116,8 +127,13 @@ def edit_ebook(request, ebook_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_ebook(request, ebook_id):
     """ Delete an e-book from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+        
     ebook = get_object_or_404(Ebook, pk=ebook_id)
     ebook.delete()
     messages.success(request, 'E-Book deleted!')
