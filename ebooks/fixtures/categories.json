@@ -102,22 +102,5 @@
       "name":"thrillers",
       "friendly_name":"Thrillers"
     }
-  },
-  {
-    "pk":14,
-    "model":"ebooks.category",
-    "fields":{
-      "name":"kindle",
-      "friendly_name":"Kindle"
-    }
-  },
-  
-  {
-    "pk":15,
-    "model":"ebooks.category",
-    "fields":{
-      "name":"kobo",
-      "friendly_name":"Kobo"
-    }
   }
 ]
