@@ -1,0 +1,1 @@
+web: gunicorn my_estore.wsgi:application
