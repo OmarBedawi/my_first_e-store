@@ -1,5 +1,10 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-ebooks-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All&nbsp; E-books
@@ -30,10 +35,9 @@
                 <a href="{% url 'ebooks' %}?category=biography,computers,crime_fiction,history,medicine,music,nature,pets,romance,thrillers" class="dropdown-item">All Subjects</a>
             </div>
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="kids-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Kids
+                Kids Section
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="kids-link">
                 <a href="{% url 'ebooks' %}?category=6-8_years" class="dropdown-item">6-8 years</a>
@@ -42,8 +46,9 @@
                 <a href="{% url 'ebooks' %}?category=6-8_years,9-12_years,13-15_years" class="dropdown-item">All E-Books for Kids</a>
             </div>
         </li>
+        
 
-        <li class="nav-item dropdown">
+    <!--    <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="readers-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 E-Book Readers
             </a>
@@ -53,5 +58,7 @@
                 <a href="" class="dropdown-item">All E-Book Readers</a>
             </div>
         </li>
+-->
+        
     </ul>
 </div>
