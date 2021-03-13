@@ -116,6 +116,8 @@ input[name='q']::placeholder {
     margin-right: 30px;
 }
 
+
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -305,7 +307,6 @@ input[name='q']::placeholder {
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
-
     }
 
     .nav-link {
@@ -322,7 +323,7 @@ input[name='q']::placeholder {
     }
 
     #delivery-banner h4 {
-        font-size: .85rem;
+        font-size: .9rem;
     }
 
     .btn.btn-outline-black.rounded-0,
@@ -341,14 +342,18 @@ input[name='q']::placeholder {
     }
 
     .jumbotron {
-        height: 40%;
+        height: 42%;
         padding: 0;
         padding-top: 20px;
         padding-bottom: 20px;
-        top: -100px;
-        
-        
+        top: -70px;
+        margin-left: 30px;
+        margin-right: auto;    
     }
+
+    .bag-btn{
+        margin-top: 50px;
+}
     
 }
 
