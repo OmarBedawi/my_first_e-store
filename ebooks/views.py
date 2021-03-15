@@ -133,7 +133,7 @@ def delete_ebook(request, ebook_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-        
+
     ebook = get_object_or_404(Ebook, pk=ebook_id)
     ebook.delete()
     messages.success(request, 'E-Book deleted!')

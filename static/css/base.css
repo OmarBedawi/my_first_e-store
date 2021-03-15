@@ -22,7 +22,22 @@ body {
 .jumbotron{
     opacity: .9;
     padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+.jumbotron h1 {
+        text-align: center;
+    }
+
+.shop_now_btn {
+        width: 100%; 
+    }
 
 .logo-font {
     text-transform: uppercase;
@@ -341,29 +356,40 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
 
-    .jumbotron {
-        height: 42%;
-        padding: 0;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        top: -70px;
-        margin-left: 30px;
-        margin-right: auto;    
-    }
 
     .bag-btn{
         margin-top: 50px;
-}
+    }
+
+    .jumbotron {
+        top: -50px;
+    }
     
 }
 
-/* 
+@media (min-width: 320px) and (max-width:475px) {
 
-@media (min-width: 550px) and (max-width:768px) {
-    .sm {
-        color: red;
-        font-weight: bold;
+    .jumbotron {
+        
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        top: -50px;
+                   
     }
+
+    
+
+    .shop_now_btn {
+         width: 100%;
+    }
+}
+
+/*
+@media (min-width: 550px) and (max-width:768px) {
+    
     .book_detail_img{
     height: 700px;
     }
