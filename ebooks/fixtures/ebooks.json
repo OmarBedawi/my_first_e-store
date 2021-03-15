@@ -68,14 +68,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp5047357143",
-      "title":"The Cat in the Hat",
-      "authors":"Dr. Seuss",
+      "title":"A Very Crabby Christmas",
+      "authors":"Tish Rabe, Dave Aikins",
       "year": 2012,
       "description":"A dreary day turns into a wild romp when this beloved story introduces readers to the Cat in the Hat and his troublemaking friends, Thing 1 and Thing 2. A favorite among kids, parents and teachers, this story uses simple words and basic ryhme to encourage and delight beginning readers. Then he said 'That is that'. And then he was gone With a tip of his hat. Originally created by Dr. Seuss himself, Beginner Books are fun, funny, and easy to read. These unjacketed hardcover early readers encourage children to read all on their own, using simple words and illustrations. Smaller than the classic large format Seuss picture books like The Lorax and Oh, The Places You’ll Go!, these portable packages are perfect for practicing readers ages 6-8, and lucky parents too!",
       "price":12.99,
       "category":2,
       "rating":8.4,
-      "image_url":"https://image.ebooks.com/previews/210/210058/210058851/210058851-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/001/001011/001011355/001011355-hq-168-80.jpg",
       "image":"pk005.jpg"
     }
   },
@@ -292,14 +292,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp5601427194",
-      "title":"Spy Camp",
-      "authors":"Stuart Gibbs",
+      "title":"The Cat in the Hat Comes Back",
+      "authors":"Dr. Seuss",
       "year":2013,
-      "description":"In this follow-up to the Edgar-nominated Spy School, top-secret training continues into summer for aspiring spy Ben Ripley—and so does the danger. Ben Ripley is a middle-schooler whose school is not exactly average—he’s spent the last year training to be a top-level spy and dodging all sorts of associated danger. So now that summer’s finally here, Ben would like to have some fun and relax. But that’s not going to happen during required spy survival training at a rustic wilderness camp, where SPYDER, an enemy spy organization, has infiltrated the spies’ ranks. Can Ben root out the enemy before it takes him out—for good?",
+      "description":"The Cat is back—along with some surpise friends—in this beloved Beginner Book by Dr. Seuss. Dick and Sally have no time to play. It's winter and they have mountains of snow to shovel. So when the Cat comes to visit, he decides to go inside and to take a bath. No problem, right? Wrong! The pink ring he leaves in the tub creates is a very BIG pink problem when he transfers the stubborn stain from the bath onto Mother's white dress, Dad's shoes, the floors, the walls, and ultimately, over the entire yard full of snow! Will the kids EVER clean up the mess? You bet they will, with some help from the Cat and his helpers: 26 miniature cats (AKA Little Cats A-Z) who live inside the Cat's hat! This classic Dr. Seuss story is the perfect choice for beginning readers and read-alouds, especially on snow days! And with a peel-off 60th Anniversary sticker on the front cover, it makes a perfect gift for all ages.",
       "price":12.99,
       "category":3,
       "rating":7.7,
-      "image_url":"https://image.ebooks.com/previews/000/000932/000932782/000932782-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/210/210058/210058997/210058997-hq-168-80.jpg",
       "image":"pk019.jpg"
     }
   },
@@ -340,14 +340,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp7901857428",
-      "title":"Sadia",
-      "authors":"Colleen Nelson",
-      "year":2018,
-      "description":"Sadia wishes life in high school was as straightforward as a game of basketball. Fifteen-year-old Sadia Ahmadi is passionate about one thing: basketball. Her best friend Mariam, on the other hand, wants to get noticed by the popular crowd and has started de-jabbing, removing her hijab, at school every morning. Sadia’s mom had warned her that navigating high school could be tricky. As much as she hates to admit it, her mom was right. When tryouts for an elite basketball team are announced, Sadia jumps at the opportunity. Her talent speaks for itself. Her head scarf, on the other hand, is a problem; especially when a discriminatory rule means she has to choose between removing her hijab and not playing. Mariam, Sadia’s parents, and her teammates all have different opinions about what she should do. But it is Sadia who has to find the courage to stand up for herself and fight for what is right — on and off the court.",
+      "title":"The Queen's Gambit",
+      "authors":"Walter Tevis",
+      "year":2016,
+      "description":"When she is sent to an orphanage at the age of eight, Beth Harmon soon discovers two ways to escape her surroundings, albeit fleetingly: playing chess and taking the little green pills given to her and the other children to keep them subdued. Before long, it becomes apparent that hers is a prodigious talent, and as she progresses to the top of the US chess rankings she is able to forge a new life for herself. But she can never quite overcome her urge to self-destruct. For Beth, there's more at stake than merely winning and losing.",
       "price":15.99,
       "category":1,
       "rating":8.3,
-      "image_url":"https://image.ebooks.com/previews/095/095766/095766544/095766544-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/002/002125/002125515/002125515-hq-168-80.jpg",
       "image":"pk022.jpg"
     }
   },
@@ -420,14 +420,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp1138874354",
-      "title":"Fallen",
-      "authors":"Lauren Kate",
-      "year":2010,
-      "description":"The moment Luce looks at Daniel she knows she has never felt like this before. Except she can't shake the feeling that she has . . . and with him - a boy she doesn't remember ever setting eyes on. Will her attempt to find out why enlighten her - or destroy her? Dangerously exciting and darkly romantic. Fallen is a thrilling story about forbidden love.",
+      "title":"The Crossover (Graphic Novel)",
+      "authors":"Kwame Alexander, Dawud Anyabwile",
+      "year":2019,
+      "description":"The Crossover is now a graphic novel! “With a bolt of lightning on my kicks . . . The court is SIZZLING. My sweat is DRIZZLING. Stop all that quivering. ’Cuz tonight I’m delivering,” raps twelve-year-old Josh Bell. Thanks to their dad, he and his twin brother, Jordan, are kings on the court. But Josh has more than basketball in his blood—he’s got mad beats, too, which help him find his rhythm when it’s all on the line. See the Bell family in a whole new light through Dawud Anyabwile’s dynamic illustrations as the brothers’ winning season unfolds, and the world as they know it begins to change.",
       "price":11.99,
       "category":1,
       "rating":7.3,
-      "image_url":"https://image.ebooks.com/previews/000/000613/000613746/000613746-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/209/209554/209554956/209554956-hq-168-80.jpg",
       "image":"pk027.jpg"
     }
   },
@@ -564,14 +564,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp5973312851",
-      "title":"Becoming",
-      "authors":"Michelle Obama",
-      "year":2018,
-      "description":"In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America - the first African-American to serve in that role - she helped create the most welcoming and inclusive White House in history, while also establishing herself as a powerful advocate for women and girls in the U.S. and around the world. She dramatically changed the ways that families pursue healthier and more active lives, and stood with her husband as he led America through some of its most harrowing moments. Along the way, she showed us a few dance moves, crushed Carpool Karaoke, and raised two down-to-earth daughters under an unforgiving media glare. In her memoir, a work of deep reflection and mesmerizing storytelling, Michelle Obama invites readers into her world, chronicling the experiences that have shaped her - from her childhood on the South Side of Chicago to her years as an executive balancing the demands of motherhood and work, to her time spent at the world's most famous address. With unerring honesty and lively wit, she describes her triumphs and her disappointments, both public and private, telling her full story as she has lived it - in her own words and on her own terms.",
+      "title":"It Takes Blood and Guts",
+      "authors":"Skin, Lucy O'Brien",
+      "year":2020,
+      "description":"'It’s been a very difficult thing being a lead singer of a rock band looking like me and it still is. I have to say it’s been a fight and it will always be a fight. That fight drives you and makes you want to work harder… It’s not supposed to be easy, particularly if you’re a woman, you’re black or you are gay like me. You’ve got to keep moving forward, keep striving for everything you want to be.’ Born to Jamaican parents, Skin grew up in Brixton in the 1970’s. Her career as an artist began in the ‘90s, when Skunk Anansie was formed in the sweat-drenched backrooms of London’s pubs. Since then she has headlined Glastonbury and toured the world, both as lead singer of Skunk Anansie and as a solo artist. Her success has been groundbreaking in every way, which has come at a personal cost. She has always been vocal about social and cultural issues, and was championing LGBTQ+ rights at a time when few artists were out and gay. Told with honesty and passion, this is the story of how a gay, black, working-class girl with a vision fought poverty and prejudice to write songs, produce and front her own band, and become one of the most influential women in British rock.",
       "price":17.99,
       "category":4,
       "rating":8.1,
-      "image_url":"https://image.ebooks.com/previews/095/095960/095960354/095960354-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/209/209939/209939433/209939433-hq-168-80.jpg",
       "image":"pk036.jpg"
     }
   },
@@ -644,14 +644,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp3274198243",
-      "title":"Learning Scientific Programming with Python (2nd ed.)",
-      "authors":"Christian Hill",
+      "title":"Building Machine Learning Pipelines",
+      "authors":"Hannes Hapke, Catherine Nelson",
       "year":2020,
-      "description":"Learn to master basic programming tasks from scratch with real-life, scientifically relevant examples and solutions drawn from both science and engineering. Students and researchers at all levels are increasingly turning to the powerful Python programming language as an alternative to commercial packages and this fast-paced introduction moves from the basics to advanced concepts in one complete volume, enabling readers to gain proficiency quickly. Beginning with general programming concepts such as loops and functions within the core Python 3 language, and moving on to the NumPy, SciPy and Matplotlib libraries for numerical programming and data visualization, this textbook also discusses the use of Jupyter Notebooks to build rich-media, shareable documents for scientific analysis. The second edition features a new chapter on data analysis with the pandas library and comprehensive updates, and new exercises and examples. A final chapter introduces more advanced topics such as floating-point precision and algorithm stability, and extensive online resources support further study. This textbook represents a targeted package for students requiring a solid foundation in Python programming.",
+      "description":"Companies are spending billions on machine learning projects, but it’s money wasted if the models can’t be deployed effectively. In this practical guide, Hannes Hapke and Catherine Nelson walk you through the steps of automating a machine learning pipeline using the TensorFlow ecosystem. You’ll learn the techniques and tools that will cut deployment time from days to minutes, so that you can focus on developing new models rather than maintaining legacy systems. Data scientists, machine learning engineers, and DevOps engineers will discover how to go beyond model development to successfully productize their data science projects, while managers will better understand the role they play in helping to accelerate these projects. Understand the steps to build a machine learning pipeline Build your pipeline using components from TensorFlow Extended Orchestrate your machine learning pipeline with Apache Beam, Apache Airflow, and Kubeflow Pipelines Work with data using TensorFlow Data Validation and TensorFlow Transform Analyze a model in detail using TensorFlow Model Analysis Examine fairness and bias in your model performance Deploy models with TensorFlow Serving or TensorFlow Lite for mobile devices Learn privacy-preserving machine learning techniques",
       "price":44.99,
       "category":5,
       "rating":7.7,
-      "image_url":"https://image.ebooks.com/previews/210/210105/210105079/210105079-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/210/210083/210083962/210083962-hq-168-80.jpg",
       "image":"pk041.jpg"
     }
   },
@@ -724,14 +724,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp3511847266",
-      "title":"JavaScript: The Definitive Guide (7th ed.)",
-      "authors":"David Flanagan",
-      "year":2020,
-      "description":"For web developers and other programmers interested in using JavaScript, this bestselling book provides the most comprehensive JavaScript material on the market. The seventh edition represents a significant update, with new information for ECMAScript 2020, and new chapters on language-specific features. JavaScript: The Definitive Guide is ideal for experienced programmers who want to learn the programming language of the web, and for current JavaScript programmers who want to master it.",
+      "title":"Heroku: Up and Running",
+      "authors":"Neil Middleton, Richard Schneeman",
+      "year":2013,
+      "description":"Take full advantage of Heroku’s cloud-based hosting services. This guide takes you through the inner workings of this PaaS platform and delivers practical advice for architecting your application to work as efficiently as possible. You’ll learn best practices for improving speed and throughput, solving latency issues, locating and fixing problems if your application goes down, and ensuring your deployments go smoothly. By covering everything from basic concepts and primary components to add-on services and advanced topics such as buildpacks, this book helps you effectively deploy and manage your application with Heroku. Learn your way around Heroku with the command line interface Discover several methods for scaling your application to increase throughput Speed up response time through performance optimizations Solve latency issues by deploying your Heroku instance in new regions Choose the right plan for using Heroku’s PostgreSQL database-as-a-service Get a checklist of items to consider when deploying your application Find and fix problems during deployment, at runtime, and when your application goes down Understand how Heroku buildpacks work, and learn how customize your own",
       "price":50.99,
       "category":5,
       "rating":7.6,
-      "image_url":"https://image.ebooks.com/previews/210/210022/210022717/210022717-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/001/001550/001550577/001550577-hq-168-80.jpg",
       "image":"pk046.jpg"
     }
   },
@@ -1060,14 +1060,14 @@
     "model":"ebooks.ebook",
     "fields":{
       "sku":"pp4521738962",
-      "title":"The Power of Deserts - Climate Change, the Middle East, and the Promise of a Post-Oil Era",
-      "authors":"Dan Rabinowitz",
-      "year":2020,
-      "description":"Hotter and dryer than most parts of the world, the Middle East could soon see climate change exacerbate food and water shortages, aggravate social inequalities, and drive displacement and political destabilization. And as renewable energy eclipses fossil fuels, oil rich countries in the Middle East will see their wealth diminish. Amidst these imminent risks is a call to action for regional leaders. Could countries such as Saudi Arabia, Kuwait, and the United Arab Emirates harness the region's immense potential for solar energy and emerge as vanguards of global climate action? The Power of Deserts surveys regional climate models and identifies the potential impact on socioeconomic disparities, population movement, and political instability. Offering more than warning and fear, however, the book highlights a potentially brighter future—a recent shift across the Middle East toward renewable energy. With his deep knowledge of the region and knack for presenting scientific data with clarity, Dan Rabinowitz makes a sober yet surprisingly optimistic investigation of opportunity arising from a looming crisis.",
-      "price":12.99,
+      "title":"The Archaeology of Western Sahara",
+      "authors":"Jo Clarke, Nick Brooks",
+      "year":2018,
+      "description":"Contrary to much perceived wisdom, the Sahara is a rich and varied tapestry of diverse environments that sustain an array of ecosystems. Throughout its history, the Sahara has been a stage for human evolution, with human habitation, movement and lifeways shaped by a dynamic environment of successive phases of relative humidity and aridity driven by wider global climatic changes. The nature of human utilization of the landscape has undergone many changes, from the ephemeral and ill-defined lithic scatters of the Early Holocene to the dense and complex funerary landscapes of Late Holocene Pastoral period. Generally speaking, the living have left very little trace of their existence while funerary monuments endure, stamping the landscape with a cultural timelessness that marks certain regions of the desert as “special”. During the last ten years, the Western Sahara Project has undertaken large scale archaeological and environmental research that has begun to address the gaps in our knowledge of the archaeology and palaeoenvironments of Western Sahara, and to develop narratives of prehistoric cultural adaptation and change from the end of the Pleistocene to the Late Holocene and place it within its wider Saharan context. A detailed discussion of past environmental change and a presentation of results from the environmental component of the extensive survey work are provided. A typology of built stone features – monuments and funerary architecture is presented together with the results of the archaeological component of the extensive survey work, focusing on stone features, but also including discussion of ceramics and rock art and the analysis of lithic assemblages. Chapters focusing on intensive survey work in key study areas consider the landscape contexts of monuments and the results of excavation of burial cairns and artifact scatters.",
+      "price":35.99,
       "category":7,
       "rating":7.8,
-      "image_url":"https://image.ebooks.com/previews/210/210106/210106784/210106784-hq-168-80.jpg",
+      "image_url":"https://image.ebooks.com/previews/096/096325/096325598/096325598-hq-168-80.jpg",
       "image":"pk067.jpg"
     }
   },
