@@ -6,7 +6,7 @@
 * User Credentials:  
   - Username: create your username  
   - Password: create your password  
-  - Email: use your own e-mail to receive the confirmation link to activate your account OR create a temporary e-mail on ![temp-mail](https://temp-mail.org/it/)
+  - Email: use your own e-mail to receive the confirmation link to activate your account OR create a temporary e-mail on [temp-mail](https://temp-mail.org/it/)
 
 * Card payments:
   - Card number: 4242 4242 4242 4242
@@ -29,20 +29,67 @@ This app is to be a one stop shop where users can create accounts and purchase e
 ---
 ## User Experience (UX)
 ### User Stories
-#### Users:
+#### Shopper:
 | As a... | I would like... | So I can ... |
 | :------ | :-------------- | :----------- |
-| User    | Simple navigation to the whole site | Find exactly what I want without searching through links |
-| User    | To easily see my basket | Checkout quickly |
-| User    | Consistent styling across the site | Navigate across the site without having to think too hard about what elements do |
-| User    | A profile page |	Quickly see my orders and checkout details |
-| Returning User | To be able to save my default settings | Easily use them to book new events |
-| New User | To be able to create an account | Save my details and view my orders |
+
+##### VIEWING AND NAVIGATION
+| Shopper | View a list of products | Select some to purchase |
+| Shopper | View individual product details | Identify price, authors, description, year, product rating and product image|
+| Shopper | Easy view of the total of my purchase at any time | Avoid spending too much |
+
+##### SORTING AND SEARCHING
+| Shopper | Sort the list of available products | Easily identify the best rated, best price and categorically sorted products |
+| Shopper | Sort a specific category of product | Find the best-rated or best-priced product in a specific category, or sort the products in that category by name |
+| Shopper | Sort multiple categories of produts simultaneously | Find the best-priced or best-rated products across broad categories, such as "Nature" of "Medicine" |
+| Shopper | Search for a product by title or description | Find a specific product I'd like to purchase |
+| Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
+
+##### PURCHASING AND CHECKOUT
+| Shopper | Easily select the quantity of a product when purchasing it | Ensure I don't accidentaly select the wrong product or quantity |
+| Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
+| Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
+| Shopper | Easily enter my payment information | Checkout quickly and with no hassles |
+| Shopper | Feel my personal and payment informations is safe and secure | Confidently provide the needed information to make a purchase |
+| Shopper | View an order confirmation after checkout | Verify that I haven't made any mistakes |
+| Shopper | Receive an email confirmation after checking out | Keep the confirmation of what I've purchased for my records |
+
+#### Site User:
+| As a... | I would like... | So I can ... |
+| :------ | :-------------- | :----------- |
+
+##### REGISTRATION AND USER ACCOUNTS
+| Site User | Easily register for an account | Have a personal account and be able to view profile |
+| Site User | Easily login or logout | Access my personal account information |
+| Site User | Easily recover my password in case I forget it | Recover access to my account |
+| Site User | Receive an email confirmation after registering | Verify that my account registration was successful |
+| Site User | Have a personalized user profile | View my personal order history and order confirmations, and save my payment information |
+
+#### Store Owner:
+| As a... | I would like... | So I can ... |
+| :------ | :-------------- | :----------- |
+
+##### ADMIN AND STORE MANAGEMENT
+| Store Owner | Add a product | Add new items to my store |
+| Store Owner | Edit/update a product | Change product prices, descriptions, images and other product criteria |
+| Store Owner | Delete a product | Remove items that are no longer for sale |
+
+
+
+
+
+
+
+| Shopper | Consistent styling across the site | Navigate across the site without having to think too hard about what elements do |
+| Shopper | A profile page |	Quickly see my orders and checkout details |
+| Shopper | To be able to save my default settings | Easily use them to book new events |
+| Shopper | To be able to create an account | Save my details and view my orders |
+| Shopper | To easily see my basket | Checkout quickly |
 | Returning User | To be able to reset my password | Update my password if I forget it |
 | User    | A contact page where I can find email and phone details of the castle | Get in contact if I have a question about an event |
 | User    | Details on the location of the Castle | Find the castle and attend events |
 | User    | Booking events to be simple | Avoid filling out too many inputs |
-| User    | Confirmation of my bookings | Know that my purchase has worked |
+| User    | Confirmation of my bookings | Know that my purchase has worked | 
 | User    | A date picker for event bookings | Easily visualize what date I'm picking and avoid filling in an input |
 | User with a profile | A list of my upcoming and past events | Know what events I have booked |
 
