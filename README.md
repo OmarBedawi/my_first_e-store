@@ -99,66 +99,70 @@ The information in each model would also be related to another model in almost a
 handle the data and prevent creating a large database with many repeated values.
 
 #### Models 
-##### User
-This inbuilt model is used by Django. Here there was no changes made as it would suit the rest of the models nicely.
 
-##### UserAccount
-This model builds on the user model provided by Django so that a user could save which orders and
-bookings they have made. In the future, if a subscription service was created it would also tack on
-nicely to this model.
+
+##### UserProfile
+This model builds on the user model provided by Django. This model maintain default
+delivery information and order history
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
-| user | OneToOneField | (related field) User, on_delete=models.CASCADE, related_name='useraccount' |
-| first_name | CharField | max_length=100, null=True, blank=True |
-| last_name | CharField | max_length=200, null=True, blank=True |
-| email | EmailField | max_length=200, null=True, blank=True |
-| phone_number | CharField | max_length=20, null=True, blank=True |
+| user | OneToOneField | User, on_delete=models.CASCADE |
+| default_phone_number | CharField | max_length=20, null=True, blank=True |
+| default_street_address1 | CharField | max_length=80, null=True, blank=True |
+| default_street_address2 | CharField | max_length=80, null=True, blank=True |
+| default_town_or_city | CharField | max_length=40, null=True, blank=True |
+| default_county | CharField | max_length=80, null=True, blank=True |
+| default_postcode | CharField | max_length=20, null=True, blank=True |
+| default_country | CountryField | blank_label='Country', null=True, blank=True |
 
-##### Event 
-This model stores the key information used by our date picker to validate
-ticket numbers and dates which are full when a user tries to book an event.
-Other than having these key details, this model also stores information the user may
-want to know about an event before they book it.
-In future, if events start taking place on selective days of the week, this would
-slot in nicely to this model.
+
+##### Ebooks 
+This model stores and display to the user, the key information of every book and a picture of its cover.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | category | ForeignKey | (related field) Category, null=True, blank=True, on_delete=models.SET_NULL |
-| name | CharField | max_length=254 |
+| sku | CharField | max_length=254, null=True, blank=True |
+| title | CharField | max_length=254 |
+| authors | CharField | max_length=254, default='' |
+| year | CharField | max_length=254, default='' |
 | description | TextField |  |
-| price | DecimalField | max_digits=8, decimal_places=2, blank=False |
-| start_time | TimeField |  |
-| rating | DecimalField | max_digits=2, decimal_places=1, null=True, blank=True |
-| day_ticket_limit | PositiveIntegerField | blank=False, validators=[MaxValueValidator(200)] |
-| supervision | BooleanField | default=True, null=True, blank=True |
-| age_restricted | BooleanField | default=True, null=True, blank=False |
+| price | DecimalField | max_digits=6, decimal_places=2 |
+| rating | DecimalField | max_digits=6, decimal_places=1, null=True, blank=True |
+| image_url | URLField | max_length=1024, null=True, blank=True |
 | image | ImageField | null=True, blank=True |
 
 ##### Category
-This is a simple model used to store the different types of categories each event can fall into.
-New categories can be easily added if the castle decides to start hosting new types of events, along
-with allowing current events to easily change their category.
+This is a simple model used to store the different types of categories each book can belong to.
+New categories can be easily added if the store decides to start selling new types of books.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
-| name | CharField | max_length=50, null=False, blank=False |
-| friendly_name | CharField | max_length=100, null=True, blank=True |
+| name | CharField | max_length=254 |
+| friendly_name | CharField | max_length=254, null=True, blank=True |
 
 ##### Order
 This is a simple model used to store orders which contain EventBookings.  
-It's relation to EventBookings and UserAccounts allows users to see their upcoming
-and past bookings on their profile page. It also has a stripe_id field for validation, preventing orders from being created
+It's relation to OrderLineItem and UserProfile allows users to see their upcoming
+and past orders on their profile page. It also has a stripe_pid field for validation, preventing orders from being created
 twice by mistake.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
-| user_account | ForeignKey | UserAccount, null=True, blank=True, on_delete=models.SET_NULL, related_name='orders' |
-| order_number | CharField | max_length=32, null=False, editable=False |
-| first_name | CharField | max_length=100, null=False, blank=False |
-| last_name | CharField | max_length=200, null=False, blank=False |
-| email | EmailField | max_length=200, null=False, blank=False |
-| phone_number | CharField | max_length=20, null=True, blank=True |
-| date | DateTimeField | auto_now_add=True |
-| stripe_id | CharField | max_length=27, null=False, blank=False |
-| total | DecimalField | max_digits=7, decimal_places=2, null=True, blank=False, default=0 |
+| order_number | CharField | UserAccount, null=True, blank=True, on_delete=models.SET_NULL, related_name='orders' |
+| user_profile | ForeignKey | max_length=32, null=False, editable=False |
+| full_name | CharField | max_length=100, null=False, blank=False |
+| email  | EmailField | max_length=200, null=False, blank=False |
+| phone_number | CharField | max_length=200, null=False, blank=False |
+| country  | CountryField | max_length=20, null=True, blank=True |
+| postcode | CharField | auto_now_add=True |
+| town_or_city  | CharField | max_length=27, null=False, blank=False |
+| street_address1 | CharField | max_length=27, null=False, blank=False |
+| street_address2 | CharField | max_length=27, null=False, blank=False |
+| county | CharField | max_length=27, null=False, blank=False |
+| date | DateTimeField | max_length=27, null=False, blank=False |
+| order_total  | DecimalField | max_length=27, null=False, blank=False |
+| grand_total  | DecimalField | max_length=27, null=False, blank=False |
+| original_bag | TextField | max_length=27, null=False, blank=False |
+| stripe_pid  | CharField | max_length=27, null=False, blank=False |
+
 
 ##### EventBooking
 This model is used to store each event booked by a user, along with the date and amount of tickets.  
