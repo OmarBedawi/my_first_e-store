@@ -30,15 +30,17 @@ This app is to be a one stop shop where users can create accounts and purchase e
 ## User Experience (UX)
 ### User Stories
 #### Shopper:
-| As a... | I would like... | So I can ... |
-| :------ | :-------------- | :----------- |
 
 ##### VIEWING AND NAVIGATION
+| As a... | I would like... | So I can ... |
+| :------ | :-------------- | :----------- |
 | Shopper | View a list of products | Select some to purchase |
 | Shopper | View individual product details | Identify price, authors, description, year, product rating and product image|
 | Shopper | Easy view of the total of my purchase at any time | Avoid spending too much |
 
 ##### SORTING AND SEARCHING
+| As a... | I would like... | So I can ... |
+| :------ | :-------------- | :----------- |
 | Shopper | Sort the list of available products | Easily identify the best rated, best price and categorically sorted products |
 | Shopper | Sort a specific category of product | Find the best-rated or best-priced product in a specific category, or sort the products in that category by name |
 | Shopper | Sort multiple categories of produts simultaneously | Find the best-priced or best-rated products across broad categories, such as "Nature" of "Medicine" |
@@ -46,6 +48,8 @@ This app is to be a one stop shop where users can create accounts and purchase e
 | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
 
 ##### PURCHASING AND CHECKOUT
+| As a... | I would like... | So I can ... |
+| :------ | :-------------- | :----------- |
 | Shopper | Easily select the quantity of a product when purchasing it | Ensure I don't accidentaly select the wrong product or quantity |
 | Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
 | Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
@@ -55,10 +59,9 @@ This app is to be a one stop shop where users can create accounts and purchase e
 | Shopper | Receive an email confirmation after checking out | Keep the confirmation of what I've purchased for my records |
 
 #### Site User:
-| As a... | I would like... | So I can ... |
-| :------ | :-------------- | :----------- |
-
 ##### REGISTRATION AND USER ACCOUNTS
+| As a...   | I would like... | So I can ... |
+| :------   | :-------------- | :----------- |
 | Site User | Easily register for an account | Have a personal account and be able to view profile |
 | Site User | Easily login or logout | Access my personal account information |
 | Site User | Easily recover my password in case I forget it | Recover access to my account |
@@ -66,51 +69,18 @@ This app is to be a one stop shop where users can create accounts and purchase e
 | Site User | Have a personalized user profile | View my personal order history and order confirmations, and save my payment information |
 
 #### Store Owner:
+##### ADMIN AND STORE MANAGEMENT
 | As a... | I would like... | So I can ... |
 | :------ | :-------------- | :----------- |
-
-##### ADMIN AND STORE MANAGEMENT
 | Store Owner | Add a product | Add new items to my store |
 | Store Owner | Edit/update a product | Change product prices, descriptions, images and other product criteria |
 | Store Owner | Delete a product | Remove items that are no longer for sale |
 
 
+# OMAR
 
 
 
-
-
-| Shopper | Consistent styling across the site | Navigate across the site without having to think too hard about what elements do |
-| Shopper | A profile page |	Quickly see my orders and checkout details |
-| Shopper | To be able to save my default settings | Easily use them to book new events |
-| Shopper | To be able to create an account | Save my details and view my orders |
-| Shopper | To easily see my basket | Checkout quickly |
-| Returning User | To be able to reset my password | Update my password if I forget it |
-| User    | A contact page where I can find email and phone details of the castle | Get in contact if I have a question about an event |
-| User    | Details on the location of the Castle | Find the castle and attend events |
-| User    | Booking events to be simple | Avoid filling out too many inputs |
-| User    | Confirmation of my bookings | Know that my purchase has worked | 
-| User    | A date picker for event bookings | Easily visualize what date I'm picking and avoid filling in an input |
-| User with a profile | A list of my upcoming and past events | Know what events I have booked |
-
-#### Owners:
-| As a... | I would like... | So I can ... |
-| :------ | :---------------| :----------- |
-| Owner	| Simple navigation to the event pages | Encourage users to buy tickets to events |
-| Owner	| Lots of links back to event pages | To get users to buy more tickets |
-| Owner	| Links between an event's details page and booking page | Make it easy for users to book events and reduce time spent thinking about this decision |
-| Owner	| Professional and clean styling | Keep the site attractive to users without diminishing the castle's brand |
-| Owner	| Login validation | To prevent users from creating multiple accounts with the same email |
-| Owner	| Email verification on accounts | To prevent malicious users from easily creating multiple accounts |
-| Owner	| An FAQ page | Prevent too many incoming calls and emails |
-| Owner	| Details on visiting the castle | Make sure users know how to get to the castle |	
-| Owner	| Bookings to be kept in a basket  | Make sure users only have to pay once, encouraging them to purchase more |
-| Owner	| Order Confirmation to work even if a user navigates away from the checkout page | Know users haven't purchased tickets without the models updating |
-| Owner	| Dates where events are fully booked to be unpickable | Know that users haven't purchased tickets to events which won't be able to cater for them |
-| Owner	| Validation on the date picking input | Make sure users don't create bookings using dates which aren't correct |
-| Owner	| Validation on the ticket input | Stop users booking too many tickets for events which are nearly full |
-| Owner/User | Responsive design | Easily use the site across multiple devices |
-| Owner/User | Message styling to be intuitive (red for alerts, green for success) | Quickly understand what the message is trying to convey |	
 
 ### Information Architecture
 #### Overview
