@@ -1,13 +1,15 @@
+/*
 html {
     height: 100%;
-}
+}*/
 
 body {
     background: url('/media/background_homepage.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
+    background-size: cover;/*
+    height: calc(100vh - 164px);*/
     color: #555;
     font-family: 'Lato';
+    padding-bottom: 75px;
 }
 
 /* from Bulma */
@@ -28,7 +30,7 @@ body {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    
+    top: 50px;
 }
 
 .jumbotron h1 {
@@ -49,8 +51,8 @@ body {
 
 .shop-now-button {
     background: black;
-    color: white;/*
-    min-width: 260px;*/
+    color: white;
+    
 }
 
 .btn-black {
@@ -120,6 +122,10 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+.btn-up {
+    margin-bottom: 80px;
 }
 
 input[name='q']::placeholder {
@@ -201,6 +207,34 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/*--------------------------------------------------------------------footer*/
+
+footer {
+    background-color: #fff;
+    border-top: #000 3px solid;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+}
+
+.socialnet {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.socialnet li {
+    display: inline;
+}
+
+.fixed-bottom i {
+    font-size: 150%;
+    margin: 0;
+    color: #000;
+}
+
+.fixed-bottom a i :hover {
+    color: rgb(61, 136, 233);
+}
 
 /* -------------------------------- Media Queries */
 
@@ -315,10 +349,10 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 116px;
     }
-
+/*
     body {
         height: calc(100vh - 116px);
-    }
+    }*/
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
@@ -362,7 +396,7 @@ input[name='q']::placeholder {
     }
 
     .jumbotron {
-        top: -50px;
+        top: 50px;
     }
     
 }
@@ -376,7 +410,7 @@ input[name='q']::placeholder {
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
-        top: -50px;
+        top: 50px;
                    
     }
 
@@ -384,6 +418,12 @@ input[name='q']::placeholder {
 
     .shop_now_btn {
          width: 100%;
+    }
+
+    .fixed-bottom p,
+    .fixed-bottom div {
+        font-size: 90%;
+        
     }
 }
 
