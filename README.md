@@ -77,33 +77,29 @@ This app is to be a one stop shop where users can create accounts and purchase e
 | Store Owner | Delete a product | Remove items that are no longer for sale |
 
 
-# OMAR
-
-
 
 
 ### Information Architecture
 #### Overview
-For Elwood Castle a relational database using SQL was the best choice to store the information.
-The reasoning behind this choice is because users can't directly add items to the database which
-would have wildly unknown values. All orders would follow a similar structure which is where the
-users have most control over what is inputted. Unlink a movie database, where each field may store
-very different values, here all entries would have a very similar structure with values which don't vary
-in data type (i.e. strings or integers) so a relational database made sense. The models built in the Django
-framework provide great validation to prevent incorrect values being added, so it's extremely unlikely
-that Elwood Castle would need a database structure like MongoDB where unknown values are expected to
-be inputted frequently.
+E-Book Store works with a relational database using SQL.
+The reason behind this choice is because users can't directly add items to the database which
+would have wildly unknown values. All orders would follow the same structure which is where the
+users have most control over what is inputted. 
+The models built in the Django framework provide great validation to prevent incorrect values being added, 
+so it's extremely unlikely that E-Book Store would need a database structure like MongoDB where unknown values 
+are expected to be inputted frequently.
 
-The information in each model would also be related to another model in almost all cases. All *orders* have
-*bookings* which have *events* etc. Having such interlinked models required a relational database to easily
+The information in each model would also be related to another model in many cases. 
+Having such interlinked models required a relational database to easily
 handle the data and prevent creating a large database with many repeated values.
+
 
 #### Models 
 
-
 ##### UserProfile
-This model builds on the user model provided by Django. This model maintain default
-delivery information and order history
+This model builds on the user model provided by Django. 
+
+This model maintain default delivery information and order history
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | user | OneToOneField | User, on_delete=models.CASCADE |
@@ -117,7 +113,7 @@ delivery information and order history
 
 
 ##### Ebooks 
-This model stores and display to the user, the key information of every book and a picture of its cover.
+This model stores and display to the user, the informations of every book and a picture of its cover.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | category | ForeignKey | (related field) Category, null=True, blank=True, on_delete=models.SET_NULL |
@@ -140,10 +136,11 @@ New categories can be easily added if the store decides to start selling new typ
 | friendly_name | CharField | max_length=254, null=True, blank=True |
 
 ##### Order
-This is a simple model used to store orders which contain EventBookings.  
+This is a simple model used to create and store orders.
+This model is capable to generate an order number every time a user complete an order. 
 It's relation to OrderLineItem and UserProfile allows users to see their upcoming
-and past orders on their profile page. It also has a stripe_pid field for validation, preventing orders from being created
-twice by mistake.
+and past orders on their profile page. It also has a stripe_pid field for validation, 
+preventing orders from being created twice by mistake.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | order_number | CharField | UserAccount, null=True, blank=True, on_delete=models.SET_NULL, related_name='orders' |
@@ -164,19 +161,23 @@ twice by mistake.
 | stripe_pid  | CharField | max_length=27, null=False, blank=False |
 
 
-##### EventBooking
-This model is used to store each event booked by a user, along with the date and amount of tickets.  
-The EventBooking's relation to the Order model is used to show upcoming and past events on the user's
-profile page. The ticket and date fields are also used by the ticket and date validators
-when a user tries to book a new event.
+##### OrderLineItem
+This model is used to display the informations contained in an order placed by a user.
+The OrderLineItem's relation to the Order model is used to show upcoming and past orders on the user's profile page.
+ 
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
-| confirmation_number | CharField | max_length=32, null=False, editable=False |
-| order | ForeignKey | (related model) Order, null=False, blank=False, on_delete=models.CASCADE, related_name='bookings' |
-| event | ForeignKey | (related model) Event, null=False, blank=False, on_delete=models.CASCADE, |
-| date | DateField | auto_now=False, auto_now_add=False, null=False, blank=False |
-| ticket_quantity | IntegerField |  |
-| booking_total | DecimalField | max_digits=7, decimal_places=2, null=False, blank=False, editable=False, default=0 |
+| order | ForeignKey | (related model) Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' |
+| ebook | ForeignKey | (related model) Ebook, null=False, blank=False, on_delete=models.CASCADE |
+| quantity | IntegerField | null=False, blank=False, default=0 |
+| lineitem_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
+
+
+
+# OMAR
+
+
+
 
 ### Wireframes
 All wireframes can be found [Here](https://github.com/SDGreen/elwood-castle/tree/master/wireframes)  
