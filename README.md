@@ -92,7 +92,7 @@ are expected to be inputted frequently.
 The information in each model would also be related to another model in many cases. 
 Having such interlinked models required a relational database to easily
 handle the data and prevent creating a large database with many repeated values.
-
+---
 
 #### Models 
 
@@ -172,7 +172,7 @@ The OrderLineItem's relation to the Order model is used to show upcoming and pas
 | quantity | IntegerField | null=False, blank=False, default=0 |
 | lineitem_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
 
-
+---
 
 # OMAR
 
@@ -201,81 +201,57 @@ For individual files, please click the relevant name:
 
   Please note that these wireframes may not match the finished product. Some elements
   may be moved or changed based on feedback or styling issues discovered during development.
+  
+# OMAR  
 
 ### Design Choices
 #### Overview
-For the Elwood Castle website, the design is informed by other castle websites. Looking
-at [Leeds Castle](https://www.leeds-castle.com/), [Hever Castle](https://www.hevercastle.co.uk/), [Alnwick Castle](https://www.alnwickcastle.com/),
-[Sandringham Castle](https://sandringhamestate.co.uk/) & the [English Heritage](https://www.english-heritage.org.uk/) websites
-identified aspects to include (heritage fonts, large vista images) but also helped inform what Elwood Castle's
-site would like to do differently.
+For the E-Book Store website, the design took inspiration from other e-book websites. 
+Looking at [ebooks.com](https://www.ebooks.com/en-nl/), [bookboon.com](http://bookboon.com/), 
+[hoepli](https://www.hoepli.it/), [feedbooks](http://www.feedbooks.com/publicdomain) & the 
+[ebooklobby](http://www.ebooklobby.com/) websites identified aspects to include (heritage fonts, large vista images).
 
 ##### Layout
-Of the sites mentioned above, one issue they all suffered from was cluttered and blockly
-layout (particularly the navbars). For this site, to keep UX high, the site will 
-have a much cleaner layout with a slim navbar. As a site with a large target demographic 
-with varying levels of computer literacy, it's important to keep the available space 
-easy to read and thus use.
+E-Book Store website, compared with the other websites mentioned above is presenting a much
+cleaner and tidier layout, in order to obtain a high UX and is responsive for 
+every screen size.
 
 ##### Images
-One thing borrowed from other castle sites was the use of large vista images on the landing page.
-This accomplishes two goals: firstly, the images protect Elwood Castle's brand as the opening impression
-of Elwood Castle is it's grand views and impressive grounds. Secondly,
-it acts as an advertisement to visit the castle which furthers the bussiness goal
-of attracting new visitors.  
-For event images, I've taken the stylistic choice to use tight focused images
-rather than large, wide images. The idea behind this choice is to keep the page
-feeling uncluttered when mutliple images are shown. Using these more intimate shots
-preserves a feeling of outside space whereas lots of large, wide images would be
-confusing when placed together. The smaller shots will also look better when shrunk
-onto cards, whereas large shots would be hard to see when reduced in size (without cropping).
+The background image of the Homepage is coming from a google research.
+
+The e-book cover images have been borrowed from [ebooks.com](ebooks.com/en-nl/)
 
 ##### Fonts
-To keep brand consistency, [IM Fell French Canon SC](https://fonts.google.com/specimen/IM+Fell+French+Canon+SC)
-is used as the Logo font. This font projects a heritage feel whilst remaining readable.  
-For headings and buttons [Lora](https://fonts.google.com/specimen/Lora) has been used. This is because
-the font still retains a feel for the Logo font (it contains serifs) whilst being very
-readable. Other sites mentioned above used their logo font (typically all capitals like Elwood Castle's)
-which gave their sites an erractic, angry feel. To maintain a good UX whilst keeping this feeling of
-tradition, Lora is similar to our Logo text but lacks the readablity and impression
-issues an all caps font would have. 
-Lastly, [Raleway](https://fonts.google.com/specimen/Raleway) has been used for body text. This is to maintain
-readablity as it's often used in blocks of text where serif fonts can start to feel cluttered.  
-Overall, I feel these fonts maintain the castle's brand whilst aiding the business goal 
-of attracting visitors and new bookings as they keep the website easy to read and use.
+To keep brand consistency, [Google Fonts Lato](https://fonts.google.com/specimen/Lato)
+is used as the main font of the entire E-Book Store website. In my opinion it giving 
+a neat and tidy look the content pages.
 
-##### Colour Palette
-![Elwood Colour Palette](https://github.com/SDGreen/elwood-castle/blob/master/images_for_readme/elwood-castle-colour-palette.jpg?raw=true)  
-The colour palette used for the Elwood Castle site is actually just colours
-picked from the main image of [Elwood Castle](https://github.com/SDGreen/elwood-castle/blob/master/flat_pages/static/flat_pages/images/background.jpg?raw=true).  
-The choice to use colours picked from Elwood's main brand image is to maintain
-brand consistency and to keep the palette looking natural.  
-The sites used for researching castles (mentioned above) all either relied on 
-red or dark tones which I feel diminishes UX. Darker colours force the user 
-to search for content due to the lack of contrast, deep reds are 
-often used as warning colours which doesn't lend to a positive UX.
-By keeping the colours natural and light the site helps distingush itself 
-from competitors and provides a positive UX.
 
-For messages, three very standard colours were used. Red for errors, green 
-for success and blue for infomation. By keeping these colours consistent with 
-user expectations, the site can quickly and clearly communicate what type of 
-message the user is receiving without them even having to read it. One slight 
-difference is the red, green and blue used are all pastels to prevent a jarring
-contrast with the sites main palette.
+##### Colours
+The main two colors used for this project are black and white.
 
+In most of the project is black on white except for the magazine banner that 
+is white on black, together with some other few buttons like "Add to Bag", 
+"Go to Secure Checkout", "Secure Checkout" and "Complete Order".
+These two colors make text easily readable for users, especially when it comes to e-book descriptions. 
+They provide a good contrast and a positive UX.
+
+Other colors are used when the flash messages appear:
+* Green for Success
+* Blue for Alert
+* Yellow for Warning
+* Red for Danger
 ---
+
 ## Features
 ### Existing Features
-* #### Dynamic Event Search Bar 
-    * Events can be searched by description, name and category using the search 
-    bar.
-    * Dropdown menus allow the user to search by category, price & rating (highest to lowest and vice versa).
-    * The search bar dropdowns for price and rating change to icons on smaller screens, where as the category 
-    dropdown turns to an icon on only the smallest screens as it's meaning is hardest to 
-    translate into an icon.
-    * Number of results for searches and categories is dynamically displayed on the page underneath 
-    the search bar (search terms are not shown to prevent profanities being displayed on the page).
+* #### Dynamic Search Bar 
+    * E-Books can be searched by title and description using the search bar.
+    * Dropdown menus allow the user to search by price, rating & category (highest to lowest and vice versa).
+    * Number of results for searches and categories is dynamically displayed on the page, just before the list of e-Books.
+
+# OMARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
 * #### Dynamic Event Cards
     * Each event card features an image of the event or the stock missing image
     if no image has been uploaded for the event.
