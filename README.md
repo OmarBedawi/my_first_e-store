@@ -208,8 +208,8 @@ For individual files, please click the relevant name:
 #### Overview
 For the E-Book Store website, the design took inspiration from other e-book websites. 
 Looking at [ebooks.com](https://www.ebooks.com/en-nl/), [bookboon.com](http://bookboon.com/), 
-[hoepli](https://www.hoepli.it/), [feedbooks](http://www.feedbooks.com/publicdomain) & the 
-[ebooklobby](http://www.ebooklobby.com/) websites identified aspects to include (heritage fonts, large vista images).
+[hoepli.it](https://www.hoepli.it/), [feedbooks.com](http://www.feedbooks.com/publicdomain) & the 
+[ebooklobby.com](http://www.ebooklobby.com/) websites identified aspects to include (structure of the page, large vista images).
 
 ##### Layout
 E-Book Store website, compared with the other websites mentioned above is presenting a much
@@ -222,18 +222,18 @@ The background image of the Homepage is coming from a google research.
 The e-book cover images have been borrowed from [ebooks.com](ebooks.com/en-nl/)
 
 ##### Fonts
-To keep brand consistency, [Google Fonts Lato](https://fonts.google.com/specimen/Lato)
+To keep the website consistent, [Google Fonts Lato](https://fonts.google.com/specimen/Lato)
 is used as the main font of the entire E-Book Store website. In my opinion it giving 
-a neat and tidy look the content pages.
+a neat and tidy look to the content pages.
 
 
 ##### Colours
-The main two colors used for this project are black and white.
+The main two colors used for this project are very simple: black and white.
 
 In most of the project is black on white except for the magazine banner that 
 is white on black, together with some other few buttons like "Add to Bag", 
 "Go to Secure Checkout", "Secure Checkout" and "Complete Order".
-These two colors make text easily readable for users, especially when it comes to e-book descriptions. 
+These two colors make text easily readable for users, especially when it comes to the e-Books descriptions. 
 They provide a good contrast and a positive UX.
 
 Other colors are used when the flash messages appear:
@@ -241,160 +241,101 @@ Other colors are used when the flash messages appear:
 * Blue for Alert
 * Yellow for Warning
 * Red for Danger
+
 ---
 
 ## Features
 ### Existing Features
 * #### Dynamic Search Bar 
     * E-Books can be searched by title and description using the search bar.
-    * Dropdown menus allow the user to search by price, rating & category (highest to lowest and vice versa).
+    * Dropdown menus allow the user to sort the titles by price, rating & category (highest to lowest and vice versa).
     * Number of results for searches and categories is dynamically displayed on the page, just before the list of e-Books.
-
-# OMARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
-
-* #### Dynamic Event Cards
-    * Each event card features an image of the event or the stock missing image
-    if no image has been uploaded for the event.
-    * On larger screens, the price and rating are displayed on each card; on smaller
-    pages these are hidden to keep the page looking tidy.
-    * Each card has links to the event details page and a direct link to the booking page.
+* #### Dynamic E-Book Cover Cards and Details Page
+    * Each e-Book cover is contained in a card that features an image of the cover, or the 
+    stock missing image if no image has been uploaded for the e-Book.
+    * Each card/cover is followed in column by the informations of the relative e-Book.
     * The number of cards per row changes dynamically depeninding on screen size, 
     this keeps the page looking uncluttered and prevents the images from becoming too 
     small to understand or comically large.
-* #### Dynamic Event Details Page 
-    * Each event has an event details page which renders the information stored in the database. 
-    * The layout shifts depending on screen size to keep the information easy to read.
-    * The information within the "Key Details" and "Notes" sections changes depending on 
-    the event's category, if it requires adult supervision, or is age restricted.
-* #### Smart Date Picker
-    * The date picker automatically disables fully booked dates (days where the amount of 
-    tickets booked matches the event's 'day_ticket_limit' value), along with dates over a year in 
-    the future, one day in the future, past days of the current month, Christmas dates and New Years day when the 
-    castle is closed. 
-    * The date picker searches the user's basket to prevent them from booking too many tickets 
-    even if the values aren't present in the database.
-    * The ticket input alerts users to available tickets for their chosen date and warns them 
-    if this value is 5 or less. If the available tickect value is 0, but the date isn't disabled 
-    due to the user having these tickets in their basket (which isn't checked when disabled 
-    dates are generated) then the input is disabled and the user is asked to pick a new date.
-* #### Smart Ticket Update input
-    * Users can update their ticket quantities in their basket. The update script checks 
-    the database for bookings to make sure the day_ticket_limit of that event isn't exceeded.
+    * Clicking on the card will take the user to the ebook_detail.html page, where the same card,
+    together with all the e-Book informations are stored and displayed.
+    * On larger screens the informations are displayed next to each card; 
+    on smaller pages these informations are displyed in column, below the card.
+    * On this page users can select the quantities for a max of 99 units, and add the product to the basket.    
+* #### Smart Shopping Bag Update input
+    * Users can update their e-Book quantities in their basket, or even delete a product from
+    the shopping bag.
 * #### Stripe Payments 
-    * Users can checkout and purchase event tickets using the Stripe API.
+    * Users can checkout and purchase e-Books using the Stripe API.
 * #### Smart Checkout Validator
-    * User details and basket are validated twice before the stripe API is called to make 
-    the payment. Once to check the user details are valid, along with checking that no
-    tickets in the basket somehow exceed the day_ticket_limit of the event they are purchasing.
-    If ticket quantities in the basket do exceed the day_ticket_limit, then they are removed 
-    from the basket. This feature also prevents users from purchasing tickets that may have been 
-    in their basket, whilst other users have already purchased the maximum tickets for that day, thus 
-    preventing overbooking.
-    If there are any issues with the details or basket items the payment can't take place 
-    and the page is reloaded showing the user an error message and assuring them the purchase hasn't 
-    gone through.
+    * User details and basket are validated twice before the stripe API is called to make the payment.
+    If there are any issues with the personal and card details or basket items the payment can't take 
+    place and the page is reloaded showing the user an error message and assuring them the purchase 
+    hasn't gone through.
 * #### Checkout Redundancy
     * If somehow the user navigate away from the checkout page before the order is submitted 
     to the database then it is created in the webhooks.
-* #### Order and Booking Confirmation/Emails
-    * Once a payment is successful the user gets an email confirming their order, along 
-    with individual emails for bookings which they can use to pick up their tickets. 
+* #### Order and Purchase Confirmation/Emails
+    * Once a payment is successful the user gets an email confirming the placed order. 
     * Once an order is created the user is redirected to a checkout summary page displaying 
     information about that order.
 * #### Account Creation 
-    * Users can create an account with Elwood Castle, this automatically creates 
+    * Users can create an account with E-Book Store website and this automatically creates 
     a UserAccount entry for the User in the database. They can use the account to 
-    view previous orders, upcoming and past events.
+    view upcoming and past orders.
 * #### User Account
-    * Users can store their details and use them next time 
-    a user reaches checkout.
+    * Users can store their details and use them next time a user reaches checkout.
     * User details can be updated from their account page. This will not affect their 
     user details (username, email, password) and this is outlined under the update details form.
 * #### Password Reset 
-    * Users can update their password using their email if they have forgotton their current 
+    * Users can update their password using their email if they have forgotten their current 
     one.
-* #### Contact Form
-    * Users can send emails to Elwood's Gmail account using the contact form. 
-    If the user is logged in, it will preload their saved email into the email 
-    field of the form.
 * #### Toast Alerts 
     * Throughout the site Toast alerts are used to give the user feedback, such as 
     when a user logs in, logs out, adds items to a basket, removes/updates 
-    basket items, checks out out successfully etc.
+    basket items, checks out successfully etc.
     * Alerts change colour depending on the type of message used to create them, 
-    red for error, green for success and blue for information (i.e. email verification emails being sent).
+    red for error, green for success, blue for information and yellow for warning.
 * #### Responsive Basket
     * The basket won't allow users to checkout if their basket is empty.
-    * If the basket is empty it offers a link back to events page.
+    * If the basket is empty it offers a link back to the shop.
 * #### Responsive Fixed Navbar
-  * Includes dropdown links to account pages which change depending on if the 
-  user is logged in, a superuser or an anonymous user.
+  * Includes dropdown links to the different categories of e-Books and account pages.
   * Logo text disappears on smaller screens, key elements (basket and account dropdown) 
-  remain as icons, whilst less essential links are stored in a mobile dropdown.
-  * Logo image changes size depening on screen size.
-  * Due to it's small size it remains fixed to the top of the page to eliminate the need
-  for a "back to top" button.
+  remain as icons, while less essential links are stored in a mobile dropdown.
 * #### Simple Footer
     * Footer remains consistent across the site and includes three social links and a link
     to the creator's github page. All external links create a new tab rather than change the 
     current windows location. 
-    The social links aren't live and so currently redirect back to the index page with a
-    message explaining why.
-* #### Dismissable Alert Banner
-    * On the events page, a banner appears linking users to the FAQ page if they want 
-    information about Elwood Castle's Covid-19 policy.
-    * The banner is dismissable but reappears each time a user goes to the events page 
-    where it's message is most important.
-* #### Dynamic Landing Page 
-    * Has a scrolling background of Elwood Castle's grand vista images.
-    * Elwood's logo appears above the key links highlighted on the page.
-    * On very small devices the less used contact link is removed to maintain 
-    the balance of the page.
 
-### Features Left to Implement
-* #### Subscription Service
-    * In future it would be great to create a subscription service where uses pay 
-    either per year or month, which entitles them to a certain amount of free 
-    tickets.
-* #### Real-time Ratings 
-    * A future feature would be to allow users to rate events which automatically 
-    updates an event's rating in real-time.
-* #### Ticket Reservation
-    * With sites like Ticketmaster, tickets are held for a period of time and cannot 
-    be booked whilst another user has them in their basket. Currently this feature 
-    is not deemed necessary as Elwood Castle doesn't deal with the types of volumes 
-    that a major arena deals with but it would be good to add in future.
-* #### Styled Superuser Dashboard 
-    * With more time, a nicely styled dashboard would be created for super users.
-    Currently it is just the standard Django admin dashboard which is usable but 
-    one fitting with the rest of the site would be better for UX.
-* #### Custom 404 Page 
-    * Fairly self explanatory, but this feature wasn't deemed necessary for the site 
-    to be deployed.
 
 ---
 ## Technologies Used
 ### Languages
 * [HTML5](https://html.spec.whatwg.org/multipage/) - Used to create the structure of the website.
 * [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - Used to style the website.
-* [JavaScript](https://www.javascript.com/) - Used for stripe functionality, as well as Bootstrap & Google maps API functionality and the date-picker element.
-* [Python (v3.8.6)](https://www.python.org/) - Used to handle backend programming within the Django framework.
+* [JavaScript](https://www.javascript.com/) - Used for stripe functionality, as well as Bootstrap & country field functionality and the quantity buttons.
+* [Python (v3.8.7)](https://www.python.org/) - Used to handle backend programming within the Django framework.
 ### Libraries
-* [Google Fonts](https://fonts.google.com/) - Used for website fonts [Lora](https://fonts.google.com/specimen/Lora) for headings, [Raleway](https://fonts.google.com/specimen/Raleway) for content text and [IM Fell French Canon SC](https://fonts.google.com/specimen/IM+Fell+French+Canon+SC) for logo text.
-* [Font Awesome](https://fontawesome.com/) - This library provided the Icons used across the site.
-* [jQuery](https://jquery.com/) - Included with Bootstrap, also used to code various elements such as the date picker, stripe functionality and Google maps API.
-* [Stripe API Library](https://stripe.com/gb) - Used to handle the payments send from the Elwood Website.
+* [Google Fonts](https://fonts.google.com/) - Used for website fonts [Lato](https://fonts.google.com/specimen/Lato) for the whole website.
+* [Font Awesome](https://fontawesome.com/) - This library provided the Icons used across the website.
+* [jQuery](https://jquery.com/) - Included with Bootstrap, also used to code various elements such as the stripe functionality.
+* [Stripe API Library](https://stripe.com/gb) - Used to handle the payments to send to E-Book Store Website.
 ### Frameworks
-* [Django v3.1.4](https://docs.djangoproject.com/en/3.1/) - Framework used to create the app along with inbuilt templating language.
+* [Django v3.1.6](https://docs.djangoproject.com/en/3.1/) - Framework used to create the app along with inbuilt templating language.
 * [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Framework to add structure & styling to the site, along with
 responsive breakpoints and pre-built elements.
 ### Tools 
+* [Balsamiq Cloud](https://balsamiq.cloud/) - Used for creation of wireframes
 * [Git](https://git-scm.com/) - Used for version control and tracking changes to the code whilst in development.
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Key for finding bugs and testing responsive design.
-* [Autoprefixer](https://autoprefixer.github.io/) - Used to prefix the CSS, allowing it to work across different browsers.
 * [AWS S3](https://aws.amazon.com/s3/) - Used for storing static and media files used across the site.
+* [W3 Html validator](https://validator.w3.org/) - Used to test and validate my html code.
+* [W3 Css validator](https://jigsaw.w3.org/) - Used to test and validate my css code.
+* [JSHint](https://jshint.com/) - Used to validate my Javascript code.
+* [Free Formatter](https://www.freeformatter.com/) - Used to format my html, css and javascript code.
 * [Heroku](https://www.heroku.com/home) - Used to deploy and host the finished site.
-* [Heroku Postgres](https://www.heroku.com/postgres) - Used to serve the database Elwood Castle manages event and user data with.
+* [Heroku Postgres](https://www.heroku.com/postgres) - Used to serve the database of E-Book Store manages products and user data with.
 ---
 ## Testing
 See the [testing write up](https://github.com/SDGreen/elwood-castle/blob/master/TESTING.md) for full details on testing.
@@ -402,26 +343,26 @@ See the [testing write up](https://github.com/SDGreen/elwood-castle/blob/master/
 ---
 ## Deployment
 
-### How to run Elwood Castle's code locally:
-The Elwood Castle app was coded using the GitPod IDE. The git repository is stored locally before being pushed 
+### How to run E-Book Store's code locally:
+The E-Book Store app was coded using the GitPod IDE. The git repository is stored locally before being pushed 
 to the remote repository online at GitHub.
 
-To run Elwood Castle's app locally you will need the following:
+To run E-Book Store's app locally you will need the following:
     * Python installed on your environment
     * An AWS account
     * A Stripe account
-    * A Google maps API key
+    
 
 #### Setting up the code:
 
-1. Go to: [https://github.com/SDGreen/elwood-castle](https://github.com/SDGreen/elwood-castle)
+1. Go to: [https://github.com/OmarBedawi/my_first_e-store](https://github.com/OmarBedawi/my_first_e-store)
 2. Click the "Code" button next to the "Gitpod" button which will have a dropdown including "Clone with HTTPS",
 "Open with GitHub Desktop" & "Download ZIP"
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click the copy to clipboard icon. To clone the
 repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the copy to clipboard icon.
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to appear.
-7. Type git `clone`, and then paste the URL you copied in Step 3 (https://github.com/SDGreen/elwood-castle.git).
+7. Type git `clone`, and then paste the URL you copied in Step 3 (https://github.com/OmarBedawi/my_first_e-store.git).
 8. Install the requirements by typing `pip3 install -r requirements.txt` in your CLI
 9. Finally create a superuser using `python3 manage.py create superuser`
 
@@ -429,7 +370,7 @@ repository using an SSH key, including a certificate issued by your organization
 1. To use the local version of the database first type `python3 manage.py makemigrations`
 2. Then migrate (`python3 manage.py migrate`) the migrations so that your local db.sqlite3
 database included with Django is setup.
-3. To use the same data as this Elwood Castle site, type `python3 manage.py loaddata`
+3. To use the same data as this E-Book Store site, type `python3 manage.py loaddata`
 4. You now have a local version of the database.
 
 #### Adding environment varibales:
@@ -445,13 +386,6 @@ add the following  environment variables:
     * AWS_SECRET_ACCESS_KEY = <Your AWS secret key>
     * AWS_STORAGE_BUCKET_NAME = <Your AWS bucket name>
 
-While technically not an environment variable, you'll also need to add your Google API key to this file:  
-`flat_pages/templates/flat_pages/visit.html`  
-Add your key to this script tag in the file:   
-`<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key<YOUR_KEY_HERE>&callback=initMap"
-    type="text/javascript"></script>`  
-Make sure you restrict your Google API to just your local environment (and deployed site if created)
 
 #### Running the app
 1. If you are using your AWS bucket to serve the static and media files, go to the bucket and create 
@@ -462,7 +396,7 @@ a file named `media/`
 ### Deploying to Heroku
 1. If you have added any new packages which the code requires to run, type `pip3 freeze > requirements.txt`
 to creat a requirements file.
-2. If you have deleted the Procfile, create a new one containing: `web: gunicorn elwood_castle.wsgi:application` in your root directory.
+2. If you have deleted the Procfile, create a new one containing: `web: gunicorn my_estore.wsgi:application` in your root directory.
 3. Create a new app in Heroku, if you want to use Heroku Postgres to serve your database you can do so 
 by going to the dashboard *resources*>*add-ons* and attaching the Heroku Postgres database.
     * Please note, you will need to make your migrations and load the data to the new Postgres database as detailed above in 
@@ -485,9 +419,6 @@ The site is now deployed remotely.
 ---
 ## Credits
 
-### Content
-* All copy was written by myself.
-* Fake phone number provided by [Fake Number](https://fakenumber.org/uk/london).
 
 ### Media
 Copyright free images taken from [Pxhere](https://pxhere.com/)
@@ -534,17 +465,14 @@ Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from e
 * [Favicon](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/favicon.png) (file name: favicon.png)
 
 ### Code
-* Card, Navbar, Accordian and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
-* Google map created using [Google Maps JS API](https://developers.google.com/maps/documentation/javascript/tutorial).
-* Date picker created using [bootstrap-datepicker](https://bootstrap-datepicker.readthedocs.io/en/latest/).
+* Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 * CSS prefixer used: [https://autoprefixer.github.io/](https://autoprefixer.github.io/).
-* Every effort has been taken to avoid this apps code from becoming too similar to the
-[Boutique Ado](https://github.com/ckz8780/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) 
-Code Institute mini project but it was a very helpful tool in setting up the site.
+* [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) 
+is a Code Institute mini project. It was a very helpful tool in setting up the site.
 * README stucture borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
 ### Acknowledgements
-A massive thank you to my mentor Antonio Rodriguez for his continuous and helpful feedback (even in the face of tropical storms).   
+A massive thank you to my mentor Antonio Rodriguez for his continuous and helpful feedback.   
 Thanks also to the kind people at Tutor Support who went above and beyond to help me fix issues.  
 Finally, a big thank you to Sharon Luff for helping me start my journey into coding and providing great moral support along the way.  
 
