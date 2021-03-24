@@ -1,5 +1,5 @@
 # E-Book Store
-![E-Book Store](https://github.com/SDGreen/elwood-castle/blob/master/flat_pages/static/flat_pages/images/background.jpg?raw=true)
+![E-Book Store](https://github.com/SDGreen/elwood-castle/blob/master/readme_files/readme_images/ebook.png?raw=true)
 ### Deployed site: [https://omar-e-book-store.herokuapp.com/](https://omar-e-book-store.herokuapp.com/)
 
 #### For testing the following credentials can be used:
@@ -23,8 +23,8 @@
 ---
 ## Aim
 The aim of this Django app is to create an interactive interface where users can find out
-e-book titles and their relative informations.  
-This app is to be a one stop shop where users can create accounts and purchase e-books.
+e-Book titles and their relative informations.  
+This app is to be a one stop shop where users can create accounts and purchase e-Books.
 
 ---
 ## User Experience (UX)
@@ -43,7 +43,7 @@ This app is to be a one stop shop where users can create accounts and purchase e
 | :------ | :-------------- | :----------- |
 | Shopper | Sort the list of available products | Easily identify the best rated, best price and categorically sorted products |
 | Shopper | Sort a specific category of product | Find the best-rated or best-priced product in a specific category, or sort the products in that category by name |
-| Shopper | Sort multiple categories of produts simultaneously | Find the best-priced or best-rated products across broad categories, such as "Nature" of "Medicine" |
+| Shopper | Sort multiple categories of produts simultaneously | Find the best-priced or best-rated products across broad categories, such as "Nature" or "Medicine" |
 | Shopper | Search for a product by title or description | Find a specific product I'd like to purchase |
 | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
 
@@ -81,7 +81,7 @@ This app is to be a one stop shop where users can create accounts and purchase e
 
 ### Information Architecture
 #### Overview
-E-Book Store works with a relational database using SQL.
+E-Store works with a relational database using SQL.
 The reason behind this choice is because users can't directly add items to the database which
 would have wildly unknown values. All orders would follow the same structure which is where the
 users have most control over what is inputted. 
@@ -92,6 +92,7 @@ are expected to be inputted frequently.
 The information in each model would also be related to another model in many cases. 
 Having such interlinked models required a relational database to easily
 handle the data and prevent creating a large database with many repeated values.
+
 ---
 
 #### Models 
@@ -206,7 +207,7 @@ For individual files, please click the relevant name:
 
 ### Design Choices
 #### Overview
-For the E-Book Store website, the design took inspiration from other e-book websites. 
+For the E-Book Store website, the design took inspiration from other e-Book websites. 
 Looking at [ebooks.com](https://www.ebooks.com/en-nl/), [bookboon.com](http://bookboon.com/), 
 [hoepli.it](https://www.hoepli.it/), [feedbooks.com](http://www.feedbooks.com/publicdomain) & the 
 [ebooklobby.com](http://www.ebooklobby.com/) websites identified aspects to include (structure of the page, large vista images).
@@ -219,7 +220,7 @@ every screen size.
 ##### Images
 The background image of the Homepage is coming from a google research.
 
-The e-book cover images have been borrowed from [ebooks.com](ebooks.com/en-nl/)
+The e-Book cover images have been borrowed from the website [ebooks.com](ebooks.com/en-nl/)
 
 ##### Fonts
 To keep the website consistent, [Google Fonts Lato](https://fonts.google.com/specimen/Lato)
@@ -250,7 +251,7 @@ Other colors are used when the flash messages appear:
     * E-Books can be searched by title and description using the search bar.
     * Dropdown menus allow the user to sort the titles by price, rating & category (highest to lowest and vice versa).
     * Number of results for searches and categories is dynamically displayed on the page, just before the list of e-Books.
-* #### Dynamic E-Book Cover Cards and Details Page
+* #### Dynamic e-Book Cover Cards and Details Page
     * Each e-Book cover is contained in a card that features an image of the cover, or the 
     stock missing image if no image has been uploaded for the e-Book.
     * Each card/cover is followed in column by the informations of the relative e-Book.
