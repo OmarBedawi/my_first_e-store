@@ -1,5 +1,5 @@
 # E-Book Store
-![E-Book Store](https://github.com/SDGreen/elwood-castle/blob/master/readme_files/readme_images/ebook.png?raw=true)
+![E-Book Store](https://github.com/OmarBedawi/my_first_e-store/blob/master/readme_files/readme_images/ebook.png?raw=true)
 ### Deployed site: [https://omar-e-book-store.herokuapp.com/](https://omar-e-book-store.herokuapp.com/)
 
 #### For testing the following credentials can be used:
@@ -175,35 +175,25 @@ The OrderLineItem's relation to the Order model is used to show upcoming and pas
 
 ---
 
-# OMAR
-
-
-
 
 ### Wireframes
-All wireframes can be found [Here](https://github.com/SDGreen/elwood-castle/tree/master/wireframes)  
-I reccomend viewing the [Navbar](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/navbars.pdf)
-and [Footer](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/footers.pdf) files first to give context to the rest of the wireframes.  
+All wireframes can be found [Here](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes.md)  
+ 
 For individual files, please click the relevant name:
-  * [Navbar](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/navbars.pdf)
-  * [Footer](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/footers.pdf)
-  * [Index page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/index.pdf)
-  * [Events page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/events.pdf)
-  * [Event Details page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/event-detail.pdf)
-  * [Book Event page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/book-event.pdf)
-  * [View Basket page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/view-basket.pdf)
-  * [Checkout page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/checkout.pdf)
-  * [Checkout Success page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/checkout-success.pdf)
-  * [User Home page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/user-home.pdf)
-  * [Order Summary page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/order-summary.pdf)
-  * [Visit page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/visit.pdf)
-  * [FAQ page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/faq.pdf)
-  * [Contact page](https://github.com/SDGreen/elwood-castle/blob/master/wireframes/contact.pdf)
+  * [Homepage](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/1.homepage.png)
+  * [Register Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/2.register_page.png)
+  * [Login Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/3.login_page.png)
+  * [Ebook Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/4.ebook_page.png)
+  * [Ebook Detail Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/5.ebook_detail_page.png)
+  * [Shopping Bag Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/6.shopping_bag_page.png)
+  * [Checkout Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/7.checkout_page.png)
+  * [Checkout Success Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/8.checkout_success.png)
 
-  Please note that these wireframes may not match the finished product. Some elements
-  may be moved or changed based on feedback or styling issues discovered during development.
+
+  Please note that these wireframes may not match the finished product. 
   
-# OMAR  
+  Some elements may be moved or changed based on feedback or styling issues discovered during development.
+   
 
 ### Design Choices
 #### Overview
