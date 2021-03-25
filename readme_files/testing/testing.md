@@ -10,133 +10,145 @@
 > As a User, I would like simple navigation to the whole site, so I can find exactly what I want without searching through links.
 
 * Users are never more than two clicks away from parts of the site that they are expected to access quickly. 
-On some smaller devices the categories are 3 clicks away but they are always easily accessible 
+On smaller devices the categories are 3 clicks away but they are always easily accessible 
 from the fixed Navabar.  
 Seeing old order summaries does take more clicks to access if you are not logged in but this is not expected to be a key
 feature users need to view in a rush.
 
 
 
+> As a User, I would like to easily see the informations of the e-Books.
+
+* On all the screen size, the essential informations of every e-Book are displayed below the e-Book cover.
+If the user clic on a e-Book cover, he will access a page with all the info plus a description of the product.
+On this page users can add items to the shopping bag.
+
+
+
 > As a User, I would like to easily see my basket, so I can checkout quickly at any moment.
 
-* Users can always click on their basket which is in the top right of the screen. As it is a key feature, at smaller 
+* Users can always click on their basket which is always in the top right of the screen. As it is a key feature, at smaller 
 breakpoints this basket icon remains in place rather then entering the mobile dropdown menu.
 In case there are items in the basket, below the bag is always displayed how much the user is spending so far.
 
 
 
-> As a User, I would like a profile page, so I can quickly see my orders and checkout details.
+> As a User, I would like to have a profile page, so I can see my past orders and checkout details.
 
 * Logged in users can easily access their "my profile" page under the account dropdown in the navbar. 
 This single page displays their default details used at checkout and their past orders. 
 Order numbers can be clicked to get a full summary of that particular order.
-Default user details can be update in this page in case the user change address for example.
-
-
-
-
-
-
-
-
 
 
 
 > As a Returning User, I would like to be able to save my default informations, so I can easily use them for the next purchase.
 
-* On the user home page, users can update their details which will be used next time they checkout. If a user 
-updates their details, a confirmation toast appears letting them know the action has 
-occured. The page is then reloaded showing the new details. If there is an error then the page still reloads 
+* On the "my profile" page, users can update their details which will be used next time they checkout. 
+If a user updates his details, a confirmation toast appears letting him know the action has occured. 
+The page is then reloaded showing the new details. If there is an error then the page still reloads 
 but an error message appears informing them there was an issue updating the details.
+
+
 
 > As a New User, I would like to be able to create an account, so I can save my details and view my orders.
 
 * New users can quickly create an account from the account dropdown by clicking 'Register'. Once their details
-have been filled out and validated they are sent a confirmation email asking them to verify their account.
+have been filled out and validated they will receive a confirmation email asking them to verify their account.
+
+
 
 > As a Returning User, I would like To be able to reset my password, so I can update my password if I forget it.
 
-* Under the login option on the Login page their is a 'forgot password?' option which allows users to update their 
+* Under the login option on the Login page there is a 'forgot password?' option which allows users to update their 
 password. A link is sent to their email which they can use to update their password. An info toast appears 
 when the email has been sent and a success toast appears once they have completed updating their password.
 
-> As a User, I would like a contact page where I can find email and phone details of the castle, so I can get in contact if I have a question about an event.
 
-* Under the info dropdown you can access the contact page. The first option is a form to send an email to the castle. 
-Underneath this form the phone number can be found.
 
-> As a User, I would like details on the location of the Castle, so I can find the castle and attend events.
+> As a User, I would like purchase event to be simple, so I can avoid filling out too many inputs.
 
-* On the FAQ page a Google map is loaded with the location of the castle along with the full address.
+* Completing a purchase on the site is incredibly easy. After the user has picked his e-Book/s, 
+he is one click away from accessing the shopping bag (that is always available in the fixed navbar) and two clicks away from the checkout page.
+Then in the checkout page the user needs only to fill the fields with his personal details (for returning users with a profile already created, 
+those fields are automatically filled) and the credit/debit card details.
 
-> As a User, I would like booking events to be simple, so I can avoid filling out too many inputs.
 
-* Booking an event on the site is incredibly easy. There are just two inputs, once a date has been picked 
-the avaliable tickets for that date appears under the ticket quantity input so users can quickly know if that
-date is suitable for them.
 
-> As a User, I would like confirmation of my bookings, so I can know that my purchase has worked.
+> As a User, I would like confirmation of my orders, so I can know that my purchase was successfull.
 
-* Once a order has been saved to the database and this has been verified by the webhook handler, a email confirming 
-the order is sent out. Additional emails are also sent per booking. Checkouts which experience no issues redirect the user 
-to a checkout success page which verifies an order is completed (along with the emails).
+* Once an order has been saved to the database and this has been verified by the webhook handler, a email confirming 
+the order is sent out. Checkouts which experience no issues redirect the user to a checkout success page which 
+verifies an order is completed (along with the emails).
 Logged in users can also check an order by looking at their order history.
 
-> As a User, I would like a date picker for event bookings, so I can easily visulise what date I'm picking and avoid filling in an input.
 
-* When users try to book an event and click on the date input, a date picker is displayed on the page.
 
-> As a User with aa account, I would like a list of my upcoming and past events, so I can know what events I have booked.
+> As a User with an account, I would like a list of my past orders, so I can know what e-Books I have purchased.
 
-* A user's account home page displays upcoming and past bookings in date order so they can see all the events they have booked.
+* A user's "my profile" page displays past orders, sorted by date so they can see all the purchases they have done.
 
-> As an Owner, I would like simple navigation to the event pages, so I can encourage users to buy tickets to events.
 
-* The event page is one of the first links seen on the landing page, along with being the second link after **Home** in the navbar.
+
+> As an Owner, I would like simple navigation to the e-Books pages, so I can encourage users to buy e-Books.
+
+* The e-Books page is one of the first links seen on the landing page, along with being the first link after **Home** in the navbar.
 On the mobile navbar it is the second link after **Home**.
 
-> As an Owner, I would like lots of links back to event pages, so I can get users to buy more tickets.
 
-* There are multiple links back to the events pages. There is one on the landing page, links appear in empty baskets 
-and user profiles who have no bookings. After successful checkouts, users are linked back to events & baskets have 
-an option to go back to events or checkout. After a user successfully adds a booking to their basket or logs in they 
-are redirected to the events page and not the basket page. These all provide users ample chance to get back to events
-and add more bookings.
 
-> As an Owner, I would like links between an event's details page and booking page, so I can make it easy for users to book events and reduce time spent thinking about this decision.
+> As an Owner, I would like lots of links back to the e-Books pages, so I can get users to buy more products.
 
-* On every event details page there is a direct link to book the event, along with one on the event's card before the user 
-even clicks on the event to get more details.
+* There are multiple links back to the e-Books pages. There is one on the landing page and one appear in empty baskets.
+After successful checkouts, users are linked back to .
+After successful checkouts, users are linked back to the e-Books pages and baskets have an option to go back to the e-Books pages or checkout.
 
-> As an Owner, I would like professional and clean styling, so I can keep the site attractive to users without diminishing the castle's brand.
+After a user successfully adds an e-Book to the basket or logs in, they are redirected to the events page and not the basket page. 
+These all provide users ample chance to get back to the e-Books pages and add more items.
 
-* Throughout the site, attention has been paid not to overcrowd pages and keep styling consistent. All buttons have the same styling,
-along with text-links following the same styling. Clear fonts which have some character have been used which don't 
-take away from the seriousness of Elwood Castle's brand.
+
+
+> As an Owner, I would like professional and clean styling, so I can keep the site attractive to users.
+
+* Throughout the site, attention has been paid not to overcrowd pages and keep styling simple and consistent. 
+All buttons have the same styling, along with text-links and the font-family, following the same styling.
+
+
 
 > As an Owner, I would like login validation, so I can prevent users from creating multiple accounts with the same email.
 
 * By using the AllAuth package, all accounts must have a distinct email and username.
 
+
+
 > As an Owner, I would like email verification on accounts, so I can prevent malicious users from easily creating multiple accounts.
 
 * All users have to verify their account via the email they used to create it, otherwise it cannot be accessed.
 
-> As an Owner, I would like an FAQ page, so I can prevent too many incoming calls and emails.
 
-* An FAQ page has been set up which provides answers to the most common questions. An accordion has been picked 
-to display the information in a clean manner. Users can quickly identify their issue and open up the relevant 
-answer without crowding the page. The Covid-19 section is open automatically once the page is loaded, as currently 
-this the most pressing issue users will want to know about.
 
-> As an Owner, I would like details on visiting the castle, so I can make sure users know how to get there.
+> As an Owner, I would like details of every e-Book, easily foundable by the user.
 
-* The Visit page offers users a Google map of the location of the castle, aswell as the full address and contact details.
+* The E-Book page and the E-Book Detail page offers the users a full panoramic of all the details they
+need to know about an e-Book.
 
-> As an Owner, I would like bookings to be kept in a basket, so I can make sure users only have to pay once, encouraging them to purchase more.
 
-* As users navigate through the site, unpaid bookings are held in a basket which relys on session data to stay up-to-date.
-Users can use this basket to add more bookings, update bookings and remove bookings before they have to checkout.
+
+> As an Owner, I would like items to be kept in a basket, so I can make sure users only have to pay once, encouraging them to purchase more.
+
+* As users navigate through the site, unpaid items are held in a basket which relys on session data to stay up-to-date.
+Users can use this basket to add more items, update items quantity and remove items before they have to checkout.
+
+
+
+
+
+
+
+
+
+
+
+
 
 > As an Owner, I would like order confirmation to work even if a user navigates away from the checkout page whilst processing an order, so I can know users haven't purchased tickets without the database updating.
 
