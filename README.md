@@ -24,7 +24,7 @@
 ## Aim
 The aim of this Django app is to create an interactive interface where users can find out
 e-Book titles and their relative informations.  
-This app is to be a one stop shop where users can create accounts and purchase e-Books.
+With this app users can create accounts and purchase e-Books.
 
 ---
 ## User Experience (UX)
@@ -81,7 +81,7 @@ This app is to be a one stop shop where users can create accounts and purchase e
 
 ### Information Architecture
 #### Overview
-E-Store works with a relational database using SQL.
+E-Book Store works with a relational database using SQL.
 The reason behind this choice is because users can't directly add items to the database which
 would have wildly unknown values. All orders would follow the same structure which is where the
 users have most control over what is inputted. 
@@ -177,9 +177,9 @@ The OrderLineItem's relation to the Order model is used to show upcoming and pas
 
 
 ### Wireframes
-All wireframes can be found [Here](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes.md)  
+All wireframes can be found [here](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes.md)  
  
-For individual files, please click the relevant name:
+For individual files, please click the desired page:
   * [Homepage](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/1.homepage.png)
   * [Register Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/2.register_page.png)
   * [Login Page](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes_images/3.login_page.png)
@@ -200,7 +200,7 @@ For individual files, please click the relevant name:
 For the E-Book Store website, the design took inspiration from other e-Book websites. 
 Looking at [ebooks.com](https://www.ebooks.com/en-nl/), [bookboon.com](http://bookboon.com/), 
 [hoepli.it](https://www.hoepli.it/), [feedbooks.com](http://www.feedbooks.com/publicdomain) & the 
-[ebooklobby.com](http://www.ebooklobby.com/) websites identified aspects to include (structure of the page, large vista images).
+[ebooklobby.com](http://www.ebooklobby.com/) websites, I have identified aspects to include (structure of the page, large vista images).
 
 ##### Layout
 E-Book Store website, compared with the other websites mentioned above is presenting a much
@@ -329,7 +329,7 @@ responsive breakpoints and pre-built elements.
 * [Heroku Postgres](https://www.heroku.com/postgres) - Used to serve the database of E-Book Store manages products and user data with.
 ---
 ## Testing
-See the [testing write up](https://github.com/SDGreen/elwood-castle/blob/master/TESTING.md) for full details on testing.
+See the [testing write up](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/testing/testing.md) for full details on testing.
 
 ---
 ## Deployment
