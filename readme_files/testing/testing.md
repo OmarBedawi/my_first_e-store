@@ -67,7 +67,7 @@ when the email has been sent and a success toast appears once they have complete
 
 > As a User, I would like purchase event to be simple, so I can avoid filling out too many inputs.
 
-* Completing a purchase on the site is incredibly easy. After the user has picked his e-Book/s, 
+* Completing a purchase on the site is incredibly easy. After the user has choosen his e-Book/s, 
 he is one click away from accessing the shopping bag (that is always available in the fixed navbar) and two clicks away from the checkout page.
 Then in the checkout page the user needs only to fill the fields with his personal details (for returning users with a profile already created, 
 those fields are automatically filled) and the credit/debit card details.
@@ -168,14 +168,21 @@ info messages produce blue toast headings and warning messages produce yellow to
 
 
 
+### Browser testing
+The app was physically tested on the following browsers:
+* Google Chrome 
+* Mozilla Firefox
+* Mi Browser
+* Microsoft Edge 
+* Samsung Internet Browser   
+
 #### Responsive Design Testing
 The responsive design was tested using these physical devices:
-* Galaxy S8 (Chrome)
-* Google Pixel 4a (Chrome)
-* iPad Air 2 (Safari)
-* Leveno IdeaPad S340 (Chrome)
-* MacBook Pro (Chrome & Safari)
-* iPhone X (Safari)
+* Samsung Galaxy S8 (Google Chrome)
+* Samsung Galaxy Tab 4 (Google Chrome, Mozilla Firefox, Samsung Internet Browser)
+* RedMi Note 8 (Mi Browser, Google Chrome, Mozilla Firefox)
+* Laptop HP 17-ca0133nb (Chrome, Mozilla Firefox)
+
 
 No major issues were uncovered.
 
@@ -184,13 +191,6 @@ Chrome DevTools was also used to test the design on the following devices:
 * Samsung Galaxy S8
 * Samsung Galaxy Tab 4
 
-
-### Browser testing
-The app was physically tested on the following browsers:
-* Google Chrome 
-* Mozilla Firefox
-* Mi Browser (for RedMi Note 8 mobile)
-* Microsoft Edge    
 
 ### Code Validation
 * HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
