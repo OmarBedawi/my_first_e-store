@@ -140,51 +140,74 @@ Users can use this basket to add more items, update items quantity and remove it
 
 
 
-
-
-
-
-
-
-
-
-
-
-> As an Owner, I would like order confirmation to work even if a user navigates away from the checkout page whilst processing an order, so I can know users haven't purchased tickets without the database updating.
-
-* If the user navigates away from the checkout page before the order is submitted to the model it is handled by the webhooks instead.
-This way users can still recieve the confirmation they'd need and the Order and EventBooking models aren't missing
-entries. The webhook handler checks the database for an order with a matching stripe_id to the 
-payment intent. If this isn't found after 10 searches then the webhook handler creates the order and sends the confirmation
-emails.
-
-> As an Owner, I would like dates where events are fully booked to be unpickable, so I can know that users haven't purchased tickets to events which won't be able to cater for them.
-
-* When users navigate to the book an event page, the date picker is given an array of dates which are unbookable due to the ticket 
-limit being reached. The date picker then disables these dates to prevent users from booking them. 
-
-> As an Owner, I would like validation on the date picking input, so I can make sure users don't create bookings using dates which aren't correct.
-
-* To prevent users manually inputting dates, the date input only accepts inputs from the date picker.
-
-> As an Owner, I would like validation on the ticket input, so I can stop users booking too many tickets for events which are nearly full.
-
-* The  date picker input has an event listener. This checks booked events in the database and the user's basket tickets to make sure 
-they can't accidentally book more tickets than are avaliable. Fuly booked dates in the database are disabled on the date picker. If the user
-has all the tickets for a particular day in their basket, then the input for that date is disabled to prevent them getting
-more. If for some reason the ticket amount in the user's basket exceeds the amount avaliable at checkout, this item is rejected and 
-removed from the basket before the payment can be processed as an added layer of security against over booking.
-
 > As an Owner/User, I would like responsive design, so I can easily use the site across multiple devices.
 
-* The site has responsive elements on almost every page. The homepage hides the contact button on smaller devices. The navbar
-collapses to a mobile dropdown on medium and small devices. The event cards hide extra detail that can be found on 
-their individual pages on smaller screens along with reducing how many cards appear on each row. Information on the event details page,
-Checkout and Visit page all shifts to make it easier to view on smaller devices. Images are cut from the smallest screens 
-for Basket, Order and Booking summaries to make the infomation easier to understand. Overall, the site has a very responsive design 
-with an aim to make information more digestible (rather than just to make it move).
+* The site has responsive elements on every page. The homepage hides the logo button on smaller devices. 
+The navbar collapses to a mobile dropdown on medium and small devices. 
+The e-Book cover cards are displayed in a row of 6 on xl screens, 3 on large screens, 2 on medium and small, and 1 on xs screens.
+Shopping Bag, Checkout and Profile pages all shifts to make it easier to view and understand on smaller devices.
+
+Overall, the site has a very responsive design with an aim to make information more digestible (rather than just to make it move).
+
+
 
 > As an Owner/User, I would like message styling to be intuitive (red for alerts, green for success), so I can quickly understand what the message is trying to convey.
 
-* Toast messages are consistently styled so error messages produce red toast headings, success messages produce green toast headings
-and info messages produce blue toast headings.
+* Toast messages are consistently styled so error messages produce red toast headings, success messages produce green toast headings, 
+info messages produce blue toast headings and warning messages produce yellow toast headings.
+
+
+
+> As an Owner, I would like to easily be able to add, update and delete e-Books titles from the website.
+
+* The Owner can access the website with a special profile provided by the website creator, called superuser. 
+  With this profile the owner can find (available only for him) the "Product Management" page to add new e-Books to the store,
+  and for the already existing e-Books in the website, the owner has available the Edit and Delete buttons next to every e-Book.
+    
+---
+
+
+
+#### Responsive Design Testing
+The responsive design was tested using these physical devices:
+* Galaxy S8 (Chrome)
+* Google Pixel 4a (Chrome)
+* iPad Air 2 (Safari)
+* Leveno IdeaPad S340 (Chrome)
+* MacBook Pro (Chrome & Safari)
+* iPhone X (Safari)
+
+No major issues were uncovered.
+
+Chrome DevTools was also used to test the design on the following devices:
+* RedMi Note 8
+* Samsung Galaxy S8
+* Samsung Galaxy Tab 4
+
+
+### Browser testing
+The app was physically tested on the following browsers:
+* Google Chrome 
+* Mozilla Firefox
+* Mi Browser (for RedMi Note 8 mobile)
+* Microsoft Edge    
+
+### Code Validation
+* HTML5 code validated using [https://validator.w3.org/](https://validator.w3.org/)
+* CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+    * No issues found
+* JS code validated using [https://jshint.com/](https://jshint.com/)
+    * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). - Not deemed an issue.
+    * 'template literal syntax' is only available in ES6 (use 'esversion: 6'). - Not deemed an issue.
+* Python code validated using [Extend Class Python Validator](https://extendsclass.com/python-tester.html)
+    * Some issues with f-strings as the checker didn't deem them valid Python. These bugs were not considered a problem.
+
+
+
+### Bugs
+During the development proccess many bugs (predictably) arose. Here are some of the more interesting 
+examples and how they were overcome:
+
+
+
+
