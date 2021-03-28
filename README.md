@@ -394,14 +394,14 @@ to creat a requirements file.
 3. Create a new app in Heroku, if you want to use Heroku Postgres to serve your database you can do so 
 by going to the dashboard *resources*>*add-ons* and attaching the Heroku Postgres database.
     * Please note, you will need to make your migrations and load the data to the new Postgres database as detailed above in 
-  the **Creating a database** steps. Ensure the DATABASE_URL variable matches that in your Heroku App's 
+  the **Creating a database** steps. Ensure the DATABASE_URL variable matches what is in your Heroku App's 
   **Config Vars**
 4. Add your environment variables as detailed in the steps for **Adding environment variables** above
 to your apps **Config Vars** including this new variable:  
 USE_AWS = True
 5. Download the Heroku CLI if you haven't already (found under the *Deploy* tab on the dashboard).
 6. Login to Heroku using `heroku login`
-7. Set up a remote repository connected to you Heroku app: `git remote add heroku <your heroku git URL>`
+7. Set up a remote repository connected to your Heroku app: `git remote add heroku <your heroku git URL>`
     * If you're unsure of your Heroku git URL it can be found under *settings* on the dashboard.
 8. Finally push your code to the Heroku remote repo after making any change.  
 `git add .`   
@@ -447,30 +447,14 @@ Copyright free images taken from [Pxhere](https://pxhere.com/)
 * [Castle Vista](https://pxhere.com/en/photo/843450) (file name: vista.jpg)
 * [Wine Glasses](https://pxhere.com/en/photo/733330) (file name: romantic.jpg)
 
-Logos created using [Canva](https://www.canva.com/):
-* [Color Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_color.jpg) (file name: logo_color.jpg)
-* [Dark Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_dark.png) (file name: logo_dark.png)
-* [Large Dark Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_dark_large.png) (file name: logo_dark_large.png)
-* [Light Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_light.png) (file name: logo_light.png)
-* [Navbar Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/navbar_logo.png) (file name: navbar_logo.png)
-
-
-Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from edited logo:
-* [Favicon](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/favicon.png) (file name: favicon.png)
 
 ### Code
 * Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
-* CSS prefixer used: [https://autoprefixer.github.io/](https://autoprefixer.github.io/).
 * [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) 
 is a Code Institute mini project. It was a very helpful tool in setting up the site.
 * README stucture borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
 ### Acknowledgements
-A massive thank you to my mentor Antonio Rodriguez for his continuous and helpful feedback.   
+A massive thank you to my mentor Antonio Rodriguez for his helpful feedbacks.   
 Thanks also to the kind people at Tutor Support who went above and beyond to help me fix issues.  
-Finally, a big thank you to Sharon Luff for helping me start my journey into coding and providing great moral support along the way.  
-
-
-
-
 ---
