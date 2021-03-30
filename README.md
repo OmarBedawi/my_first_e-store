@@ -410,43 +410,46 @@ USE_AWS = True
 
 The site is now deployed remotely.
 
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and choose [my_first_e-store](https://github.com/OmarBedawi/my_first_e-store).
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate and click the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [my_first_e-store](https://github.com/OmarBedawi/my_first_e-store)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/OmarBedawi/my_first_e-store
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/OmarBedawi/my_first_e-store
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
 ---
+
 ## Credits
-
-
-### Media
-Copyright free images taken from [Pxhere](https://pxhere.com/)
-* [Archer](https://pxhere.com/en/photo/1410420) (file name: archer.jpg)
-* [Armour Set](https://pxhere.com/en/photo/615382) (file name: helmet.jpg)
-* [Baking](https://pxhere.com/en/photo/757323) (file name: baking.jpg)
-* [Banquet Hall](https://pxhere.com/en/photo/830346) (file name: banquet.jpg)
-* [Blacksmith's Forge](https://pxhere.com/en/photo/1272972) (file name: blacksmith.jpg)
-* [Carousel](https://pxhere.com/en/photo/879353) (file name: carousel.jpg)
-* [Dried flowers](https://pxhere.com/en/photo/1231000) (file name: perfume.jpg)
-* [Coat of Arms](https://pxhere.com/en/photo/535891) (file name: crest.jpg)
-* [Crossed Swords](https://pxhere.com/en/photo/1570543) (file name: swords.jpg)
-* [Crayons](https://pxhere.com/en/photo/608898) (file name: caryons.jpg)
-* [Elwood Castle](https://pxhere.com/en/photo/1056258) (file name: background.jpg)
-* [Elwood Gardens](https://pxhere.com/en/photo/1190433) (file name: background-gardens.jpg)
-* [Elwood Grounds](https://pxhere.com/en/photo/1398482) (file name: background-grounds.jpg)
-* [Falcon](https://pxhere.com/en/photo/551960) (file name: falcon.jpg)
-* [Gallery Hall](https://pxhere.com/en/photo/1059117) (file name: halls.jpg)
-* [Haunted Hall](https://pxhere.com/en/photo/870234) (file name: spooky.jpg)
-* [Jousting Knight](https://pxhere.com/en/photo/590971) (file name: joust.jpg)
-* [Kid's Castle](https://pxhere.com/en/photo/862705) (file name: small-castle.jpg)
-* [Knight](https://pxhere.com/en/photo/687171) (file name: knight.jpg)
-* [Library](https://pxhere.com/en/photo/707871) (file name: library.jpg)
-* [Mead Bottles](https://pxhere.com/en/photo/1032511) (file name: bottles.jpg)
-* [Missing Image Placeholder](https://pxhere.com/en/photo/1334124) (file name: no-image.jpg)
-* [Old Kitchen](https://pxhere.com/en/photo/1069371) (file name: kitchen.jpg)
-* [Puppet](https://pxhere.com/en/photo/896895) (file name: puppet.jpg)
-* [Sparkler](https://pxhere.com/en/photo/1169641) (file name: sparkler.jpg)
-* [Spice Market](https://pxhere.com/en/photo/959535) (file name: spices.jpg)
-* [Tapestry](https://pxhere.com/en/photo/575238) (file name: tapestry.jpg)
-* [Teacup](https://pxhere.com/en/photo/649039) (file name: tea.jpg)
-* [Castle Vista](https://pxhere.com/en/photo/843450) (file name: vista.jpg)
-* [Wine Glasses](https://pxhere.com/en/photo/733330) (file name: romantic.jpg)
-
 
 ### Code
 * Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
@@ -454,7 +457,17 @@ Copyright free images taken from [Pxhere](https://pxhere.com/)
 is a Code Institute mini project. It was a very helpful tool in setting up the site.
 * README stucture borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
+### Content
+
+-   Most of the content took inspiration from [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) 
+
+
+### Media
+
+* All the images used as e-Book cover, have been borrowed by the website [ebooks.com](ebooks.com/en-nl/).
+
 ### Acknowledgements
 A massive thank you to my mentor Antonio Rodriguez for his helpful feedbacks.   
 Thanks also to the kind people at Tutor Support who went above and beyond to help me fix issues.  
+
 ---
