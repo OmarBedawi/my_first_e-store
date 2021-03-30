@@ -23,7 +23,7 @@
 ---
 ## Aim
 The aim of this Django app is to create an interactive interface where users can find out
-e-Book titles and their relative informations.  
+e-Book titles and their relative informations/details.  
 With this app users can create accounts and purchase e-Books.
 
 ---
@@ -36,7 +36,7 @@ With this app users can create accounts and purchase e-Books.
 | :------ | :-------------- | :----------- |
 | Shopper | View a list of products | Select some to purchase |
 | Shopper | View individual product details | Identify price, authors, description, year, product rating and product image|
-| Shopper | Easy view of the total of my purchase at any time | Avoid spending too much |
+| Shopper | Easy view of the total of my purchase at any time | Always be aware of how much I'm spending |
 
 ##### SORTING AND SEARCHING
 | As a... | I would like... | So I can ... |
@@ -51,8 +51,8 @@ With this app users can create accounts and purchase e-Books.
 | As a... | I would like... | So I can ... |
 | :------ | :-------------- | :----------- |
 | Shopper | Easily select the quantity of a product when purchasing it | Ensure I don't accidentaly select the wrong product or quantity |
-| Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
-| Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
+| Shopper | View items in my shopping bag to be purchased | Identify the total cost of my purchase and all items I will receive |
+| Shopper | Adjust the quantity of individual items in my shopping bag | Easily make changes to my purchase before checkout |
 | Shopper | Easily enter my payment information | Checkout quickly and with no hassles |
 | Shopper | Feel my personal and payment informations is safe and secure | Confidently provide the needed information to make a purchase |
 | Shopper | View an order confirmation after checkout | Verify that I haven't made any mistakes |
@@ -130,7 +130,7 @@ This model stores and display to the user, the informations of every book and a 
 
 ##### Category
 This is a simple model used to store the different types of categories each book can belong to.
-New categories can be easily added if the store decides to start selling new types of books.
+New categories can be easily added if the store decides to start selling new books categories.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | name | CharField | max_length=254 |
@@ -139,8 +139,8 @@ New categories can be easily added if the store decides to start selling new typ
 ##### Order
 This is a simple model used to create and store orders.
 This model is capable to generate an order number every time a user complete an order. 
-It's relation to OrderLineItem and UserProfile allows users to see their upcoming
-and past orders on their profile page. It also has a stripe_pid field for validation, 
+It's relation to OrderLineItem and UserProfile allows users to see their past orders 
+on their profile page. It also has a stripe_pid field for validation, 
 preventing orders from being created twice by mistake.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
@@ -164,7 +164,7 @@ preventing orders from being created twice by mistake.
 
 ##### OrderLineItem
 This model is used to display the informations contained in an order placed by a user.
-The OrderLineItem's relation to the Order model is used to show upcoming and past orders on the user's profile page.
+The OrderLineItem's relation to the Order model is used to show past orders with the relative details on the user's profile page.
  
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
@@ -177,6 +177,8 @@ The OrderLineItem's relation to the Order model is used to show upcoming and pas
 
 
 ### Wireframes
+The wireframes have been built using the Balsamiq Cloud service.
+
 All wireframes can be found [here](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/wireframes/wireframes.md)  
  
 For individual files, please click the desired page:
@@ -197,13 +199,13 @@ For individual files, please click the desired page:
 
 ### Design Choices
 #### Overview
-For the E-Book Store website, the design took inspiration from other e-Book websites. 
+For the E-Book Store website, the design took inspiration from Boutique Ado (is a Code Institute mini project) and other e-Book websites. 
 Looking at [ebooks.com](https://www.ebooks.com/en-nl/), [bookboon.com](http://bookboon.com/), 
 [hoepli.it](https://www.hoepli.it/), [feedbooks.com](http://www.feedbooks.com/publicdomain) & the 
-[ebooklobby.com](http://www.ebooklobby.com/) websites, I have identified aspects to include (structure of the page, large vista images).
+[ebooklobby.com](http://www.ebooklobby.com/) websites, I have identified aspects to include (for example structure of the e-Books and their details).
 
 ##### Layout
-E-Book Store website, compared with the other websites mentioned above is presenting a much
+E-Book Store website, compared with the other e-Book websites mentioned above is presenting a much
 cleaner and tidier layout, in order to obtain a high UX and is responsive for 
 every screen size.
 
@@ -214,8 +216,9 @@ The e-Book cover images have been borrowed from the website [ebooks.com](ebooks.
 
 ##### Fonts
 To keep the website consistent, [Google Fonts Lato](https://fonts.google.com/specimen/Lato)
-is used as the main font of the entire E-Book Store website. In my opinion it giving 
-a neat and tidy look to the content pages.
+is used as the main font of the entire E-Book Store website. 
+
+In my opinion it giving a neat and tidy look to the content pages.
 
 
 ##### Colours
@@ -224,12 +227,12 @@ The main two colors used for this project are very simple: black and white.
 In most of the project is black on white except for the magazine banner that 
 is white on black, together with some other few buttons like "Add to Bag", 
 "Go to Secure Checkout", "Secure Checkout" and "Complete Order".
-These two colors make text easily readable for users, especially when it comes to the e-Books descriptions. 
+These two colors make text easily readable for users, especially when it comes to read the e-Books descriptions. 
 They provide a good contrast and a positive UX.
 
 Other colors are used when the flash messages appear:
 * Green for Success
-* Blue for Alert
+* Blue for Information
 * Yellow for Warning
 * Red for Danger
 
@@ -239,23 +242,22 @@ Other colors are used when the flash messages appear:
 ### Existing Features
 * #### Dynamic Search Bar 
     * E-Books can be searched by title and description using the search bar.
-    * Dropdown menus allow the user to sort the titles by price, rating & category (highest to lowest and vice versa).
+    * Dropdown menus allow the user to sort the titles by price, rating, category and alphabetically (highest to lowest and vice versa).
     * Number of results for searches and categories is dynamically displayed on the page, just before the list of e-Books.
 * #### Dynamic e-Book Cover Cards and Details Page
     * Each e-Book cover is contained in a card that features an image of the cover, or the 
     stock missing image if no image has been uploaded for the e-Book.
-    * Each card/cover is followed in column by the informations of the relative e-Book.
+    * Each card/cover is followed in the same column by the informations of the e-Book displayed in the card.
     * The number of cards per row changes dynamically depeninding on screen size, 
     this keeps the page looking uncluttered and prevents the images from becoming too 
     small to understand or comically large.
     * Clicking on the card will take the user to the ebook_detail.html page, where the same card,
-    together with all the e-Book informations are stored and displayed.
-    * On larger screens the informations are displayed next to each card; 
-    on smaller pages these informations are displyed in column, below the card.
+    together with all the e-Book details are stored and displayed.
+    * On larger screens the details are displayed next to each card; 
+    on smaller pages these details are displyed in column, below the card.
     * On this page users can select the quantities for a max of 99 units, and add the product to the basket.    
 * #### Smart Shopping Bag Update input
-    * Users can update their e-Book quantities in their basket, or even delete a product from
-    the shopping bag.
+    * Users can update their e-Book quantities in the shopping bag, or even delete a product from it.
 * #### Stripe Payments 
     * Users can checkout and purchase e-Books using the Stripe API.
 * #### Smart Checkout Validator
@@ -269,13 +271,13 @@ Other colors are used when the flash messages appear:
 * #### Order and Purchase Confirmation/Emails
     * Once a payment is successful the user gets an email confirming the placed order. 
     * Once an order is created the user is redirected to a checkout summary page displaying 
-    information about that order.
+    information about the order.
 * #### Account Creation 
     * Users can create an account with E-Book Store website and this automatically creates 
     a UserAccount entry for the User in the database. They can use the account to 
-    view upcoming and past orders.
+    view past orders.
 * #### User Account
-    * Users can store their details and use them next time a user reaches checkout.
+    * Users can store their details and use them next time a user reaches the Checkout page.
     * User details can be updated from their account page. This will not affect their 
     user details (username, email, password) and this is outlined under the update details form.
 * #### Password Reset 
@@ -285,7 +287,7 @@ Other colors are used when the flash messages appear:
     * Throughout the site Toast alerts are used to give the user feedback, such as 
     when a user logs in, logs out, adds items to a basket, removes/updates 
     basket items, checks out successfully etc.
-    * Alerts change colour depending on the type of message used to create them, 
+    * Alerts change colour depending on the type of message used to create them:
     red for error, green for success, blue for information and yellow for warning.
 * #### Responsive Basket
     * The basket won't allow users to checkout if their basket is empty.
@@ -293,7 +295,7 @@ Other colors are used when the flash messages appear:
 * #### Responsive Fixed Navbar
   * Includes dropdown links to the different categories of e-Books and account pages.
   * Logo text disappears on smaller screens, key elements (basket and account dropdown) 
-  remain as icons, while less essential links are stored in a mobile dropdown.
+  remain as icons, while less essential links are stored in the mobile dropdown.
 * #### Simple Footer
     * Footer remains consistent across the site and includes three social links and a link
     to the creator's github page. All external links create a new tab rather than change the 
@@ -328,6 +330,7 @@ responsive breakpoints and pre-built elements.
 * [Heroku](https://www.heroku.com/home) - Used to deploy and host the finished site.
 * [Heroku Postgres](https://www.heroku.com/postgres) - Used to serve the database of E-Book Store manages products and user data with.
 ---
+
 ## Testing
 See the [testing write up](https://github.com/OmarBedawi/my_first_e-store/tree/master/readme_files/testing/testing.md) for full details on testing.
 
@@ -335,8 +338,8 @@ See the [testing write up](https://github.com/OmarBedawi/my_first_e-store/tree/m
 ## Deployment
 
 ### How to run E-Book Store's code locally:
-The E-Book Store app was coded using the GitPod IDE. The git repository is stored locally before being pushed 
-to the remote repository online at GitHub.
+The E-Book Store app was coded using the GitPod IDE. 
+The git repository is stored locally before being pushed to the remote repository online at GitHub.
 
 To run E-Book Store's app locally you will need the following:
     * Python installed on your environment
@@ -391,14 +394,14 @@ to creat a requirements file.
 3. Create a new app in Heroku, if you want to use Heroku Postgres to serve your database you can do so 
 by going to the dashboard *resources*>*add-ons* and attaching the Heroku Postgres database.
     * Please note, you will need to make your migrations and load the data to the new Postgres database as detailed above in 
-  the **Creating a database** steps. Ensure the DATABASE_URL variable matches that in your Heroku App's 
+  the **Creating a database** steps. Ensure the DATABASE_URL variable matches what is in your Heroku App's 
   **Config Vars**
 4. Add your environment variables as detailed in the steps for **Adding environment variables** above
 to your apps **Config Vars** including this new variable:  
 USE_AWS = True
 5. Download the Heroku CLI if you haven't already (found under the *Deploy* tab on the dashboard).
 6. Login to Heroku using `heroku login`
-7. Set up a remote repository connected to you Heroku app: `git remote add heroku <your heroku git URL>`
+7. Set up a remote repository connected to your Heroku app: `git remote add heroku <your heroku git URL>`
     * If you're unsure of your Heroku git URL it can be found under *settings* on the dashboard.
 8. Finally push your code to the Heroku remote repo after making any change.  
 `git add .`   
@@ -444,30 +447,14 @@ Copyright free images taken from [Pxhere](https://pxhere.com/)
 * [Castle Vista](https://pxhere.com/en/photo/843450) (file name: vista.jpg)
 * [Wine Glasses](https://pxhere.com/en/photo/733330) (file name: romantic.jpg)
 
-Logos created using [Canva](https://www.canva.com/):
-* [Color Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_color.jpg) (file name: logo_color.jpg)
-* [Dark Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_dark.png) (file name: logo_dark.png)
-* [Large Dark Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_dark_large.png) (file name: logo_dark_large.png)
-* [Light Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/logo_light.png) (file name: logo_light.png)
-* [Navbar Logo](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/navbar_logo.png) (file name: navbar_logo.png)
-
-
-Favicon created using [Favicon.io](https://favicon.io/favicon-converter/) from edited logo:
-* [Favicon](https://github.com/SDGreen/elwood-castle/blob/master/static/logos/favicon.png) (file name: favicon.png)
 
 ### Code
 * Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
-* CSS prefixer used: [https://autoprefixer.github.io/](https://autoprefixer.github.io/).
 * [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) 
 is a Code Institute mini project. It was a very helpful tool in setting up the site.
 * README stucture borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
 ### Acknowledgements
-A massive thank you to my mentor Antonio Rodriguez for his continuous and helpful feedback.   
+A massive thank you to my mentor Antonio Rodriguez for his helpful feedbacks.   
 Thanks also to the kind people at Tutor Support who went above and beyond to help me fix issues.  
-Finally, a big thank you to Sharon Luff for helping me start my journey into coding and providing great moral support along the way.  
-
-
-
-
 ---
