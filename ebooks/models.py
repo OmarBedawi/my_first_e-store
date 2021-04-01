@@ -30,3 +30,20 @@ class Ebook(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Ebook_reader(models.Model):
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    sku = models.CharField(max_length=254, null=True, blank=True)
+    brand = models.CharField(max_length=254)
+    model = models.CharField(max_length=254, default='')
+    size = models.CharField(max_length=254, default='')
+    memory = models.CharField(max_length=254, default='')
+    description = models.TextField()
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    rating = models.DecimalField(max_digits=6, decimal_places=1, null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+
+    def __str__(self):
+        return self.model

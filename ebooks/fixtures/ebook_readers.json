@@ -1,0 +1,36 @@
+[
+  {
+    "pk":140,
+    "model":"ebooks.ebook_readers",
+    "fields":{
+      "sku":"pp3592479625",
+      "brand":"Kindle",
+      "model":"Paperwhite",
+      "size":"6-inch",
+      "memory":"8 GB",
+      "description":"Waterproof: worry-free reading at the beach, pool or in the bath. A fully charged battery will last for weeks. The built-in adjustable screen lighting ensures that you can read day and night, both indoors and outdoors.",
+      "price":139.99,
+      "category":14,
+      "rating":8.4,
+      "image_url":"https://asset.conrad.com/media10/isa/160267/c1/-/nl/002190593PI00/image.jpg",
+      "image":"pk140.jpg"
+    }
+  },
+  {
+    "pk":141,
+    "model":"ebooks.ebook_readers",
+    "fields":{
+      "sku":"pp9942613387",
+      "brand":"Kobo",
+      "model":"Libra H2O",
+      "size": "7-inch",
+      "memory": "10 GB",
+      "description":"Comfortable and ergonomic design allows you to read longer, lying down and with ease. User-friendly buttons ensure that you can easily turn pages. Thanks to ComfortLight PRO and full waterproofing, you can read wherever you want, day and night. Kobo Libra H2O, read the way you want it. Enjoy a fully customizable reading experience with page turn buttons, landscape / portrait mode, and more. A 10-inches non-reflective touchscreen ensures that you can read in the sun, just like when you read a text on paper.",
+      "price":159.99,
+      "category":15,
+      "rating":8.1,
+      "image_url":"https://images.wehkamp.nl/i/wehkamp/16362773_eb_01/kobo-libra-h2o-e-reader-zwart-zwart-0681495007813.jpg?w=1024",
+      "image":"pk141.jpg"
+    }
+  }
+]
