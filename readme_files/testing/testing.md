@@ -32,6 +32,19 @@ breakpoints this basket icon remains in place rather then entering the mobile dr
 In case there are items in the basket, below the bag is always displayed how much the user is spending so far.
 
 
+> As a User, I would like to easily be able to sort the products in different ways.
+
+* In every page where the e-Books are listed, the user always have the chance to sort the products 
+by price, by rating, alphabetically or by category (highest to lowest and vice versa).
+
+
+> As a User, I would like to easily be able to search for an e-Book, filtering one or more key word
+
+* A user can always search for an e-Book using the search bar that is always available on th etop of the page.
+The e-Books can be searched by title and description.
+Number of results for searches is dynamically displayed on top ofthe page.
+
+
 
 > As a User, I would like to have a profile page, so I can see my past orders and checkout details.
 
@@ -65,11 +78,11 @@ when the email has been sent and a success toast appears once they have complete
 
 
 
-> As a User, I would like purchase event to be simple, so I can avoid filling out too many inputs.
+> As a User, I would like the "purchase event" to be simple, so I can avoid filling out too many inputs.
 
-* Completing a purchase on the site is incredibly easy. After the user has choosen his e-Book/s, 
-he is one click away from accessing the shopping bag (that is always available in the fixed navbar) and two clicks away from the checkout page.
-Then in the checkout page the user needs only to fill the fields with his personal details (for returning users with a profile already created, 
+* Completing a purchase on the site is incredibly easy. After the user has choosen his/her e-Book/s, 
+he/she is one click away from accessing the shopping bag (that is always available in the fixed navbar) and two clicks away from the checkout page.
+Then in the checkout page the user needs only to fill the fields with his/her personal details (for returning users with a profile already created, 
 those fields are automatically filled) and the credit/debit card details.
 
 
@@ -89,6 +102,13 @@ Logged in users can also check an order by looking at their order history.
 
 
 
+> As a User I want to feel that my personal and payment informations is safe and secure.
+
+* The User is constantly informed by toast messages or/and e-mail confirmation if an user action was successfully
+or not.
+
+
+
 > As an Owner, I would like simple navigation to the e-Books pages, so I can encourage users to buy e-Books.
 
 * The e-Books page is one of the first links seen on the landing page, along with being the first link after **Home** in the navbar.
@@ -98,12 +118,11 @@ On the mobile navbar it is the second link after **Home**.
 
 > As an Owner, I would like lots of links back to the e-Books pages, so I can get users to buy more products.
 
-* There are multiple links back to the e-Books pages. There is one on the landing page and one appear in empty baskets.
-After successful checkouts, users are linked back to .
-After successful checkouts, users are linked back to the e-Books pages and baskets have an option to go back to the e-Books pages or checkout.
+* There are multiple links to or back to the e-Books pages. There is one on the Homepage (Shop now) and one appear in empty baskets.
+After successful checkouts, users are linked back to the e-Books pages, and shopping bag have an option to go back to the e-Books pages or checkout.
 
-After a user successfully adds an e-Book to the basket or logs in, they are redirected to the events page and not the basket page. 
-These all provide users ample chance to get back to the e-Books pages and add more items.
+After a user successfully adds an e-Book to the basket or logs in, they are redirected to the e-Books page.
+These all provide users ample chance to get back to the main shopping page and add more items.
 
 
 
@@ -151,7 +170,7 @@ Overall, the site has a very responsive design with an aim to make information m
 
 
 
-> As an Owner/User, I would like message styling to be intuitive (red for alerts, green for success), so I can quickly understand what the message is trying to convey.
+> As an Owner/User, I would like message styling to be intuitive, so I can quickly understand what the message is trying to convey.
 
 * Toast messages are consistently styled so error messages produce red toast headings, success messages produce green toast headings, 
 info messages produce blue toast headings and warning messages produce yellow toast headings.
@@ -204,10 +223,28 @@ Chrome DevTools was also used to test the design on the following devices:
 
 
 
-### Bugs
-During the development proccess many bugs (predictably) arose. Here are some of the more interesting 
-examples and how they were overcome:
+### Known Bugs
+
+During the development proccess many bugs (predictably) arose. 
+
+Here are some of the more interesting examples:
+
+#### Full Name and e-mail address fields are not automatically prefilled when a returning user with profile is about to checkout
+The fields of the checkout page contains the details of a user. For a returning user all these fields (except the credit/debit card field)
+suppose to be all prefilled when he/she is about to complete another order.
 
 
+#### When user choose to navigate in a Category page, the options "Category (A-Z)" and "Category (Z-A)" not suppose to be available
+"Category (A-Z)" and "Category (Z-A)" not suppose to show up in the "sort by" options if a user is already navigating inside a Category.
+
+#### In the e-Books page, Titles and Authors are not always on the same line
+On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 6, or 3 or 2.
+When the title of an e-Book is so long that required to be displayed on multiple lines, can cause 
+that the authors line are not vertically aligned with the authors line of the e-Book next to.
+
+
+#### Misplaced navbar items on smaller screens
+On some smaller screens, profile icon and search bar are pushed to the right side of the navbar creating
+a little of white space between them and the toggle menu.
 
 
