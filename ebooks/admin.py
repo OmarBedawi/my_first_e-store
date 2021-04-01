@@ -24,7 +24,7 @@ class Ebook_readerAdmin(admin.ModelAdmin):
         'sku',
         'brand',
         'model',
-        'category',
+        'size',
         'price',
         'rating',
         'image',
