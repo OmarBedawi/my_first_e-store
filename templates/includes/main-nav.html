@@ -53,9 +53,9 @@
                 E-Book Readers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="readers-link">
-                <a href="" class="dropdown-item">Kindle</a>
-                <a href="" class="dropdown-item">Kobo</a>
-                <a href="" class="dropdown-item">All E-Book Readers</a>
+                <a href="{% url 'ebook_reader' %}?category=kindle" class="dropdown-item">Kindle</a>
+                <a href="{% url 'ebook_reader' %}?category=kobo" class="dropdown-item">Kobo</a>
+                <a href="{% url 'ebook_reader' %}?category=kindle,kobo" class="dropdown-item">All E-Book Readers</a>
             </div>
         </li>
 
