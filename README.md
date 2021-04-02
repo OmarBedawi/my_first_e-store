@@ -24,7 +24,7 @@
 ## Aim
 The aim of this Django app is to create an interactive interface where users can find out
 e-Book titles and their relative informations/details.  
-With this app users can create accounts and purchase e-Books.
+With this app a user, can create his/her own account and purchase e-Books.
 
 ---
 ## User Experience (UX)
