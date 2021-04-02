@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Ebook, Category
+from .models import Ebook, Category, Ebook_reader
 from .forms import EbookForm
 
 # Create your views here.
@@ -37,6 +37,7 @@ def all_ebooks(request):
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             ebooks = ebooks.filter(category__name__in=categories)
+            print('categories', categories, 'ebooks', ebooks)
             categories = Category.objects.filter(name__in=categories)
 
         if 'q' in request.GET:
@@ -70,6 +71,61 @@ def ebook_detail(request, ebook_id):
     }
 
     return render(request, 'ebooks/ebook_detail.html', context)
+
+
+def ebook_reader(request):
+    """ A view to show all ebook readers, including sorting and search queries """
+
+    ebook_readers = Ebook_reader.objects.all()
+    query = None
+    categories = None
+    sort = None
+    direction = None
+
+    if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            if sortkey == 'model':
+                sortkey = 'lower_model'
+                ebook_readers = ebook_readers.annotate(lower_model=Lower('model'))
+            if sortkey == 'category':
+                sortkey = 'category__name'
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            ebook_readers = ebook_readers.order_by(sortkey)
+
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            ebook_readers = ebook_readers.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+            queries = Q(title__icontains=query) | Q(description__icontains=query)
+            # ebook_readers = ebook_readers.filter(queries)
+
+    current_sorting = f'{sort}_{direction}'
+
+    context = {
+        'ebook_readers': ebook_readers,  # pylint: disable=no-member
+        'search_term': query,
+        'current_categories': categories,
+        'current_sorting': current_sorting,
+    }
+
+    return render(request, 'ebooks/ebook_reader.html', context)
+
+
+def ebook_reader_detail(request, ebook_reader_id):
+    """ A view to show individual ebook reader details """
+
+    ebook_reader = get_object_or_404(Ebook_reader, pk=ebook_reader_id)
+
+    context = {
+        'ebook_reader': ebook_reader,  # pylint: disable=no-member
+    }
+
+    return render(request, 'ebooks/ebook_reader_detail.html', context)
 
 
 @login_required
