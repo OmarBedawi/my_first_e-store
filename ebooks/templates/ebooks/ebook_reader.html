@@ -51,7 +51,7 @@
                 </div>
                 <div class="row">
                     {% for ebook_reader in ebook_readers %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if ebook_reader.image %}
                                 <a href="{% url 'ebook_reader_detail' ebook_reader.id %}">
@@ -72,13 +72,7 @@
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">${{ ebook_reader.price }}</p>
-                                            {% if ebook.category %}
-                                            <p class="small mt-1 mb-0">
-                                                <a class="text-muted" href="{% url 'ebooks' %}?category={{ ebook.category.name }}">
-                                                    <i class="fas fa-tag mr-1"></i>{{ ebook.category.friendly_name }}
-                                                </a>
-                                            </p>
-                                            {% endif %}
+                                            
                                             {% if ebook_reader.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ ebook_reader.rating }} / 10</small>
                                             {% else %}
@@ -86,8 +80,8 @@
                                             {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
-                                                    <a href="#">Edit</a> | 
-                                                    <a class="text-danger" href="#" onclick="return confirm('Are you sure to delete this E-Book?')">Delete</a>
+                                                    <a href="{% url 'edit_ebook_reader' ebook_reader.id %}">Edit</a> | 
+                                                    <a class="text-danger" href="{% url 'delete_ebook_reader' ebook_reader.id %}" onclick="return confirm('Are you sure to delete this E-Book Reader?')">Delete</a>
                                                 </small>
                                             {% endif %}
                                         </div>
@@ -110,7 +104,7 @@
                                 <hr>
                             </div>
                         {% endif %}
-                        {% if forloop.counter|divisibleby:6 %}
+                        {% if forloop.counter|divisibleby:4 %}
                             <div class="col-12 d-none d-xl-block mb-5">
                                 <hr>
                             </div>

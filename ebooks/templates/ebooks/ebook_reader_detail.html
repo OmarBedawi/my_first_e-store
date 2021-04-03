@@ -35,7 +35,7 @@
                     <p class="lead mb-0 text-left font-weight-bold">${{ ebook_reader.price }}</p>
                     {% if ebook_reader.category %}
                     <p class="small mt-1 mb-0">
-                        <a class="text-muted" href="{% url 'ebook_readers' %}?category={{ ebook_reader.category.name }}">
+                        <a class="text-muted" href="{% url 'ebook_reader' %}?category={{ ebook_reader.category.name }}">
                             <i class="fas fa-tag mr-1"></i>{{ ebook_reader.category.friendly_name }}
                         </a>
                     </p>
@@ -47,8 +47,8 @@
                     {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
-                            <a href="#">Edit</a> | 
-                            <a class="text-danger" href="#" onclick="return confirm('Are you sure to delete this E-Book?')">Delete</a>
+                            <a href="{% url 'edit_ebook_reader' ebook_reader.id %}">Edit</a> | 
+                            <a class="text-danger" href="{% url 'delete_ebook_reader' ebook_reader.id %}" onclick="return confirm('Are you sure to delete this E-Book?')">Delete</a>
                         </small>
                     {% endif %}
                     <p class="mt-3">{{ ebook_reader.description }}</p>

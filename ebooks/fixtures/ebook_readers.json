@@ -32,5 +32,294 @@
       "image_url":"https://images.wehkamp.nl/i/wehkamp/16362773_eb_01/kobo-libra-h2o-e-reader-zwart-zwart-0681495007813.jpg?w=1024",
       "image":"pk141.jpg"
     }
+  },
+  {
+    "pk":142,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp4797289156",
+      "brand":"Kobo",
+      "model":"Nia",
+      "size": "6-inch",
+      "memory": "8 GB",
+      "description":"Escape into a story, learn something new, and remember why reading is fun. Kobo Nia’s a big deal in a small package: you can carry up to 6,000 eBooks with its 8GB of storage. Bask in the sun with your favourite read on its glare-free 6” touchscreen, or snuggle up with a bedtime story thanks to adjustable ComfortLight. Read as much as you’d like with Kobo Nia’s long battery life, where a single charge can last for weeks. Love the way you read with Kobo Nia.",
+      "price":149.99,
+      "category":15,
+      "rating":9.1,
+      "image_url":"https://cdn.shopify.com/s/files/1/0832/6249/products/Luna_Front_2_EN_large.jpg?v=1594389699",
+      "image":"pk142.jpg"
+    }
+  },
+  {
+    "pk":143,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp4473599111",
+      "brand":"Kobo",
+      "model":"Forma",
+      "size": "8-inch",
+      "memory": "8 GB",
+      "description":"To make the reading experience better for ravenous booklovers who read for hours on end, and want a lightweight, portable alternative to heavy print books, we’ve delivered our most comfortable eReader yet with waterproof reliability, the choice of landscape or portrait mode, and the expanded access of book borrowing.",
+      "price":269.99,
+      "category":15,
+      "rating":8.2,
+      "image_url":"https://cdn.shopify.com/s/files/1/0832/6249/products/Frost_pair_EN_9fb9d9e4-660e-4ad2-923f-9153c1a94f78_large.png?v=1538599625",
+      "image":"pk143.png"
+    }
+  },
+  {
+    "pk":144,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp8987721364",
+      "brand":"Kobo",
+      "model":"Clara HD",
+      "size": "7-inch",
+      "memory": "8 GB",
+      "description":"Kobo Clara HD is the perfect reading companion for any booklover. It always provides the best light to read by with ComfortLight PRO, and a natural, print-like reading experience on its superior 6” HD screen. Easily customizable features help customers new to eReading to read the way they prefer. With 8 GB of on-board memory and the ability to carry up to 6,000 eBooks, Kobo Clara HD always has room for your next escape",
+      "price":129.99,
+      "category":15,
+      "rating":9.1,
+      "image_url":"https://cdn.shopify.com/s/files/1/0832/6249/products/NovaFrontStanding-EN_large.jpg?v=1616721737",
+      "image":"pk144.jpg"
+    }
+  },
+  {
+    "pk":145,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp4672124933",
+      "brand":"Kobo",
+      "model":"Mini",
+      "size": "5-inch",
+      "memory": "2 GB",
+      "description":"The Kobo Mini is the first ebook reader from Kobo to use a 5-inch E Ink screen instead of the 6-inch screens more commonly used on most other ebook readers, including the Kobo Glo and Kobo Touch. The Kobo Mini is very small and lightweight, and the design is well-balanced, making it very comfortable to hold. Lots of font types and sizes, plus customizable font weight and sharpness. Full set of software features with notes, highlights, dictionary, search, bookmarks, Facebook sharing, web browser, reading stats and awards, translation dictionaries, and more. The small size makes it highly portable, and even pocketable.",
+      "price":129.99,
+      "category":15,
+      "rating":9.1,
+      "image_url":"https://cdn.shopify.com/s/files/1/0832/6249/products/NovaFrontStanding-EN_large.jpg?v=1616721737",
+      "image":"pk145.jpg"
+    }
+  },
+  {
+    "pk":146,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp3697524488",
+      "brand":"Kobo",
+      "model":"Aura",
+      "size": "6-inch",
+      "memory": "4 GB",
+      "description":"The Kobo Aura is the first Kobo ereader to use a capacitive touchscreen instead of an infrared screen. Additionally, the screen and bezel are all on the same level and not indented, a first for E Ink ebook readers everywhere. This gives the device more of a tablet-like appearance, which is quite nice, but there are some drawbacks.",
+      "price":149.99,
+      "category":15,
+      "rating":7.8,
+      "image_url":"https://blog.the-ebook-reader.com/wp-content/uploads/2013/10/kobo-aura-front.jpg",
+      "image":"pk146.jpg"
+    }
+  },
+  {
+    "pk":147,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp4563817298",
+      "brand":"Kobo",
+      "model":"Glo HD",
+      "size": "6-inch",
+      "memory": "4 GB",
+      "description":"The Glo HD is a second generation model that replaces the original Kobo Glo that was released toward the end of 2012. It adds a higher resolution screen, double the storage space, and the memory card slot has been removed.",
+      "price":129.99,
+      "category":15,
+      "rating":8.0,
+      "image_url":"https://blog.the-ebook-reader.com/wp-content/uploads/2015/04/Kobo-Glo-HD-Front.jpeg",
+      "image":"pk147.jpeg"
+    }
+  },
+  {
+    "pk":148,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp7596843122",
+      "brand":"Kobo",
+      "model":"Touch",
+      "size": "6-inch",
+      "memory": "2 GB",
+      "description":"The Kobo Touch eReader is the latest addition to Kobo's line of ebook readers. It replaces the Kobo WiFi but maintains many of the same features while adding some software and hardware upgrades. The Kobo Touch comes with 2GB of internal memory, with 1GB user accessible, and a microSD card slot for cards up to 32GB.",
+      "price":119.99,
+      "category":15,
+      "rating":7.5,
+      "image_url":"https://www.the-ebook-reader.com/images/kobo-touch.jpg",
+      "image":"pk148.jpg"
+    }
+  },
+  {
+    "pk":149,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp1539678425",
+      "brand":"Kobo",
+      "model":"Wifi",
+      "size": "6-inch",
+      "memory": "4 GB",
+      "description":"Aside from the added wireless, the Kobo WiFi comes with some hardware upgrades as well. It has a new processor for faster page-turning, battery life is longer, and it comes with a newer Vizplex screen that supports 16 shades of gray, twice as much as the previous model.",
+      "price":109.99,
+      "category":15,
+      "rating":8.3,
+      "image_url":"https://www.the-ebook-reader.com/images/kobo-wifi.jpg",
+      "image":"pk149.jpg"
+    }
+  },
+  {
+    "pk":150,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp7142859637",
+      "brand":"Kobo",
+      "model":"eReader",
+      "size": "6-inch",
+      "memory": "4 GB",
+      "description":"Is it the best e-reader we've ever used? No -- like we said, its page-refreshes are a little slow, and for a device that's all about the business of reading, that's no small thing. . . . Still, we can say pretty firmly that its thinness, lightness, and comfort in the hand is far and away its strongest feature, and one that it beats a lot of its more robust competition prettily handily. When the Kobo Reader was first released, the press release mentioned it would be the first of many dedicated ereaders to come with the Kobo eReader software, so hopefully they have a more advanced ereader in the works, preferably with Wi-Fi and 3G that connects directly to the Kobo eBooks.",
+      "price":109.99,
+      "category":15,
+      "rating":8.0,
+      "image_url":"https://images.wehkamp.nl/i/wehkamp/16171707_pb_01/kobo-aura-edition-2-refurbished-e-reader-zwart-0681495007387.jpg?w=792",
+      "image":"pk150.jpg"
+    }
+  },
+  {
+    "pk":151,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp1748596217",
+      "brand":"Kindle",
+      "model":"Oasis 3",
+      "size": "7-inch",
+      "memory": "8 GB",
+      "description":"The Kindle Oasis features our best ever 7”, 300 ppi Paperwhite display using the latest e-ink technology and a sleek ergonomic design with page turn buttons, perfect for one handed reading. Introducing an adjustable warm light for a richer reading experience in any light.",
+      "price":249.99,
+      "category":14,
+      "rating":9.6,
+      "image_url":"https://blog.the-ebook-reader.com/wp-content/uploads/2020/07/Kindle-Oasis-2-560x492.jpg",
+      "image":"pk151.jpg"
+    }
+  },
+  {
+    "pk":152,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp3217896452",
+      "brand":"Kindle",
+      "model":"Fire HD",
+      "size": "8-inch",
+      "memory": "16 GB",
+      "description":"Discover the latest generation of our Fire HD 8, with a battery life of up to 12 hours, a 1.3 GHz quad-core processor, 1.5 GB RAM and Dolby Audio. Take advantage of 16 internal memory and a microSD port for up to 256 GB expandable memory. Enjoy millions of movies, TV shows, songs, Kindle e-books, apps and games - including Amazon Video, Netflix, Facebook, Spotify, TuneIn, Instagram and more. Prime members get unlimited access to over two million songs, thousands of movies, TV shows and secure photo storage (at no extra cost!). Watch downloaded videos offline and anywhere with a Prime membership or Netflix subscription - without extra costs.",
+      "price":189.99,
+      "category":14,
+      "rating":9.1,
+      "image_url":"https://media.s-bol.com/7369KVLLqLwG/550x551.jpg",
+      "image":"pk152.jpg"
+    }
+  },
+  {
+    "pk":153,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp7153689423",
+      "brand":"Kindle",
+      "model":"Touch",
+      "size": "6-inch",
+      "memory": "8 GB",
+      "description":"Most readers adore the tactile experience a good book provides, however there are times when space, weight and life all get in the way. The highly practical 2019 Kindle eReader, with a built-in front light, enables you read to your heart’s content, on your terms. With a battery that will last about a month on a single charge and weighing only 174g, you can load up and enjoy hundreds of books, no matter where your travels take you. With an adjustable front light, this 10th generation, 2019 Amazon Kindle allows you to read at any time of day – without disturbing those close to you. This device has been purpose-built for reading, so there’ll be no messages or distractions. It features a 167 ppi (Pixel Per Inch), glare-free, touchscreen display that handily reads just like printed paper – even in if you’re in direct sunlight. There are loads of books, newspapers and magazines available for you to download from the Kindle store. Enjoy more than a million free books, such as Pride & Prejudice or Treasure Island.",
+      "price":105.99,
+      "category":14,
+      "rating":8.6,
+      "image_url":"https://i.ebayimg.com/00/s/MTAyMlgxMDA4/z/kEoAAOSwAb1cmP2d/$_32.JPG",
+      "image":"pk153.jpg"
+    }
+  },
+  {
+    "pk":154,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp6841532975",
+      "brand":"Kindle",
+      "model":"DX",
+      "size": "9.7-inch",
+      "memory": "4 GB",
+      "description":"The Kindle DX offers a 9.7 inch display using E Ink with EVDO (cell-phone style) connection to permit purchase and download of eBooks. This means that no computer is needed for the Kindle although a USB connection is provided so that a computer can be used with this device. A keyboard is built into the device which can be used to add notes to documents. Kindle DX can read to you. With the new Text-to-Speech feature, Kindle can read every eBook, blog, magazine, and newspaper out loud to you, subject to permission from the Author/Publisher. You can switch back and forth between reading and listening, and your spot is automatically saved. Pages automatically turn while the content is being read, so you can listen hands-free.",
+      "price":169.99,
+      "category":14,
+      "rating":8.1,
+      "image_url":"https://goodereader.com/blog/uploads/images/2020/09/font-b-amazon-b-font-font-b-kindle-b-font-font-b-dx-b-font.jpg",
+      "image":"pk154.jpg"
+    }
+  },
+  {
+    "pk":155,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp4869723155",
+      "brand":"Kindle",
+      "model":"Oasis 7",
+      "size": "6.3-inch",
+      "memory": "8 GB",
+      "description":"Kindle Oasis tapers to an ultrathin 3.4mm display featuring our strongest cover glass and a sleek, anodized aluminum back. The big change this time is the larger 7-inch screen, which can hold 30 percent more text than before. It still packs in a sharp 300ppi resolution, and includes 12 LEDs frontlight for uniform lighting with adaptive light sensor. It is also waterproof and has a longer battery life of 6 weeks. It has a touchscreen plus page turn buttons and a reversible white on black screen setting. It’s now easy to export notes and highlights from a book to your e-mail, so you can always have them on-hand for reference. Receive your notes both as an easily printable PDF, and as a simple file you can open in your favorite spreadsheet app.",
+      "price":169.99,
+      "category":14,
+      "rating":8.6,
+      "image_url":"https://blobstorage.azureedge.net/wbimages//Products/177694/SmallImage/1.jpg",
+      "image":"pk155.jpg"
+    }
+  },
+  {
+    "pk":156,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp3579148625",
+      "brand":"Kindle",
+      "model":"Voyage",
+      "size": "6.4-inch",
+      "memory": "4 GB",
+      "description":"Kindle Voyage features a high-resolution 300 ppi display for crisp, laser quality text. The micro-etched glass screen is crafted to eliminate glare and feel like paper to the touch. Kindle Voyage can be read in bright sunlight or total darkness—and it's smart enough to know the difference. With an adaptive front light, Kindle Voyage senses the light in your environment, and changes the setting to the ideal brightness.",
+      "price":139.99,
+      "category":14,
+      "rating":8.5,
+      "image_url":"https://goodereader.com/blog/uploads/images/61fnkc4jmSL._SL1000_.jpg",
+      "image":"pk156.jpg"
+    }
+  },
+  {
+    "pk":157,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp1648932175",
+      "brand":"Kindle",
+      "model":"1",
+      "size": "6-inch",
+      "memory": "2 GB",
+      "description":"The Kindle offers a 6 inch display E-Ink device with EVDO (cell-phone style) connection to permit purchase and download of books. This means that no computer is needed for the Kindle although a USB connection is provided so that a computer can be used with this device. A keyboard is built into the device which can be used to add notes to documents. DRM is supported only on AZW files. Amazon does not sell the Kindle outside of the USA because the Whispernet EVDO is only available there.",
+      "price":79.99,
+      "category":14,
+      "rating":7.3,
+      "image_url":"https://hotline.ua/img/tx/760/7607365.jpg",
+      "image":"pk157.jpg"
+    }
+  },
+  {
+    "pk":158,
+    "model":"ebooks.ebook_reader",
+    "fields":{
+      "sku":"pp3579621455",
+      "brand":"Kindle",
+      "model":"WiFi",
+      "size": "7.5-inch",
+      "memory": "4 GB",
+     "description":"The Kindle WiFi offers a 7.5 inch display using E Ink with both a cellular network and WiFi connection to permit purchase and download of eBooks and other content from Amazon. This means that no computer is needed for the Kindle although a USB connection is provided so that a computer can be used with this device. A keyboard is built into the device which can be used to add notes to documents, enter search terms etc. DRM is supported on AZW and TPZ files purchased from Amazon's Kindle Store. The Kindle 3 is also able to open password-protected PDF.",
+      "price":99.99,
+      "category":14,
+      "rating":8.0,
+      "image_url":"https://cdn.webshopapp.com/shops/251715/files/355365136/amazon-kindle-wifi-2019-zwart.jpg",
+      "image":"pk158.jpg"
+    }
   }
 ]
