@@ -137,6 +137,11 @@ input[name='q']::placeholder {
     margin-right: 30px;
 }
 
+.img_reader_size img {
+    height: 270px;
+    width: 250px;
+}
+
 
 /* ------------------------------- bootstrap toasts */
 

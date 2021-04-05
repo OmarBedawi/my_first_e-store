@@ -52,7 +52,7 @@
                 <div class="row">
                     {% for ebook_reader in ebook_readers %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card h-100 border-0">
+                            <div class="card h-100 border-0 img_reader_size">
                                 {% if ebook_reader.image %}
                                 <a href="{% url 'ebook_reader_detail' ebook_reader.id %}">
                                     <img class="card-img-top img-fluid" src="{{ ebook_reader.image.url }}" alt="{{ ebook_reader.model }}">
