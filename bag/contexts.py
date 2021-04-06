@@ -6,7 +6,6 @@ from ebooks.models import Ebook, Ebook_reader
 
 def bag_contents(request):
 
-    print("this is the one")
     bag_items = []
     total = 0
     product_count = 0
