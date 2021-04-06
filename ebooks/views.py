@@ -74,7 +74,7 @@ def ebook_detail(request, ebook_id):
 
 
 def ebook_reader(request):
-    """ A view to show all ebook readers, including sorting and search queries """
+    """ A view to show all readers, including sorting and search queries """
 
     ebook_readers = Ebook_reader.objects.all()
     query = None
@@ -102,7 +102,6 @@ def ebook_reader(request):
             ebook_readers = ebook_readers.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
             queries = Q(title__icontains=query) | Q(description__icontains=query)
-            # ebook_readers = ebook_readers.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
 

@@ -27,11 +27,13 @@
                             {% endif %}
                         </div>
                         <div class="col-9">
-                            <p class="my-0"><strong>{{ item.ebook.title }}</strong></p>                            
+                            <p class="my-0"><strong>{{item.ebook.brand }} </strong></p>
+                            <p class="my-0"><strong>{% firstof item.ebook.title item.ebook.model %} </strong></p>                            
                             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                         </div>
                     </div>
                 {% endfor %}
+                
             </div>
             <div class="row">
                 <div class="col">                                   

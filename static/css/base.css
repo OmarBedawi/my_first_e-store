@@ -137,10 +137,7 @@ input[name='q']::placeholder {
     margin-right: 30px;
 }
 
-.img_reader_size img {
-    height: 270px;
-    width: 250px;
-}
+
 
 
 /* ------------------------------- bootstrap toasts */
@@ -353,10 +350,7 @@ footer {
     .header-container {
         padding-top: 116px;
     }
-/*
-    body {
-        height: calc(100vh - 116px);
-    }*/
+
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
@@ -403,6 +397,13 @@ footer {
         top: 50px;
     }
     
+}
+
+@media (min-width: 577px) {
+    .img_reader_size img {
+    height: 270px;
+    width: 250px;
+}
 }
 
 @media (min-width: 320px) and (max-width:475px) {
