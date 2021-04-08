@@ -11,7 +11,7 @@ Grand Total: ${{ order.grand_total }}
 
 Your order will be sent as PDF file to your e-mail address.
 
-Our promotions magazine will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+If you have ordered an E-book Reader, it will be shipped with no cost for you to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
 
 We've got your phone number on file as {{ order.phone_number }}.
 

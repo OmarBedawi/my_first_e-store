@@ -21,13 +21,13 @@
                     <div class="row">
                         <div class="col-3 my-1">
                             {% if item.ebook.image %}
-                            <img class="w-100" src="{{ item.ebook.image.url }}" alt="{{ item.ebook.title }}">
+                            <img class="w-100" src="{{ item.ebook.image.url }}" alt="{% firstof item.ebook.title item.ebook.model %}">
                             {% else %}
-                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.ebook.title }}">
+                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{% firstof item.ebook.title item.ebook.model %}">
                             {% endif %}
                         </div>
                         <div class="col-9">
-                            <p class="my-0"><strong>{{item.ebook.brand }} </strong></p>
+                            <p class="my-0"><strong>{{ item.ebook.brand }} </strong></p>
                             <p class="my-0"><strong>{% firstof item.ebook.title item.ebook.model %} </strong></p>                            
                             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                         </div>

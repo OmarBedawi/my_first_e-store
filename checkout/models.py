@@ -6,7 +6,7 @@ from django.db.models import Sum
 
 from django_countries.fields import CountryField
 
-from ebooks.models import Ebook
+from ebooks.models import Ebook, Ebook_reader
 from profiles.models import UserProfile
 
 
@@ -82,3 +82,26 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return f'SKU {self.ebook.sku} on order {self.order.order_number}'
+
+
+class OrderLineReader(models.Model):
+    order = models.ForeignKey(
+        Order, null=False, blank=False,
+        on_delete=models.CASCADE, related_name='lineitemsreader')
+    ebook_reader = models.ForeignKey(
+        Ebook_reader, null=False, blank=False, on_delete=models.CASCADE)
+    quantity = models.IntegerField(null=False, blank=False, default=0)
+    lineitem_total = models.DecimalField(
+        max_digits=6, decimal_places=2,
+        null=False, blank=False, editable=False)
+
+    def save(self, *args, **kwargs):
+        """
+        Override the original save method to set the lineitem total
+        and update the order total.
+        """
+        self.lineitem_total = self.ebook_reader.price * self.quantity
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return f'SKU {self.ebook_reader.sku} on order {self.order.order_number}'

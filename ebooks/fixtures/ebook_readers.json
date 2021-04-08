@@ -141,7 +141,7 @@
     "fields":{
       "sku":"pp7596843122",
       "brand":"Kobo",
-      "model":"Touch",
+      "model":"TouchScreen",
       "size": "6-inch",
       "memory": "2 GB",
       "description":"The Kobo Touch eReader is the latest addition to Kobo's line of ebook readers. It replaces the Kobo WiFi but maintains many of the same features while adding some software and hardware upgrades. The Kobo Touch comes with 2GB of internal memory, with 1GB user accessible, and a microSD card slot for cards up to 32GB.",
@@ -294,7 +294,7 @@
     "fields":{
       "sku":"pp1648932175",
       "brand":"Kindle",
-      "model":"1",
+      "model":"One",
       "size": "6-inch",
       "memory": "2 GB",
       "description":"The Kindle offers a 6 inch display E-Ink device with EVDO (cell-phone style) connection to permit purchase and download of books. This means that no computer is needed for the Kindle although a USB connection is provided so that a computer can be used with this device. A keyboard is built into the device which can be used to add notes to documents. DRM is supported only on AZW files. Amazon does not sell the Kindle outside of the USA because the Whispernet EVDO is only available there.",

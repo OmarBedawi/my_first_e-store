@@ -239,7 +239,7 @@ def edit_ebook_reader(request, ebook_reader_id):
             messages.error(request, 'Failed to update E-book Reader!. Please ensure the form is valid.')
     else:
         form = EbookForms(instance=ebook_reader)
-        messages.info(request, f'You are editing {ebook_reader.model}')
+        messages.info(request, f'You are editing {ebook_reader.brand} {ebook_reader.model}')
 
     template = 'ebooks/edit_ebook_reader.html'
     context = {

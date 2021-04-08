@@ -401,8 +401,8 @@ footer {
 
 @media (min-width: 577px) {
     .img_reader_size img {
-    height: 270px;
-    width: 250px;
+        height: 270px;
+        width: 250px;
 }
 }
 
