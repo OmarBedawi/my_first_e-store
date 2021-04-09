@@ -73,6 +73,21 @@ def checkout(request):
                         "One of the products in your bag wasn't found in our database. "
                         "Please call us for assistance!")
                     )
+
+                    ebook_reader = Ebook_reader.objects.get(id=item_id)
+                    if isinstance(item_data, int):
+                        order_line_reader = OrderLineReader(
+                            order=order,
+                            ebook_reader=ebook_reader,
+                            quantity=item_data,
+                        )
+                        order_line_reader.save()
+
+                except Ebook_reader.DoesNotExist:
+                    messages.error(request, (
+                        "One of the products in your bag wasn't found in our database. "
+                        "Please call us for assistance!")
+                    )
                     order.delete()
                     return redirect(reverse('view_bag'))
 
