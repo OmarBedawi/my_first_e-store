@@ -17,10 +17,10 @@ feature users need to view in a rush.
 
 
 
-> As a User, I would like to easily see the informations of the e-Books.
+> As a User, I would like to easily see the product's details.
 
-* On all the screen size, the essential informations of every e-Book are displayed below the e-Book cover.
-If the user clic on a e-Book cover, he will access a page with all the info plus a description of the product.
+* On all the screen size, the essential informations of every product are displayed below its image.
+If the user clic on a product's image, he will access a page with all the product's details, including the product's description.
 On this page users can add items to the shopping bag.
 
 
@@ -34,13 +34,13 @@ In case there are items in the basket, below the bag is always displayed how muc
 
 > As a User, I would like to easily be able to sort the products in different ways.
 
-* In every page where the e-Books are listed, the user always have the chance to sort the products 
+* In every page where e-Books and e-Book reader are listed, the user always have the chance to sort the products 
 by price, by rating, alphabetically or by category (highest to lowest and vice versa).
 
 
-> As a User, I would like to easily be able to search for an e-Book, filtering one or more key word
+> As a User, I would like to easily be able to search for an e-Book, filtering one or more key word.
 
-* A user can always search for an e-Book using the search bar that is always available on th etop of the page.
+* A user can always search for an e-Book using the search bar that is always available on the top of the page.
 The e-Books can be searched by title and description.
 Number of results for searches is dynamically displayed on top ofthe page.
 
@@ -50,7 +50,7 @@ Number of results for searches is dynamically displayed on top ofthe page.
 
 * Logged in users can easily access their "my profile" page under the account dropdown in the navbar. 
 This single page displays their default details used at checkout and their past orders. 
-Order numbers can be clicked to get a full summary of that particular order.
+Order numbers can be clicked to get a full summary of that specific order.
 
 
 
@@ -63,46 +63,46 @@ but an error message appears informing them there was an issue updating the deta
 
 
 
-> As a New User, I would like to be able to create an account, so I can save my details and view my orders.
+> As a New User, I would like to be able to create a profile, so I can save my details and see my orders.
 
-* New users can quickly create an account from the account dropdown by clicking 'Register'. Once their details
-have been filled out and validated they will receive a confirmation email asking them to verify their account.
+* New users can quickly create a profile from the account dropdown by clicking 'Register'. Once their details
+have been filled out and validated, they will receive a confirmation email asking them to verify their account.
 
 
 
 > As a Returning User, I would like To be able to reset my password, so I can update my password if I forget it.
 
-* Under the login option on the Login page there is a 'forgot password?' option which allows users to update their 
-password. A link is sent to their email which they can use to update their password. An info toast appears 
+* On the Login page there is a 'forgot password?' option which allows users to update their password. 
+* A link is sent to their email which they can use to update their password. An info toast appears 
 when the email has been sent and a success toast appears once they have completed updating their password.
 
 
 
-> As a User, I would like the "purchase event" to be simple, so I can avoid filling out too many inputs.
+> As a User, I would like the "purchase process" to be simple, so I can avoid filling out too many inputs.
 
-* Completing a purchase on the site is incredibly easy. After the user has choosen his/her e-Book/s, 
-he/she is one click away from accessing the shopping bag (that is always available in the fixed navbar) and two clicks away from the checkout page.
-Then in the checkout page the user needs only to fill the fields with his/her personal details (for returning users with a profile already created, 
+* Completing a purchase on the site is incredibly easy. After the user has choosen the products, 
+he is one click away from accessing the shopping bag (that is always available in the fixed navbar) and two clicks away from the checkout page.
+Then in the checkout page the user needs only to fill the fields with his personal details (for returning users with a profile already existing, 
 those fields are automatically filled) and the credit/debit card details.
 
 
 
 > As a User, I would like confirmation of my orders, so I can know that my purchase was successfull.
 
-* Once an order has been saved to the database and this has been verified by the webhook handler, a email confirming 
+* Once an order has been saved to the database and this has been verified by the webhook handler, an email confirming 
 the order is sent out. Checkouts which experience no issues redirect the user to a checkout success page which 
-verifies an order is completed (along with the emails).
-Logged in users can also check an order by looking at their order history.
+verifies an order is completed (along with the email).
+Logged in users can also check an order by looking at their order history in the profile page.
 
 
 
 > As a User with an account, I would like a list of my past orders, so I can know what e-Books I have purchased.
 
-* A user's "my profile" page displays past orders, sorted by date so they can see all the purchases they have done.
+* A user's profile page displays past orders, sorted by date so they can see all the purchases they have done.
 
 
 
-> As a User I want to feel that my personal and payment informations is safe and secure.
+> As a User I want to feel that my personal and payment informations are safe and secure.
 
 * The User is constantly informed by toast messages or/and e-mail confirmation if an user action was successfully
 or not.
@@ -111,24 +111,24 @@ or not.
 
 > As an Owner, I would like simple navigation to the e-Books pages, so I can encourage users to buy e-Books.
 
-* The e-Books page is one of the first links seen on the landing page, along with being the first link after **Home** in the navbar.
-On the mobile navbar it is the second link after **Home**.
+* The e-Books page is one of the first links seen on the landing page, along with being the first link after **Home** in the navbar
+and on the mobile dropdown.
 
 
 
-> As an Owner, I would like lots of links back to the e-Books pages, so I can get users to buy more products.
+> As an Owner, I would like lots of links back to the e-Books pages, so I can get users to buy more.
 
-* There are multiple links to or back to the e-Books pages. There is one on the Homepage (Shop now) and one appear in empty baskets.
+* There are multiple links to or back to the e-Books pages. There is one on the Homepage (Shop now) and one appear in empty shopping bag.
 After successful checkouts, users are linked back to the e-Books pages, and shopping bag have an option to go back to the e-Books pages or checkout.
 
-After a user successfully adds an e-Book to the basket or logs in, they are redirected to the e-Books page.
-These all provide users ample chance to get back to the main shopping page and add more items.
+After an user successfully adds an e-Book to the basket or logs in, they are redirected to the e-Books page.
+All that provide users ample chance to get back to the main shopping page and add more items.
 
 
 
 > As an Owner, I would like professional and clean styling, so I can keep the site attractive to users.
 
-* Throughout the site, attention has been paid not to overcrowd pages and keep styling simple and consistent. 
+* Throughout the site, attention has been paid to not overcrowd pages and keep styling simple and consistent. 
 All buttons have the same styling, along with text-links and the font-family, following the same styling.
 
 
@@ -145,17 +145,17 @@ All buttons have the same styling, along with text-links and the font-family, fo
 
 
 
-> As an Owner, I would like details of every e-Book, easily foundable by the user.
+> As an Owner, I would like details of every product, easily foundable by the user.
 
-* The E-Book page and the E-Book Detail page offers the users a full panoramic of all the details they
-need to know about an e-Book.
+* Product and the product Detail pages offer the users a full panoramic of all the details they
+need to know about a product.
 
 
 
 > As an Owner, I would like items to be kept in a basket, so I can make sure users only have to pay once, encouraging them to purchase more.
 
 * As users navigate through the site, unpaid items are held in a basket which relys on session data to stay up-to-date.
-Users can use this basket to add more items, update items quantity and remove items before they have to checkout.
+Users can use this basket to add more items, update items quantity or remove items before they have to checkout.
 
 
 
@@ -164,6 +164,7 @@ Users can use this basket to add more items, update items quantity and remove it
 * The site has responsive elements on every page. The homepage hides the logo button on smaller devices. 
 The navbar collapses to a mobile dropdown on medium and small devices. 
 The e-Book cover cards are displayed in a row of 6 on xl screens, 3 on large screens, 2 on medium and small, and 1 on xs screens.
+Instead e-Book reader cards are displayed in a row of 4 on xl screens, 3 on large screens, 2 on medium and small, and 1 on xs screens.
 Shopping Bag, Checkout and Profile pages all shifts to make it easier to view and understand on smaller devices.
 
 Overall, the site has a very responsive design with an aim to make information more digestible (rather than just to make it move).
@@ -172,16 +173,19 @@ Overall, the site has a very responsive design with an aim to make information m
 
 > As an Owner/User, I would like message styling to be intuitive, so I can quickly understand what the message is trying to convey.
 
-* Toast messages are consistently styled so error messages produce red toast headings, success messages produce green toast headings, 
-info messages produce blue toast headings and warning messages produce yellow toast headings.
+* Toast messages are consistently styled:
+  - success messages produce green toast headings
+  - info messages produce blue toast headings
+  - warning messages produce yellow toast headings
+  - error messages produce red toast headings
 
 
 
-> As an Owner, I would like to easily be able to add, update and delete e-Books titles from the website.
+> As an Owner, I would like to easily be able to add, update and delete products from the website.
 
 * The Owner can access the website with a special profile provided by the website creator, called superuser. 
-  With this profile the owner can find (available only for him) the "Product Management" page to add new e-Books to the store,
-  and for the already existing e-Books in the website, the owner has available the Edit and Delete buttons next to every e-Book.
+  With this profile the owner can find (available only for him) the "Product Management" page to add new products to the store.
+  For the already existing products in the website, the owner has available the Edit and Delete buttons next to every one.
     
 ---
 
@@ -240,10 +244,10 @@ suppose to be all prefilled when he/she is about to complete another order.
 #### In the e-Books page, Titles and Authors are not always on the same line
 On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 6, or 3 or 2.
 When the title of an e-Book is so long that required to be displayed on multiple lines, can cause 
-that the authors line are not vertically aligned with the authors line of the e-Book next to.
+that the authors line are not aligned with the authors line of the e-Book next to.
 
 
-#### Misplaced navbar items on smaller screens
+#### Misplaced navbar icons on smaller screens
 On some smaller screens, profile icon and search bar are pushed to the right side of the navbar creating
 a little of white space between them and the toggle menu.
 
