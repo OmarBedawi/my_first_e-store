@@ -30,8 +30,8 @@
                 <div class="ebook-details-container mb-5 mt-md-5">
                     <p class="mb-0 font-weight-bold">{{ ebook_reader.brand }}</p>
                     <p class="mb-0">{{ ebook_reader.model }}</p>
-                    <p class="mb-0">{{ ebook_reader.size }}</p>
-                    <p class="mb-0">{{ ebook_reader.memory }}</p>
+                    <p class="mb-0">Screen size: &nbsp;{{ ebook_reader.size }}</p>
+                    <p class="mb-0">Memory size: &nbsp;{{ ebook_reader.memory }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ ebook_reader.price }}</p>
                     {% if ebook_reader.category %}
                     <p class="small mt-1 mb-0">

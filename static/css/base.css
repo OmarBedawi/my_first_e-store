@@ -403,7 +403,11 @@ footer {
     .img_reader_size img {
         height: 270px;
         width: 250px;
-}
+    }
+/*
+    .img_toast_size img {
+        height: 75px;
+    }*/
 }
 
 @media (min-width: 320px) and (max-width:475px) {

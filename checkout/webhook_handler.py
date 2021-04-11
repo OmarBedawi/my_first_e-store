@@ -3,8 +3,8 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.conf import settings
 
-from .models import Order, OrderLineItem
-from ebooks.models import Ebook
+from .models import Order, OrderLineItem, OrderLineReader
+from ebooks.models import Ebook, Ebook_reader
 from profiles.models import UserProfile
 
 import json
@@ -135,13 +135,15 @@ class StripeWH_Handler:
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
-                            order_line_item = OrderLineItem(
-                                order=order,
-                                ebook=ebook,
-                                quantity=quantity,
-                            )
-                            order_line_item.save()
+                        for item_id, item_data in json.loads(bag).items():
+                            ebook = Ebook_reader.objects.get(id=item_id)
+                            if isinstance(item_data, int):
+                                order_line_reader = OrderLineReader(
+                                    order=order,
+                                    ebook=ebook,
+                                    quantity=item_data,
+                                )
+                        order_line_reader.save()
             except Exception as e:
                 if order:
                     order.delete()

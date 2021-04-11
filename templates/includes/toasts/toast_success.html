@@ -19,7 +19,7 @@
             <div class="bag-notification-wrapper">
                 {% for item in bag_items %}
                     <div class="row">
-                        <div class="col-3 my-1">
+                        <div class="col-3 my-1 img_toast_size">
                             {% if item.ebook.image %}
                             <img class="w-100" src="{{ item.ebook.image.url }}" alt="{% firstof item.ebook.title item.ebook.model %}">
                             {% else %}
