@@ -401,9 +401,10 @@ footer {
 
 @media (min-width: 577px) {
     .img_reader_size img {
-        height: 270px;
-        width: 250px;
+        width: 190px;
+        height: 253px;
     }
+        
 /*
     .img_toast_size img {
         height: 75px;
