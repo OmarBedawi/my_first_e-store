@@ -69,12 +69,21 @@ def checkout(request):
                         order_line_item.save()
 
                 except Ebook.DoesNotExist:
-                    messages.error(request, (
+                    ebook_reader = Ebook_reader.objects.get(id=item_id)
+                    try: 
+                        order_line_reader = OrderLineReader(
+                            order=order,
+                            ebook_reader=ebook_reader,
+                            quantity=item_data,
+                        )
+                        order_line_reader.save()
+                    except Ebook_reader.DoesNotExist:
+                        messages.error(request, (
                         "One of the products in your bag wasn't found in our database. "
                         "Please call us for assistance!")
-                    )
-                    order.delete()
-                    return redirect(reverse('view_bag'))
+                        )
+                        order.delete()
+                        return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
@@ -159,7 +168,7 @@ def checkout_success(request, order_number):
 
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
-        email will be sent to {order.email}.')
+        email will be sent to {order.email}')
 
     if 'bag' in request.session:
         del request.session['bag']

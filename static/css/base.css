@@ -132,12 +132,6 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-.nav-item{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-
 
 
 /* ------------------------------- bootstrap toasts */
@@ -405,23 +399,16 @@ footer {
         height: 253px;
     }
         
-/*
-    .img_toast_size img {
-        height: 75px;
-    }*/
 }
 
 @media (min-width: 320px) and (max-width:475px) {
 
     .jumbotron {
-        
-        
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
-        top: 50px;
-                   
+        top: 50px;                   
     }
 
     
@@ -436,7 +423,7 @@ footer {
         
     }
 }
-
+/*
 @media (min-width: 650px) and (max-width:991px){
 
 .nav-icon {
@@ -464,4 +451,4 @@ footer {
     margin-left: 15px;
 }
 
-}
+}*/
