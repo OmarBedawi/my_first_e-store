@@ -23,7 +23,7 @@
                             {% if item.ebook.image %}
                             <img class="w-100" src="{{ item.ebook.image.url }}" alt="{% firstof item.ebook.title item.ebook.model %}">
                             {% else %}
-                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{% firstof item.ebook.title item.ebook.model %}">
+                            <img class="w-100 border-black" src="{{ MEDIA_URL }}noimage.png" alt="{% firstof item.ebook.title item.ebook.model %}">
                             {% endif %}
                         </div>
                         <div class="col-9">

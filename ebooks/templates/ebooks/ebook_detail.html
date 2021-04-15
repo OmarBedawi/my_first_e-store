@@ -17,11 +17,11 @@
                 <div class="image-container my-5">
                     {% if ebook.image %}
                         <a href="{{ ebook.image.url }}" target="_blank">
-                            <img class="card-img-top img-fluid book_detail_img" src="{{ ebook.image.url }}" alt="{{ ebook.title }}">
+                            <img class="card-img-top img-fluid border-black book_detail_img" src="{{ ebook.image.url }}" alt="{{ ebook.title }}">
                         </a>
                         {% else %}
                         <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ ebook.title }}">
+                            <img class="card-img-top img-fluid border-black" src="{{ MEDIA_URL }}noimage.png" alt="{{ ebook.title }}">
                         </a>
                     {% endif %}
                 </div>
@@ -67,7 +67,7 @@
                                                 </span>
                                             </button>
                                         </div>
-                                        <input class="form-control qty_input" type="number" 
+                                        <input class="form-control qty_input text-center" type="number" 
                                             name="quantity" value="1" min="1" max="99" 
                                             data-item_id="{{ ebook.id }}" 
                                             id="id_qty_{{ ebook.id }}">

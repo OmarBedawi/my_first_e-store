@@ -21,7 +21,7 @@
                         </a>
                         {% else %}
                         <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ ebook_reader.model }}">
+                            <img class="card-img-top img-fluid border-black" src="{{ MEDIA_URL }}noimage.png" alt="{{ ebook_reader.model }}">
                         </a>
                     {% endif %}
                 </div>
@@ -68,7 +68,7 @@
                                                 </span>
                                             </button>
                                         </div>
-                                        <input class="form-control qty_input" type="number" 
+                                        <input class="form-control qty_input text-center" type="number" 
                                             name="quantity" value="1" min="1" max="99" 
                                             data-item_id="{{ ebook_reader.id }}" 
                                             id="id_qty_{{ ebook_reader.id }}">
