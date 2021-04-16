@@ -61,6 +61,11 @@
                                                    {{ item.ebook.title }} x{{ item.quantity }}
                                                 </li>
                                             {% endfor %}
+                                            {% for item in order.lineitemsreader.all %}
+                                                <li class="small">
+                                                   {{ item.ebook_reader.brand }} - {{ item.ebook_reader.model }} x{{ item.quantity }}
+                                                </li>
+                                            {% endfor %}
                                         </ul>
                                     </td>
                                     <td>${{ order.grand_total }}</td>

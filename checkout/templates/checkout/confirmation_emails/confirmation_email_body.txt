@@ -5,13 +5,22 @@ This is a confirmation of your order at E-Book Store. Your order information is 
 Order Number: {{ order.order_number }}
 Order Date: {{ order.date }}
 
-Order Total: ${{ order.order_total }}
+Order Details:
+
+{% for item in order.lineitems.all %}
+{{ item.quantity }} X {{ item.ebook.title }} - {{ item.ebook.authors %}
+{% endfor %}
+{% for item in order.lineitemsreader.all %}
+{{ item.quantity }} X {{ item.ebook_reader.brand }} - {{ item.ebook_reader.model }}
+{% endfor %}
+
+Order Total: ${{ order.grand_total }}
 Discount to apply: $ 0
 Grand Total: ${{ order.grand_total }}
 
-Your order will be sent as PDF file to your e-mail address.
+E-Books will be sent as PDF file to your e-mail address.
 
-If you have ordered an E-book Reader, it will be shipped with no cost for you to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+If you have ordered an e-book Reader, it will be shipped with no cost for you to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
 
 We've got your phone number on file as {{ order.phone_number }}.
 
