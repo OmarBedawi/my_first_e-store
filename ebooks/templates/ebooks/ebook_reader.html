@@ -43,7 +43,7 @@
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
-                                <span class="small"><a href="{% url 'ebooks' %}">Ebooks Home</a> | </span>
+                                <span class="small"><a href="{% url 'ebooks' %}">E-Books Home</a> | </span>
                             {% endif %}
                             {{ ebook_readers|length }} E-Book Readers{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>

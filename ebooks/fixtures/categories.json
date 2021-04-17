@@ -3,24 +3,24 @@
     "pk":1,
     "model":"ebooks.category",
     "fields":{
-      "name":"13-15_years",
-      "friendly_name":"13-15 years"
+      "name":"6-8_years",
+      "friendly_name":"6-8 years"
     }
   },
   {
     "pk":2,
     "model":"ebooks.category",
     "fields":{
-      "name":"6-8_years",
-      "friendly_name":"6-8 years"
+      "name":"9-12_years",
+      "friendly_name":"9-12 years"
     }
   },
   {
     "pk":3,
     "model":"ebooks.category",
     "fields":{
-      "name":"9-12_years",
-      "friendly_name":"9-12 years"
+      "name":"13-15_years",
+      "friendly_name":"13-15 years"
     }
   },
   {

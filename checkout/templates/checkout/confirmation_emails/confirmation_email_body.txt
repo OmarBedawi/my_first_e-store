@@ -3,13 +3,12 @@ Hello {{ order.full_name }}!
 This is a confirmation of your order at E-Book Store. Your order information is below:
 
 Order Number: {{ order.order_number }}
+
 Order Date: {{ order.date }}
 
 Order Details:
-
 {% for item in order.lineitems.all %}
-{{ item.quantity }} X {{ item.ebook.title }} - {{ item.ebook.authors }}
-{% endfor %}
+{{ item.quantity }} X {{ item.ebook.title }}{% endfor %}
 {% for item in order.lineitemsreader.all %}
 {{ item.quantity }} X {{ item.ebook_reader.brand }} - {{ item.ebook_reader.model }}
 {% endfor %}
