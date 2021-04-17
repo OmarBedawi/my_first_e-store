@@ -8,8 +8,8 @@ Order Date: {{ order.date }}
 
 Order Details:
 {% for item in order.lineitems.all %}
-{{ item.quantity }} X {{ item.ebook.title }}{% endfor %}
-{% for item in order.lineitemsreader.all %}
+{{ item.quantity }} X {{ item.ebook.title }}
+{% endfor %}{% for item in order.lineitemsreader.all %}
 {{ item.quantity }} X {{ item.ebook_reader.brand }} - {{ item.ebook_reader.model }}
 {% endfor %}
 
@@ -17,7 +17,7 @@ Order Total: ${{ order.grand_total }}
 Discount to apply: $ 0
 Grand Total: ${{ order.grand_total }}
 
-E-Books will be sent as PDF file to your e-mail address.
+E-Books will be sent as PDF file to your e-mail address within the next 12 hours.
 
 If you have ordered an e-book Reader, it will be shipped with no cost for you to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
 

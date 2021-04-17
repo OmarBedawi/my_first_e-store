@@ -58,12 +58,12 @@
                                         <ul class="list-unstyled">
                                             {% for item in order.lineitems.all %}
                                                 <li class="small">
-                                                   {{ item.ebook.title }} x{{ item.quantity }}
+                                                   {{ item.quantity }} x {{ item.ebook.title }}
                                                 </li>
                                             {% endfor %}
                                             {% for item in order.lineitemsreader.all %}
                                                 <li class="small">
-                                                   {{ item.ebook_reader.brand }} - {{ item.ebook_reader.model }} x{{ item.quantity }}
+                                                   {{ item.quantity }} x {{ item.ebook_reader.brand }} - {{ item.ebook_reader.model }}
                                                 </li>
                                             {% endfor %}
                                         </ul>
@@ -76,6 +76,7 @@
                 </div>
             </div>
         </div>
+    </div>
 {% endblock %}
 
 {% block postloadjs %}
