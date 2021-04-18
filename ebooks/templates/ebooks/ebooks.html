@@ -48,7 +48,9 @@
                             {% endif %}
                             {{ ebooks|length }} Ebooks{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
+                        {% if ebooks|length != 0 %}
                         <p class="text-center text-md-left">Click on the image to see more details.</p>
+                        {% endif %}
                     </div>
                 </div>
                 <div class="row">
