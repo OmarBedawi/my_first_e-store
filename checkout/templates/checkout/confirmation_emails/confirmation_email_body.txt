@@ -30,3 +30,5 @@ Thank you for your order!
 Sincerely,
 
 E-Book Store
+
+{{ site_domain }}

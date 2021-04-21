@@ -75,35 +75,19 @@ def remove_from_bag(request, item_id):
 
     try:
         ebook = get_object_or_404(Ebook, pk=item_id)
-        size = None
-        if 'product_size' in request.POST:
-            size = request.POST['product_size']
         bag = request.session.get('bag', {})
 
-        if size:
-            del bag[item_id]['items_by_size'][size]
-            if not bag[item_id]['items_by_size']:
-                bag.pop(item_id)
-        else:
-            bag.pop(item_id)
-            messages.success(request, f'Removed "{ebook.title}" from your bag')
+        bag.pop(item_id)
+        messages.success(request, f'Removed "{ebook.title}" from your bag')
 
         request.session['bag'] = bag
         return HttpResponse(status=200)
     except Exception:
         ebook = get_object_or_404(Ebook_reader, pk=item_id)
-        size = None
-        if 'product_size' in request.POST:
-            size = request.POST['product_size']
         bag = request.session.get('bag', {})
 
-        if size:
-            del bag[item_id]['items_by_size'][size]
-            if not bag[item_id]['items_by_size']:
-                bag.pop(item_id)
-        else:
-            bag.pop(item_id)
-            messages.success(request, f'Removed "{ebook.brand} {ebook.model}" from your bag')  # noqa: disable=line-too-long
+        bag.pop(item_id)
+        messages.success(request, f'Removed "{ebook.brand} {ebook.model}" from your bag')  # noqa: disable=line-too-long
 
         request.session['bag'] = bag
         return HttpResponse(status=200)
