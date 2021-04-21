@@ -9,7 +9,7 @@ class EbookForm(forms.ModelForm):
         model = Ebook
         fields = '__all__'
 
-    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)  # noqa: disable=line-too-long
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -27,7 +27,7 @@ class EbookForms(forms.ModelForm):
         model = Ebook_reader
         fields = '__all__'
 
-    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)  # noqa: disable=line-too-long
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

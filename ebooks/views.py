@@ -37,16 +37,15 @@ def all_ebooks(request):
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             ebooks = ebooks.filter(category__name__in=categories)
-            print('categories', categories, 'ebooks', ebooks)
             categories = Category.objects.filter(name__in=categories)
 
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request, "You didn't enter any search criteria!")  # noqa: disable=line-too-long
                 return redirect(reverse('ebooks'))
 
-            queries = Q(title__icontains=query) | Q(description__icontains=query)
+            queries = Q(title__icontains=query) | Q(description__icontains=query)  # noqa: disable=line-too-long
             ebooks = ebooks.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -88,7 +87,7 @@ def ebook_reader(request):
             sort = sortkey
             if sortkey == 'model':
                 sortkey = 'lower_model'
-                ebook_readers = ebook_readers.annotate(lower_model=Lower('model'))
+                ebook_readers = ebook_readers.annotate(lower_model=Lower('model'))  # noqa: disable=line-too-long
             if sortkey == 'category':
                 sortkey = 'category__name'
             if 'direction' in request.GET:
@@ -101,7 +100,6 @@ def ebook_reader(request):
             categories = request.GET['category'].split(',')
             ebook_readers = ebook_readers.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-            queries = Q(title__icontains=query) | Q(description__icontains=query)
 
     current_sorting = f'{sort}_{direction}'
 
@@ -141,7 +139,7 @@ def add_ebook(request):
             messages.success(request, 'Successfully added E-Book!')
             return redirect(reverse('ebook_detail', args=[ebook.id]))
         else:
-            messages.error(request, 'Failed to add e-book. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add e-book. Please ensure the form is valid.')  # noqa: disable=line-too-long
     else:
         form = EbookForm()
 
@@ -168,7 +166,7 @@ def edit_ebook(request, ebook_id):
             messages.success(request, 'Successfully updated E-book!')
             return redirect(reverse('ebook_detail', args=[ebook.id]))
         else:
-            messages.error(request, 'Failed to update E-book!. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update E-book!. Please ensure the form is valid.')  # noqa: disable=line-too-long
     else:
         form = EbookForm(instance=ebook)
         messages.info(request, f'You are editing {ebook.title}')
@@ -207,9 +205,9 @@ def add_ebook_reader(request):
         if form.is_valid():
             ebook_reader = form.save()
             messages.success(request, 'Successfully added E-Book Reader!')
-            return redirect(reverse('ebook_reader_detail', args=[ebook_reader.id]))
+            return redirect(reverse('ebook_reader_detail', args=[ebook_reader.id]))  # noqa: disable=line-too-long
         else:
-            messages.error(request, 'Failed to add E-Book Reader. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add E-Book Reader. Please ensure the form is valid.')  # noqa: disable=line-too-long
     else:
         form = EbookForms()
 
@@ -234,12 +232,12 @@ def edit_ebook_reader(request, ebook_reader_id):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully updated E-book Reader!')
-            return redirect(reverse('ebook_reader_detail', args=[ebook_reader_id]))
+            return redirect(reverse('ebook_reader_detail', args=[ebook_reader_id]))  # noqa: disable=line-too-long
         else:
-            messages.error(request, 'Failed to update E-book Reader!. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update E-book Reader!. Please ensure the form is valid.')  # noqa: disable=line-too-long
     else:
         form = EbookForms(instance=ebook_reader)
-        messages.info(request, f'You are editing {ebook_reader.brand} {ebook_reader.model}')
+        messages.info(request, f'You are editing {ebook_reader.brand} {ebook_reader.model}')  # noqa: disable=line-too-long
 
     template = 'ebooks/edit_ebook_reader.html'
     context = {

@@ -12,7 +12,7 @@
       "price":139.99,
       "category":14,
       "rating":8.4,
-      "image_url":"https://asset.conrad.com/media10/isa/160267/c1/-/nl/002190593PI00/image.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk140.jpg",
       "image":"pk140.jpg"
     }
   },
@@ -29,7 +29,7 @@
       "price":159.99,
       "category":15,
       "rating":8.1,
-      "image_url":"https://images.wehkamp.nl/i/wehkamp/16362773_eb_01/kobo-libra-h2o-e-reader-zwart-zwart-0681495007813.jpg?w=1024",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk141.jpg",
       "image":"pk141.jpg"
     }
   },
@@ -46,7 +46,7 @@
       "price":149.99,
       "category":15,
       "rating":9.1,
-      "image_url":"https://cdn.shopify.com/s/files/1/0832/6249/products/Luna_Front_2_EN_large.jpg?v=1594389699",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk142.jpg",
       "image":"pk142.jpg"
     }
   },
@@ -63,7 +63,7 @@
       "price":269.99,
       "category":15,
       "rating":8.2,
-      "image_url":"https://cdn.shopify.com/s/files/1/0832/6249/products/Frost_pair_EN_9fb9d9e4-660e-4ad2-923f-9153c1a94f78_large.png?v=1538599625",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk143.png",
       "image":"pk143.png"
     }
   },
@@ -80,7 +80,7 @@
       "price":129.99,
       "category":15,
       "rating":9.1,
-      "image_url":"https://image.coolblue.nl/422x390/products/1376291",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk144.jpg",
       "image":"pk144.jpg"
     }
   },
@@ -97,7 +97,7 @@
       "price":129.99,
       "category":15,
       "rating":9.1,
-      "image_url":"https://www.mywpl.ca/images/ebook_How_To/kobo_aura.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk145.jpg",
       "image":"pk145.jpg"
     }
   },
@@ -114,7 +114,7 @@
       "price":149.99,
       "category":15,
       "rating":7.8,
-      "image_url":"https://image.coolblue.nl/422x390/products/768882",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk146.jpg",
       "image":"pk146.jpg"
     }
   },
@@ -131,7 +131,7 @@
       "price":129.99,
       "category":15,
       "rating":8.0,
-      "image_url":"https://images-na.ssl-images-amazon.com/images/I/41mWQ-3nv7L._AC_.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk147.jpg",
       "image":"pk147.jpg"
     }
   },
@@ -148,7 +148,7 @@
       "price":119.99,
       "category":15,
       "rating":7.5,
-      "image_url":"https://images.wehkamp.nl/i/wehkamp/622895_pb_01/kobo-touch-2-0-e-reader-zwart-0681495007073.jpg?w=1024",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk148.jpg",
       "image":"pk148.jpg"
     }
   },
@@ -165,7 +165,7 @@
       "price":109.99,
       "category":15,
       "rating":8.3,
-      "image_url":"https://goodereader.com/blog/uploads/images/71QE6LlNSDL._SX425_.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk149.jpg",
       "image":"pk149.jpg"
     }
   },
@@ -182,7 +182,7 @@
       "price":109.99,
       "category":15,
       "rating":8.0,
-      "image_url":"https://images.wehkamp.nl/i/wehkamp/16171707_pb_01/kobo-aura-edition-2-refurbished-e-reader-zwart-0681495007387.jpg?w=792",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk150.jpg",
       "image":"pk150.jpg"
     }
   },
@@ -199,7 +199,7 @@
       "price":249.99,
       "category":14,
       "rating":9.6,
-      "image_url":"https://blog.the-ebook-reader.com/wp-content/uploads/2020/07/Kindle-Oasis-2-560x492.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk151.jpg",
       "image":"pk151.jpg"
     }
   },
@@ -216,7 +216,7 @@
       "price":189.99,
       "category":14,
       "rating":9.1,
-      "image_url":"https://media.s-bol.com/7369KVLLqLwG/550x551.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk152.jpg",
       "image":"pk152.jpg"
     }
   },
@@ -233,7 +233,7 @@
       "price":105.99,
       "category":14,
       "rating":8.6,
-      "image_url":"https://i.ebayimg.com/00/s/MTAyMlgxMDA4/z/kEoAAOSwAb1cmP2d/$_32.JPG",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk153.jpg",
       "image":"pk153.jpg"
     }
   },
@@ -250,7 +250,7 @@
       "price":169.99,
       "category":14,
       "rating":8.1,
-      "image_url":"https://goodereader.com/blog/uploads/images/2020/09/font-b-amazon-b-font-font-b-kindle-b-font-font-b-dx-b-font.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk154.jpg",
       "image":"pk154.jpg"
     }
   },
@@ -267,7 +267,7 @@
       "price":169.99,
       "category":14,
       "rating":8.6,
-      "image_url":"https://blobstorage.azureedge.net/wbimages//Products/177694/SmallImage/1.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk155.jpg",
       "image":"pk155.jpg"
     }
   },
@@ -284,7 +284,7 @@
       "price":139.99,
       "category":14,
       "rating":8.5,
-      "image_url":"https://goodereader.com/blog/uploads/images/61fnkc4jmSL._SL1000_.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk156.jpg",
       "image":"pk156.jpg"
     }
   },
@@ -301,7 +301,7 @@
       "price":79.99,
       "category":14,
       "rating":7.3,
-      "image_url":"https://hotline.ua/img/tx/760/7607365.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk157.jpg",
       "image":"pk157.jpg"
     }
   },
@@ -318,7 +318,7 @@
       "price":99.99,
       "category":14,
       "rating":8.0,
-      "image_url":"https://cdn.webshopapp.com/shops/251715/files/355365136/amazon-kindle-wifi-2019-zwart.jpg",
+      "image_url":"https://omar-e-book-store.s3.amazonaws.com/media/pk158.jpg",
       "image":"pk158.jpg"
     }
   }
