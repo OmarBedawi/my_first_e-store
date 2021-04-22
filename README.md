@@ -100,34 +100,34 @@ handle the data and prevent creating a large database with many repeated values.
 
 ##### Ebooks App
 ###### Category
-This is a simple model used to store the different types of categories each book can belong to.
-New categories can be easily added if the store decides to start selling new books categories.
+This is a simple model used to store the different type of categories each book or reader can belong to.
+New categories can be easily added by the store owner.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | name | CharField | max_length=254 |
-| friendly_name | CharField | max_length=254, null=True, blank=True |
+| friendly_name | CharField | max_length=254, blank=True |
 
 ###### Ebook
-This model stores and display to the user, the informations of every book and a picture of its cover.
+This model stores and display for the user, the informations of every book and a picture of its cover.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | category | ForeignKey | (related field) Category, null=True, blank=True, on_delete=models.SET_NULL |
-| sku | CharField | max_length=254, null=True, blank=True |
+| sku | CharField | max_length=254, blank=True |
 | title | CharField | max_length=254 |
 | authors | CharField | max_length=254, default='' |
 | year | CharField | max_length=254, default='' |
 | description | TextField |  |
 | price | DecimalField | max_digits=6, decimal_places=2 |
 | rating | DecimalField | max_digits=6, decimal_places=1, null=True, blank=True |
-| image_url | URLField | max_length=1024, null=True, blank=True |
-| image | ImageField | null=True, blank=True |
+| image_url | URLField | max_length=1024, blank=True |
+| image | ImageField | blank=True |
 
 ###### Ebook_reader
 This model stores and display to the user, the informations of every book and a picture of its cover.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | category | ForeignKey | (related field) Category, null=True, blank=True, on_delete=models.SET_NULL |
-| sku | CharField | max_length=254, null=True, blank=True |
+| sku | CharField | max_length=254, blank=True |
 | brand | CharField | max_length=254 |
 | model | CharField | max_length=254, default='' |
 | size | CharField | max_length=254, default='' |
@@ -135,8 +135,8 @@ This model stores and display to the user, the informations of every book and a 
 | description | TextField |  |
 | price | DecimalField | max_digits=6, decimal_places=2 |
 | rating | DecimalField | max_digits=6, decimal_places=1, null=True, blank=True |
-| image_url | URLField | max_length=1024, null=True, blank=True |
-| image | ImageField | null=True, blank=True |
+| image_url | URLField | max_length=1024, blank=True |
+| image | ImageField | blank=True |
 
 ##### Checkout App
 ###### Order
@@ -147,22 +147,22 @@ on their profile page. It also has a stripe_pid field for validation,
 preventing orders from being created twice by mistake.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
-| order_number | CharField | UserAccount, null=True, blank=True, on_delete=models.SET_NULL, related_name='orders' |
-| user_profile | ForeignKey | max_length=32, null=False, editable=False |
-| full_name | CharField | max_length=100, null=False, blank=False |
-| email  | EmailField | max_length=200, null=False, blank=False |
-| phone_number | CharField | max_length=200, null=False, blank=False |
-| country  | CountryField | max_length=20, null=True, blank=True |
-| postcode | CharField | auto_now_add=True |
-| town_or_city  | CharField | max_length=27, null=False, blank=False |
-| street_address1 | CharField | max_length=27, null=False, blank=False |
-| street_address2 | CharField | max_length=27, null=False, blank=False |
-| county | CharField | max_length=27, null=False, blank=False |
-| date | DateTimeField | max_length=27, null=False, blank=False |
-| order_total  | DecimalField | max_length=27, null=False, blank=False |
-| grand_total  | DecimalField | max_length=27, null=False, blank=False |
-| original_bag | TextField | max_length=27, null=False, blank=False |
-| stripe_pid  | CharField | max_length=27, null=False, blank=False |
+| order_number | CharField | max_length=32, null=False, editable=False |
+| user_profile | ForeignKey | UserProfile, on_delete=models.SET_NULL, null=True, blank=True, related_name='orders' |
+| full_name | CharField | max_length=50, null=False, blank=False |
+| email  | EmailField | max_length=254, null=False, blank=False |
+| phone_number | CharField | max_length=20, null=False, blank=False |
+| country  | CountryField | blank_label='Country *', null=False, blank=False |
+| postcode | CharField | max_length=20, null=True, blank=True |
+| town_or_city  | CharField | max_length=40, null=False, blank=False |
+| street_address1 | CharField | max_length=80, null=False, blank=False |
+| street_address2 | CharField | max_length=80, null=True, blank=True |
+| county | CharField | max_length=80, null=True, blank=True |
+| date | DateTimeField | auto_now_add=True |
+| order_total  | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
+| grand_total  | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
+| original_bag | TextField | null=False, blank=False, default='' |
+| stripe_pid  | CharField | max_length=254, null=False, blank=False, default='' |
 
 
 ###### OrderLineItem
@@ -182,7 +182,7 @@ This model is used in the same way of the OrderLineItem model but it displays e-
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | order | ForeignKey | (related model) Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitemsreader' |
-| ebook | ForeignKey | (related model) Ebook_reader, null=False, blank=False, on_delete=models.CASCADE |
+| ebook_reader | ForeignKey | (related model) Ebook_reader, null=False, blank=False, on_delete=models.CASCADE |
 | quantity | IntegerField | null=False, blank=False, default=0 |
 | lineitem_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
 
@@ -195,12 +195,12 @@ This model maintain default delivery information and order history
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | user | OneToOneField | User, on_delete=models.CASCADE |
-| default_phone_number | CharField | max_length=20, null=True, blank=True |
-| default_street_address1 | CharField | max_length=80, null=True, blank=True |
-| default_street_address2 | CharField | max_length=80, null=True, blank=True |
-| default_town_or_city | CharField | max_length=40, null=True, blank=True |
-| default_county | CharField | max_length=80, null=True, blank=True |
-| default_postcode | CharField | max_length=20, null=True, blank=True |
+| default_phone_number | CharField | max_length=20, blank=True |
+| default_street_address1 | CharField | max_length=80, blank=True |
+| default_street_address2 | CharField | max_length=80, blank=True |
+| default_town_or_city | CharField | max_length=40, blank=True |
+| default_county | CharField | max_length=80, blank=True |
+| default_postcode | CharField | max_length=20, blank=True |
 | default_country | CountryField | blank_label='Country', null=True, blank=True |
 
 ---
