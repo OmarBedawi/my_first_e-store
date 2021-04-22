@@ -396,6 +396,13 @@ footer {
 	}
 }
 
+@media (max-width: 768px) {
+	.img_size_mob img {
+		width: 250px;
+		height: 300px;
+	}
+}
+
 @media (min-width: 320px) and (max-width:475px) {
 	.jumbotron {
 		padding-top: 20px;
