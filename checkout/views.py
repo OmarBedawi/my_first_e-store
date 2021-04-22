@@ -79,7 +79,7 @@ def checkout(request):
                         order_line_reader.save()
                     except Ebook_reader.DoesNotExist:
                         messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. Please call us for assistance!")
+                            "One of the products in your bag wasn't found in our database. Please call us for assistance!")
                         )
                         order.delete()
                         return redirect(reverse('view_bag'))
