@@ -29,5 +29,5 @@ Thank you for your order!
 
 Sincerely,
 
-{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}{{ site_name }}!
-{{ site_domain }}{% endblocktrans %}
+E-Book Store
+https://omar-e-book-store.herokuapp.com/ 

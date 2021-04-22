@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse  # noqa: disable=line-too-long
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -79,21 +79,20 @@ def checkout(request):
                         order_line_reader.save()
                     except Ebook_reader.DoesNotExist:
                         messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
-                        "Please call us for assistance!")
+                        "One of the products in your bag wasn't found in our database. Please call us for assistance!")  # noqa: disable=line-too-long
                         )
                         order.delete()
                         return redirect(reverse('view_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_success', args=[order.order_number]))  # noqa: disable=line-too-long
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There's nothing in your bag at the moment")
+            messages.error(request, "There's nothing in your bag at the moment")  # noqa: disable=line-too-long
             return redirect(reverse('ebooks'))
 
         current_bag = bag_contents(request)
