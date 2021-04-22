@@ -30,4 +30,3 @@ Thank you for your order!
 Sincerely,
 
 E-Book Store
-https://omar-e-book-store.herokuapp.com/ 
