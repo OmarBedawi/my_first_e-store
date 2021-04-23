@@ -6,7 +6,11 @@
 * User Credentials:  
   - Username: create your username  
   - Password: create your password  
-  - Email: use your own e-mail to receive the confirmation link to activate your profile OR create a temporary e-mail on [temp-mail](https://temp-mail.org/it/)
+  - Email: to receive confirmation of registration and orders you can use your own e-mail OR, create a temporary e-mail on [temp-mail](https://temp-mail.org/en/)
+
+* Superuser Credentials:  
+  - Username: TestSuperUser  
+  - Password: testingebook  
 
 * Card payments:
   - Card number: 4242 4242 4242 4242
@@ -23,7 +27,7 @@
 ---
 ## Aim
 The aim of this Django app is to create an interactive interface where users can find out
-e-Book titles and their relative informations/details.  
+e-Book titles and e-Book readers with useful details.  
 With this app a user, can create his/her own profile and, purchase e-Books and eventually e-Book readers.
 
 ---
@@ -108,7 +112,7 @@ New categories can be easily added by the store owner.
 | friendly_name | CharField | max_length=254, blank=True |
 
 ###### Ebook
-This model stores and display for the user, the informations of every book and a picture of its cover.
+This model stores and displays the informations of every book and a cover's picture.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | category | ForeignKey | (related field) Category, null=True, blank=True, on_delete=models.SET_NULL |
@@ -123,7 +127,7 @@ This model stores and display for the user, the informations of every book and a
 | image | ImageField | blank=True |
 
 ###### Ebook_reader
-This model stores and display to the user, the informations of every book and a picture of its cover.
+This model stores and displays the informations of every e-Book reader and a product's picture.
 | Field | Field Type | Validation |
 | :---- | :--------- | :--------- |
 | category | ForeignKey | (related field) Category, null=True, blank=True, on_delete=models.SET_NULL |
@@ -142,7 +146,7 @@ This model stores and display to the user, the informations of every book and a 
 ###### Order
 This is a simple model used to create and store orders.
 This model is capable to generate an order number every time a user complete an order. 
-It's relation to OrderLineItem and UserProfile allows users to see their past orders 
+Its relation to OrderLineItem, OrderLineReader and UserProfile allows users to see their past orders 
 on their profile page. It also has a stripe_pid field for validation, 
 preventing orders from being created twice by mistake.
 | Field | Field Type | Validation |
@@ -166,7 +170,7 @@ preventing orders from being created twice by mistake.
 
 
 ###### OrderLineItem
-This model is used to display the informations contained in an order placed by a user.
+This model is used to display the e-Books informations contained in an order placed by a user.
 The OrderLineItem's relation to the Order model is used to show past orders with the relative details on the user's profile page.
  
 | Field | Field Type | Validation |
@@ -244,7 +248,7 @@ The background image of the Homepage is coming from a google research.
 
 The e-Book cover images have been borrowed from the website [ebooks.com](ebooks.com/en-nl/)
 
-The e-Book reader images come from a google research.
+The e-Book reader images come from different google researches.
 
 ##### Fonts
 To keep the website consistent, [Google Fonts Lato](https://fonts.google.com/specimen/Lato)
@@ -275,8 +279,8 @@ Other colors are used when the flash messages appear:
 * #### Dynamic Search Bar 
     * E-Books can be searched by title and description using the search bar.
     * Dropdown menus allow the user to sort the titles by price, rating, category and alphabetically (highest to lowest and vice versa).
-    * Number of results for searches and categories is dynamically displayed on the page, just before the list of e-Books.
-    * Not working for e-Book readers because they are not a big quantity.
+    * Number of results for searches is dynamically displayed on the page, just before the list of e-Books.
+    * Not working for e-Book readers because they are not in big quantity.
 * #### Dynamic product Cards and Details Page
     * Each e-Book cover or e-Book reader image is contained in a card that features an image of the product, or the 
     stock missing image if no image has been uploaded.
@@ -286,15 +290,15 @@ Other colors are used when the flash messages appear:
     small to understand or comically large.
     * Clicking on the card image will take the user to the detail page, where all the product's details are displayed. 
     * On larger screens the details page is displayed next to each card; 
-    on smaller screens, these details are displyed in column, below the card.
-    * On this page users can select the quantities for a max of 99 units, and add the product to the basket.    
+    on smaller screens, these details are listed below the card.
+    * On the detail page users can select the quantities for a max of 99 units, and add the product to the basket.    
 * #### Smart Shopping Bag Update input
     * Users can update their product quantities in the shopping bag, or even delete a product from it.
 * #### Stripe Payments 
     * Users can checkout and purchase products using the Stripe API.
 * #### Smart Checkout Validator
     * User details and basket are validated twice before the stripe API is called to make the payment.
-    If there are any issues with the personal and card details or basket items the payment can't take 
+    If there are any issues with the personal and credit/debit card details or basket items the payment can't take 
     place and the page is reloaded showing the user an error message and assuring them the purchase 
     hasn't gone through.
 * #### Checkout Redundancy
@@ -308,9 +312,9 @@ Other colors are used when the flash messages appear:
     * Users can create an account with E-Book Store website and this automatically creates 
     a UserAccount entry for the User in the database. Users can use the account to 
     view past orders.
-* #### User Account
+* #### User Profile
     * Users can store their details and use them next time a user reaches the Checkout page.
-    * User details can be updated from their account page. This will not affect their 
+    * User details can be updated from their profile page. This will not affect their 
     user details (username, email, password) and this is outlined under the update details form.
 * #### Password Reset 
     * Users can update their password using their email if they have forgotten their current 
@@ -325,13 +329,26 @@ Other colors are used when the flash messages appear:
     * The basket won't allow users to checkout if their basket is empty.
     * If the basket is empty it offers a link back to the shopping area.
 * #### Responsive Fixed Navbar
-  * Includes dropdown links to the different categories of e-Books, e-Book readers and account pages.
+  * Includes dropdown links to the different categories of e-Books, e-Book readers and profile pages.
   * Logo text disappears on smaller screens, key elements (basket and account dropdown) 
   remain as icons, while less essential links are stored in the mobile dropdown.
 * #### Simple Footer
     * Footer remains consistent across the site and includes three social links and a link
     to the creator's github page. All external links create a new tab rather than change the 
     current windows location. 
+
+### Features Left to Implement
+* #### Styled Superuser Dashboard 
+    * With more time, a nicely styled dashboard would be created for super users.
+    Currently it is just the standard Django admin dashboard which is usable but 
+    if is fitting with the rest of the site would be better for UX.
+* #### Discount for users
+    * With more time, I would like to implement a function for discount. At the moment there is only a 
+    discount voice displayed between order total and grand total that is fake for now, is only
+    showing: "Discount to apply: 0%"
+* #### Custom 404 Page 
+    * Fairly self explanatory, but this feature wasn't deemed necessary for the site 
+    to be deployed.
 
 
 ---
@@ -497,6 +514,7 @@ is a Code Institute mini project. It was a very helpful tool in setting up the s
 ### Media
 
 * All the images used as e-Book cover, have been borrowed by the website [ebooks.com](ebooks.com/en-nl/).
+* All the other images are coming from google research.
 
 ### Acknowledgements
 A massive thank you to my mentor Antonio Rodriguez for his helpful feedbacks.   
