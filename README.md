@@ -376,6 +376,7 @@ responsive breakpoints and pre-built elements.
 * [W3 Css validator](https://jigsaw.w3.org/) - Used to test and validate my css code.
 * [JSHint](https://jshint.com/) - Used to validate my Javascript code.
 * [Free Formatter](https://www.freeformatter.com/) - Used to format my html, css and javascript code.
+* [Pep8](http://pep8online.com/) and [Extend Class Python Validator](https://extendsclass.com/python-tester.html) to format and validate python files.
 * [Heroku](https://www.heroku.com/home) - Used to deploy and host the finished site.
 * [Heroku Postgres](https://www.heroku.com/postgres) - Used to serve the database of E-Book Store manages products and user data with.
 ---
