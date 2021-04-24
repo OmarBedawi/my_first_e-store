@@ -14,6 +14,8 @@ On smaller devices the categories are 3 clicks away but they are always easily a
 from the fixed Navabar.  
 Seeing old order summaries does take more clicks to access if you are not logged in but this is not expected to be a key
 feature users need to view in a rush.
+Lately, in the list of products view, I have added an "Add to Bag" button below every product. 
+I did this to don't obligate users to enter the detail page to add a product to the basket.
 
 
 
@@ -89,14 +91,14 @@ those fields are automatically filled) and the credit/debit card details.
 
 > As a User, I would like confirmation of my orders, so I can know that my purchase was successfull.
 
-* Once an order has been saved to the database and this has been verified by the webhook handler, an email confirming 
+* Once an order has been saved to the database and this has been verified by the webhook handler, an e-mail confirming 
 the order is sent out. Checkouts which experience no issues redirect the user to a checkout success page which 
 verifies an order is completed (along with the email).
 Logged in users can also check an order by looking at their order history in the profile page.
 
 
 
-> As a User with an account, I would like a list of my past orders, so I can know what e-Books I have purchased.
+> As a User with an account, I would like a list of my past orders, so I can know what products I have purchased in the past.
 
 * A user's profile page displays past orders, sorted by date so they can see all the purchases they have done.
 
@@ -109,7 +111,7 @@ or not.
 
 
 
-> As an Owner, I would like simple navigation to the e-Books pages, so I can encourage users to buy e-Books.
+> As an Owner, I would like simple navigation to the product pages, so I can encourage users to buy more.
 
 * The e-Books page is one of the first links seen on the landing page, along with being the first link after **Home** in the navbar
 and on the mobile dropdown.
@@ -201,10 +203,10 @@ The app was physically tested on the following browsers:
 
 #### Responsive Design Testing
 The responsive design was tested using these physical devices:
-* Samsung Galaxy S8 (Google Chrome)
+* Samsung Galaxy S8 (Google Chrome, Samsung Internet Browser)
 * Samsung Galaxy Tab 4 (Google Chrome, Mozilla Firefox, Samsung Internet Browser)
 * RedMi Note 8 (Mi Browser, Google Chrome, Mozilla Firefox)
-* Laptop HP 17-ca0133nb (Chrome, Mozilla Firefox)
+* Laptop HP 17-ca0133nb (Chrome, Mozilla Firefox, Microsoft Edge)
 
 
 No major issues were uncovered.
@@ -238,17 +240,40 @@ The fields of the checkout page contains the details of a user. For a returning 
 suppose to be all prefilled when he/she is about to complete another order.
 
 
-#### When user choose to navigate in a Category page, the options "Category (A-Z)" and "Category (Z-A)" not suppose to be available
-"Category (A-Z)" and "Category (Z-A)" not suppose to show up in the "sort by" options if a user is already navigating inside a Category.
-
 #### In the e-Books page, Titles and Authors are not always on the same line
-On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 6, or 3 or 2.
+On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 4, or 3 or 2.
 When the title of an e-Book is so long that required to be displayed on multiple lines, can cause 
 that the authors line are not aligned with the authors line of the e-Book next to.
 
 
 #### Misplaced navbar icons on smaller screens
-On some smaller screens, profile icon and search bar are pushed to the right side of the navbar creating
-a little of white space between them and the toggle menu.
+On some smaller screens,  search bar, profile icon and basket icon cannot stay on the same line.
+After struggling with padding and margin I have decided to reduce the font-size of the icons on xs screen. 
+
+
+#### Struggling with e-Book reader images
+The e-Book images all come from the same website, so I did not have any problem with sizing and pixelation.
+At the contrary, the e-Book reader images were much more difficult to find and they all come from different sources.
+That means I had a lot of hard time to find the right size for displaying them on the site without to be comically pixelated.
+I think I found a compromising size but I believe that some picture are still a little compressed but acceptable.
+
+
+#### Issues with displaying total price (e-Book price + e-Book reader price)
+I had issues with adding the e-Book total with the e-Book reader total.
+I had a lot of situations where at the checkout I was able to display only one of them.
+I solved that letting the e-Book total landing on the order_total field and then doing the sum with the grand_total (where the e-Book readers total lands).
+I could do that because the discount for now is fake.
+
+
+#### Order confirmation e-mail
+Normally the order confirmation e-mail, arrives few seconds after concluding a successful checkout.
+However, it happend in very few cases that the mail took even up to 15 minutes to be delivered.
+
+
+#### Some commits are not clear
+I'm aware that some of my commits are maybe not very informative.
+That happened when I had issues that were making my site stuck or crush completely and sending me in panic situations.
+I'm aware I have to improve this aspect.
+
 
 
