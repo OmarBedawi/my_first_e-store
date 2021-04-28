@@ -23,20 +23,20 @@ I did this to don't obligate users to enter the detail page to add a product to 
 
 * On all the screen size, the essential informations of every product are displayed below its image.
 If the user clic on a product's image, he will access a page with all the product's details, including the product's description.
-On this page users can add items to the shopping bag.
+On this page users can add items to the shopping bag and decide the quantity (from 1 to 99) using the quantity form.
 
 
 
 > As a User, I would like to easily see my basket, so I can checkout quickly at any moment.
 
-* Users can always click on their basket which is always in the top right of the screen. As it is a key feature, at smaller 
+* Users can always click on their basket icon which is always on the top right of the screen. As it is a key feature, at smaller 
 breakpoints this basket icon remains in place rather then entering the mobile dropdown menu.
-In case there are items in the basket, below the bag is always displayed how much the user is spending so far.
+In case there are items in the basket, below the bag is always displayed the total price of the items in the shopping bag.
 
 
 > As a User, I would like to easily be able to sort the products in different ways.
 
-* In every page where e-Books and e-Book reader are listed, the user always have the chance to sort the products 
+* In every page where e-Books and e-Book readers are listed, the user always have the chance to sort the products 
 by price, by rating, alphabetically or by category (highest to lowest and vice versa).
 
 
@@ -44,7 +44,7 @@ by price, by rating, alphabetically or by category (highest to lowest and vice v
 
 * A user can always search for an e-Book using the search bar that is always available on the top of the page.
 The e-Books can be searched by title and description.
-Number of results for searches is dynamically displayed on top ofthe page.
+Number of results for searches is dynamically displayed on top of the page.
 
 
 
@@ -58,25 +58,25 @@ Order numbers can be clicked to get a full summary of that specific order.
 
 > As a Returning User, I would like to be able to save my default informations, so I can easily use them for the next purchase.
 
-* On the "my profile" page, users can update their details which will be used next time they checkout. 
+* On the profile page, users can update their details which will be used next time they checkout. 
 If a user updates his details, a confirmation toast appears letting him know the action has occured. 
 The page is then reloaded showing the new details. If there is an error then the page still reloads 
 but an error message appears informing them there was an issue updating the details.
 
 
 
-> As a New User, I would like to be able to create a profile, so I can save my details and see my orders.
+> As a New User, I would like to be able to create a profile, so I can save my details and see my future orders.
 
 * New users can quickly create a profile from the account dropdown by clicking 'Register'. Once their details
-have been filled out and validated, they will receive a confirmation email asking them to verify their account.
+have been filled out and validated, they will receive a confirmation email asking them to verify their new profile.
 
 
 
-> As a Returning User, I would like To be able to reset my password, so I can update my password if I forget it.
+> As a Returning User, I would like to be able to reset my password, so I can update my password if I forget it.
 
 * On the Login page there is a 'forgot password?' option which allows users to update their password. 
 * A link is sent to their email which they can use to update their password. An info toast appears 
-when the email has been sent and a success toast appears once they have completed updating their password.
+when the email has been sent, and a success toast appears once they have completed updating their password.
 
 
 
@@ -93,7 +93,7 @@ those fields are automatically filled) and the credit/debit card details.
 
 * Once an order has been saved to the database and this has been verified by the webhook handler, an e-mail confirming 
 the order is sent out. Checkouts which experience no issues redirect the user to a checkout success page which 
-verifies an order is completed (along with the email).
+verifies an order is completed (along with a success toast message and the email).
 Logged in users can also check an order by looking at their order history in the profile page.
 
 
@@ -113,15 +113,15 @@ or not.
 
 > As an Owner, I would like simple navigation to the product pages, so I can encourage users to buy more.
 
-* The e-Books page is one of the first links seen on the landing page, along with being the first link after **Home** in the navbar
+* The e-Books page is one of the first link seen on the landing page, along with being the first link after **Home** in the navbar
 and on the mobile dropdown.
 
 
 
 > As an Owner, I would like lots of links back to the e-Books pages, so I can get users to buy more.
 
-* There are multiple links to or back to the e-Books pages. There is one on the Homepage (Shop now) and one appear in empty shopping bag.
-After successful checkouts, users are linked back to the e-Books pages, and shopping bag have an option to go back to the e-Books pages or checkout.
+* There are multiple links to or back to the e-Books page. There is one on the Homepage (Shop now) and one appears in empty shopping bag.
+After successful checkouts, users are linked back to the e-Books page, and shopping bag have an option to go back to the e-Books page or checkout.
 
 After an user successfully adds an e-Book to the basket or logs in, they are redirected to the e-Books page.
 All that provide users ample chance to get back to the main shopping page and add more items.
@@ -149,24 +149,23 @@ All buttons have the same styling, along with text-links and the font-family, fo
 
 > As an Owner, I would like details of every product, easily foundable by the user.
 
-* Product and the product Detail pages offer the users a full panoramic of all the details they
-need to know about a product.
+* Product and the Product Detail pages offer the users a full panoramic of all the details they
+need to know about the product.
 
 
 
 > As an Owner, I would like items to be kept in a basket, so I can make sure users only have to pay once, encouraging them to purchase more.
 
 * As users navigate through the site, unpaid items are held in a basket which relys on session data to stay up-to-date.
-Users can use this basket to add more items, update items quantity or remove items before they have to checkout.
+Users can use the basket to add more items, update items quantity or remove items before they have to checkout.
 
 
 
 > As an Owner/User, I would like responsive design, so I can easily use the site across multiple devices.
 
-* The site has responsive elements on every page. The homepage hides the logo button on smaller devices. 
+* The site has responsive elements on every page. The navbar hides the logo button on smaller devices. 
 The navbar collapses to a mobile dropdown on medium and small devices. 
-The e-Book cover cards are displayed in a row of 6 on xl screens, 3 on large screens, 2 on medium and small, and 1 on xs screens.
-Instead e-Book reader cards are displayed in a row of 4 on xl screens, 3 on large screens, 2 on medium and small, and 1 on xs screens.
+The product cards are displayed in a row of 4 on xl screens, 3 on lg screens, 2 on md and sm, and 1 on xs screens.
 Shopping Bag, Checkout and Profile pages all shifts to make it easier to view and understand on smaller devices.
 
 Overall, the site has a very responsive design with an aim to make information more digestible (rather than just to make it move).
@@ -187,7 +186,7 @@ Overall, the site has a very responsive design with an aim to make information m
 
 * The Owner can access the website with a special profile provided by the website creator, called superuser. 
   With this profile the owner can find (available only for him) the "Product Management" page to add new products to the store.
-  For the already existing products in the website, the owner has available the Edit and Delete buttons next to every one.
+  For the already existing products in the website, the owner has available the Edit and Delete buttons next to every item.
     
 ---
 
@@ -222,10 +221,9 @@ Chrome DevTools was also used to test the design on the following devices:
 * CSS3 code validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
     * No issues found
 * JS code validated using [https://jshint.com/](https://jshint.com/)
-    * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). - Not deemed an issue.
     * 'template literal syntax' is only available in ES6 (use 'esversion: 6'). - Not deemed an issue.
-* Python code validated using [Extend Class Python Validator](https://extendsclass.com/python-tester.html)
-    * Some issues with f-strings as the checker didn't deem them valid Python. These bugs were not considered a problem.
+* Python code validated using [Extend Class Python Validator](https://extendsclass.com/python-tester.html) and [Pep8](http://pep8online.com/)
+    * Some warning with elements "imported but not used". - Not deemed an issue.
 
 
 
@@ -235,45 +233,56 @@ During the development proccess many bugs (predictably) arose.
 
 Here are some of the more interesting examples:
 
-#### Full Name and e-mail address fields are not automatically prefilled when a returning user with profile is about to checkout
-The fields of the checkout page contains the details of a user. For a returning user all these fields (except the credit/debit card field)
+> #### Full Name and e-mail address fields are not automatically prefilled when a returning user with profile is about to checkout
+* The fields of the checkout page contains the details of a user. For a returning user all these fields (except the credit/debit card field)
 suppose to be all prefilled when he/she is about to complete another order.
 
 
-#### In the e-Books page, Titles and Authors are not always on the same line
-On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 4, or 3 or 2.
+> #### In the e-Books page, Titles and Authors are not always on the same line
+* On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 4, or 3 or 2.
 When the title of an e-Book is so long that required to be displayed on multiple lines, can cause 
 that the authors line are not aligned with the authors line of the e-Book next to.
 
 
-#### Misplaced navbar icons on smaller screens
-On some smaller screens,  search bar, profile icon and basket icon cannot stay on the same line.
+> #### Misplaced navbar icons on smaller screens
+* On some smaller screens,  search bar, profile icon and basket icon cannot stay on the same line.
 After struggling with padding and margin I have decided to reduce the font-size of the icons on xs screen. 
 
 
-#### Struggling with e-Book reader images
-The e-Book images all come from the same website, so I did not have any problem with sizing and pixelation.
+> #### Struggling with e-Book reader images
+* The e-Book images all come from the same website, so I did not have any problem with sizing and pixelation.
 At the contrary, the e-Book reader images were much more difficult to find and they all come from different sources.
 That means I had a lot of hard time to find the right size for displaying them on the site without to be comically pixelated.
 I think I found a compromising size but I believe that some picture are still a little compressed but acceptable.
 
 
-#### Issues with displaying total price (e-Book price + e-Book reader price)
-I had issues with adding the e-Book total with the e-Book reader total.
+> #### Issues with displaying total price (e-Book price + e-Book reader price)
+* I had issues with adding the e-Book total with the e-Book reader total.
 I had a lot of situations where at the checkout I was able to display only one of them.
 I solved that letting the e-Book total landing on the order_total field and then doing the sum with the grand_total (where the e-Book readers total lands).
 I could do that because the discount for now is fake.
 
 
-#### Order confirmation e-mail
-Normally the order confirmation e-mail, arrives few seconds after concluding a successful checkout.
+> #### Order confirmation e-mail
+* Normally the order confirmation e-mail, arrives few seconds after concluding a successful checkout.
 However, it happend in very few cases that the mail took even up to 15 minutes to be delivered.
 
 
-#### Some commits are not clear
-I'm aware that some of my commits are maybe not very informative.
-That happened when I had issues that were making my site stuck or crush completely and sending me in panic situations.
+> #### Some commits seems repeated and not clear
+  * I'm aware that some of my commits are maybe not very informative.
+That happened when I had issues that were making my site stuck or crush completely without to understand what was the cause. 
+That give me some panic time because is like groping in the dark.
 I'm aware I have to improve this aspect.
 
+> #### Quantity-form functions not working in the shopping bag
+  * The quantity-form suppose to accept numbers between 1 and 99 only. The plus and minus buttons are normally black, but they became grey
+when the extremes are reached (minus become grey at 1, plus become grey at 99) as a signal that the user cannot go out of this range.
+This is still working properly on xs and sm screen size, but not anymore when the screen size is md, lg or xl.
+If a number out of the 1-99 range is manually typed, a django messagge suppose to appear, saying that the action is not allowed. 
+This bug happens at every screen size in the shopping bag.
 
+It's a very strange bug because the same quantity-form with the same functions is used in the product detail pages and works perfectly 
+with every screen size.
+I have asked help to tutor and mentor support but with no success.
 
+ 
