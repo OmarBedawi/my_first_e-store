@@ -27,8 +27,8 @@
 ---
 ## Aim
 The aim of this Django app is to create an interactive interface where users can find out
-e-Book titles and e-Book readers with useful details.  
-With this app a user, can create his/her own profile and, purchase e-Books and eventually e-Book readers.
+e-Book titles and e-Book readers.  
+With this app users can create their own profile and, purchase e-Books and e-Book readers.
 
 ---
 ## User Experience (UX)
@@ -260,17 +260,17 @@ In my opinion it giving a neat and tidy look to the content pages.
 ##### Colours
 The main two colors used for this project are very simple: black and white.
 
-In most of the project is black on white except for the magazine banner that 
+In most of the project is black on white except for the delivery banner that 
 is white on black, together with some other few buttons like "Add to Bag", 
 "Go to Secure Checkout", "Secure Checkout" and "Complete Order".
-These two colors make text easily readable for users, especially when it comes to read the e-Books descriptions. 
+These two colors make text easily readable for users, especially when it comes to read the product descriptions. 
 They provide a good contrast and a positive UX.
 
 Other colors are used when the flash messages appear:
 * Green for Success
 * Blue for Information
 * Yellow for Warning
-* Red for Danger
+* Red for Error
 
 ---
 
@@ -313,9 +313,9 @@ Other colors are used when the flash messages appear:
     a UserAccount entry for the User in the database. Users can use the account to 
     view past orders.
 * #### User Profile
-    * Users can store their details and use them next time a user reaches the Checkout page.
-    * User details can be updated from their profile page. This will not affect their 
-    user details (username, email, password) and this is outlined under the update details form.
+    * Users can store their details and use them next time they reach the Checkout page.
+    * User details can be updated from their profile page. This will not affect their main
+     details (username, email, password) and this is outlined under the update details form.
 * #### Password Reset 
     * Users can update their password using their email if they have forgotten their current 
     one.
@@ -505,7 +505,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 * Card, Navbar, Buttons and Form elements adjusted from [Bootstrap 4 examples](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 * [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) 
 is a Code Institute mini project. It was a very helpful tool in setting up the site.
-* README stucture borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
+* README structure borrows heavily from the [Code institute readme example](https://github.com/Code-Institute-Solutions/SampleREADME#)
 
 ### Content
 
