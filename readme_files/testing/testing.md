@@ -233,46 +233,56 @@ During the development proccess many bugs (predictably) arose.
 
 Here are some of the more interesting examples:
 
-#### Full Name and e-mail address fields are not automatically prefilled when a returning user with profile is about to checkout
-The fields of the checkout page contains the details of a user. For a returning user all these fields (except the credit/debit card field)
+> #### Full Name and e-mail address fields are not automatically prefilled when a returning user with profile is about to checkout
+* The fields of the checkout page contains the details of a user. For a returning user all these fields (except the credit/debit card field)
 suppose to be all prefilled when he/she is about to complete another order.
 
 
-#### In the e-Books page, Titles and Authors are not always on the same line
-On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 4, or 3 or 2.
+> #### In the e-Books page, Titles and Authors are not always on the same line
+* On bigger screen size, in the e-Books page, e-Book titles can be displayed in row of 4, or 3 or 2.
 When the title of an e-Book is so long that required to be displayed on multiple lines, can cause 
 that the authors line are not aligned with the authors line of the e-Book next to.
 
 
-#### Misplaced navbar icons on smaller screens
-On some smaller screens,  search bar, profile icon and basket icon cannot stay on the same line.
+> #### Misplaced navbar icons on smaller screens
+* On some smaller screens,  search bar, profile icon and basket icon cannot stay on the same line.
 After struggling with padding and margin I have decided to reduce the font-size of the icons on xs screen. 
 
 
-#### Struggling with e-Book reader images
-The e-Book images all come from the same website, so I did not have any problem with sizing and pixelation.
+> #### Struggling with e-Book reader images
+* The e-Book images all come from the same website, so I did not have any problem with sizing and pixelation.
 At the contrary, the e-Book reader images were much more difficult to find and they all come from different sources.
 That means I had a lot of hard time to find the right size for displaying them on the site without to be comically pixelated.
 I think I found a compromising size but I believe that some picture are still a little compressed but acceptable.
 
 
-#### Issues with displaying total price (e-Book price + e-Book reader price)
-I had issues with adding the e-Book total with the e-Book reader total.
+> #### Issues with displaying total price (e-Book price + e-Book reader price)
+* I had issues with adding the e-Book total with the e-Book reader total.
 I had a lot of situations where at the checkout I was able to display only one of them.
 I solved that letting the e-Book total landing on the order_total field and then doing the sum with the grand_total (where the e-Book readers total lands).
 I could do that because the discount for now is fake.
 
 
-#### Order confirmation e-mail
-Normally the order confirmation e-mail, arrives few seconds after concluding a successful checkout.
+> #### Order confirmation e-mail
+* Normally the order confirmation e-mail, arrives few seconds after concluding a successful checkout.
 However, it happend in very few cases that the mail took even up to 15 minutes to be delivered.
 
 
-#### Some commits seems repeated and not clear
-I'm aware that some of my commits are maybe not very informative.
+> #### Some commits seems repeated and not clear
+  * I'm aware that some of my commits are maybe not very informative.
 That happened when I had issues that were making my site stuck or crush completely without to understand what was the cause. 
 That give me some panic time because is like groping in the dark.
 I'm aware I have to improve this aspect.
 
+> #### Quantity-form functions not working in the shopping bag
+  * The quantity-form suppose to accept numbers between 1 and 99 only. The plus and minus buttons are normally black, but they became grey
+when the extremes are reached (minus become grey at 1, plus become grey at 99) as a signal that the user cannot go out of this range.
+This is still working properly on xs and sm screen size, but not anymore when the screen size is md, lg or xl.
+If a number out of the 1-99 range is manually typed, a django messagge suppose to appear, saying that the action is not allowed. 
+This bug happens at every screen size in the shopping bag.
 
+It's a very strange bug because the same quantity-form with the same functions is used in the product detail pages and works perfectly 
+with every screen size.
+I have asked help to tutor and mentor support but with no success.
 
+ 
